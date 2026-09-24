@@ -1,0 +1,232 @@
+---
+title: "References"
+---
+
+The references below include sources cited directly in the text and
+books recommended for students who want more depth. DOI links are given
+for journal articles and books where available; book links point to the
+publisher or official book site rather than to secondary full-text
+repositories.
+
+Bailey, L. L., & Adams, M. J. (2005). Occupancy models to study
+wildlife. U.S. Geological Survey Fact Sheet 2005-3096.
+https://doi.org/10.3133/fs20053096
+
+Bibby, C. J., Burgess, N. D., Hill, D. A., & Mustoe, S. (2000). Bird
+Census Techniques (2nd ed.). Academic Press.
+https://shop.elsevier.com/books/bird-census-techniques/bibby/978-0-12-095831-3
+
+Binkley, D. (2026). Perspectives: Why chronosequences often do not work.
+Forest Ecology and Management, 602, 123425.
+https://doi.org/10.1016/j.foreco.2025.123425
+
+Burton, A. C., Neilson, E., Moreira, D., Ladle, A., Steenweg, R.,
+Fisher, J. T., Bayne, E., & Boutin, S. (2015). Wildlife camera trapping:
+a review and recommendations for linking surveys to ecological
+processes. Journal of Applied Ecology, 52, 675-685.
+https://doi.org/10.1111/1365-2664.12432
+
+Castle, S. E., Newton, P., Oldekop, J. A., Baylis, K., & Miller, D. C.
+(2026). Global forest dataset incongruence creates high uncertainties
+for conservation, climate, and development policy. One Earth, 9(2),
+101558. https://doi.org/10.1016/j.oneear.2025.101558
+
+Darras, K., Batary, P., Furnas, B., Celis-Murillo, A., Van Wilgenburg,
+S. L., Mulyani, Y. A., & Tscharntke, T. (2018). Comparing the sampling
+performance of sound recorders versus point counts in bird surveys: a
+meta-analysis. Journal of Applied Ecology, 55, 2575-2586.
+https://doi.org/10.1111/1365-2664.13229
+
+Estrada-Villegas, S., & Schnitzer, S. A. (2018). A comprehensive
+synthesis of liana removal experiments in tropical forests. Biotropica,
+50, 729-739. https://doi.org/10.1111/btp.12571
+
+Foster, B. L., & Tilman, D. (2000). Dynamic and static views of
+succession: testing the descriptive power of the chronosequence
+approach. Plant Ecology, 146, 1-10.
+https://doi.org/10.1023/A:1009895103017
+
+Gotelli, N. J., & Ellison, A. M. (2013). A Primer of Ecological
+Statistics (2nd ed.). Sinauer Associates/Oxford University Press.
+https://learninglink.oup.com/access/gotelli-a-primer-of-ecological-statistics-2e
+
+Hurlbert, S. H. (1984). Pseudoreplication and the design of ecological
+field experiments. Ecological Monographs, 54(2), 187-211.
+https://doi.org/10.2307/1942661
+
+Ismay, C., Kim, A. Y., & Valdivia, A. (2025). Statistical Inference via
+Data Science: A ModernDive into R and the Tidyverse (2nd ed.). Chapman &
+Hall/CRC.
+https://www.routledge.com/Statistical-Inference-via-Data-Science-A-ModernDive-into-R-and-the-Tidyverse/Ismay-Kim-Valdivia/p/book/9781032708379
+
+Jakovac, C. C., Pena-Claros, M., Kuyper, T. W., & Bongers, F. (2015).
+Loss of secondary-forest resilience by land-use intensification in the
+Amazon. Journal of Ecology, 103, 67-77.
+https://doi.org/10.1111/1365-2745.12298
+
+Jakovac, C. C., Junqueira, A. B., Crouzeilles, R., Pena-Claros, M.,
+Mesquita, R. C. G., & Bongers, F. (2021). The role of land-use history
+in driving successional pathways and its implications for the
+restoration of tropical forests. Biological Reviews, 96, 1114-1134.
+https://doi.org/10.1111/brv.12694
+
+Johnson, E. A., & Miyanishi, K. (2008). Testing the assumptions of
+chronosequences in succession. Ecology Letters, 11, 419-431.
+https://doi.org/10.1111/j.1461-0248.2008.01173.x
+
+Lai, H. R., Craven, D., Hall, J. S., Hui, F. K. C., & van Breugel, M.
+(2021). Successional syndromes of saplings in tropical secondary forests
+emerge from environment-dependent trait-demography relationships.
+Ecology Letters, 24(9), 1776-1787. https://doi.org/10.1111/ele.13784
+
+Lindenmayer, D. B., & Likens, G. E. (2018). Effective Ecological
+Monitoring (2nd ed.). CSIRO Publishing.
+https://eshop.publish.csiro.au/book/7812/
+
+Lohr, S. L. (2022). Sampling: Design and Analysis (3rd ed.). Chapman &
+Hall/CRC.
+https://www.routledge.com/Sampling-Design-and-Analysis/Lohr/p/book/9780367279509
+
+McCallum, D. A. (2005). A conceptual guide to detection probability for
+point counts and other count-based survey methods. In C. J. Ralph & T.
+D. Rich (Eds.), Bird Conservation Implementation and Integration in the
+Americas (General Technical Report PSW-GTR-191, pp. 754-761). U.S.
+Forest Service.
+https://www.fs.usda.gov/psw/publications/documents/psw_gtr191/psw_gtr191_0754-0761_mccallum.pdf
+
+McKnight, D. T., Harmon, J. R., McKnight, J. L., & Ligon, D. B. (2015).
+Taxonomic biases of seven methods used to survey a diverse herpetofaunal
+community. Herpetological Conservation and Biology, 10, 666-678.
+
+Mora, F., Martinez-Ramos, M., Ibarra-Manriquez, G., Perez-Jimenez, A.,
+Trilleras, J., & Balvanera, P. (2015). Testing chronosequences through
+dynamic approaches: time and site effects on tropical dry forest
+succession. Biotropica, 47(1), 38-48. https://doi.org/10.1111/btp.12187
+
+Norden, N., Angarita, H. A., Bongers, F., Martinez-Ramos, M., Granzow-de
+la Cerda, I., van Breugel, M., et al. (2015). Successional dynamics in
+Neotropical forests are as uncertain as they are predictable.
+Proceedings of the National Academy of Sciences, 112, 8013-8018.
+https://doi.org/10.1073/pnas.1500403112
+
+Quinn, G. P., & Keough, M. J. (2023). Experimental Design and Data
+Analysis for Biologists (2nd ed.). Cambridge University Press.
+https://doi.org/10.1017/9781139568173
+
+Rhodes, C. J., Henrys, P., Siriwardena, G. M., Whittingham, M. J., &
+Norton, L. R. (2015). The relative value of field survey and remote
+sensing for biodiversity assessment. Methods in Ecology and Evolution,
+6, 772-781. https://doi.org/10.1111/2041-210X.12385
+
+Ruxton, G. D., & Colegrave, N. (2016). Experimental Design for the Life
+Sciences (4th ed.). Oxford University Press.
+https://learninglink.oup.com/access/ruxton-colegrave4e
+
+Sagarin, R., & Pauchard, A. (2012). Observation and Ecology: Broadening
+the Scope of Science to Understand a Complex World. Island Press.
+https://doi.org/10.5822/978-1-61091-230-3
+
+Schmid, L., Gret-Regamey, A., & van Breugel, M. (2026). Remote sensing
+and geospatial analysis for the study of plant community regeneration in
+human-modified landscapes. Ecosphere, 17(3), e70569.
+https://doi.org/10.1002/ecs2.70569
+
+Schnitzer, S. A., Mangan, S. A., Dalling, J. W., Baldeck, C. A.,
+Hubbell, S. P., Ledo, A., Muller-Landau, H., Tobin, M. F., Aguilar, S.,
+Brassfield, D., Hernandez, A., Lao, S., Perez, R., Valdes, O., & Yorke,
+S. R. (2010). Lianas suppress tree regeneration and diversity in
+treefall gaps. Ecology Letters, 13, 849-857.
+https://doi.org/10.1111/j.1461-0248.2010.01480.x
+
+Schnitzer, S. A., van der Heijden, G. M. F., Mascaro, J., & Carson, W.
+P. (2014). Lianas in gaps reduce carbon accumulation in a tropical
+forest. Ecology, 95, 3008-3017. https://doi.org/10.1890/13-1718.1
+
+Sloey, T. M., Lim, K. E., Moore, J., Heng, J. M., Heng, J. M., & van
+Breugel, M. (2022). Influence of abiotic drivers on 1-year seedling
+survival of six mangrove species in Southeast Asia. Restoration Ecology,
+30(8), e13694. https://doi.org/10.1111/rec.13694
+
+Sugai, L. S. M., Silva, T. S. F., Ribeiro, J. W., Jr., & Llusia, D.
+(2019). Terrestrial passive acoustic monitoring: review and
+perspectives. BioScience, 69, 15-25.
+https://doi.org/10.1093/biosci/biy147
+
+Thomas, L., Buckland, S. T., Rexstad, E. A., Laake, J. L., Strindberg,
+S., Hedley, S. L., Bishop, J. R. B., Marques, T. A., & Burnham, K. P.
+(2010). Distance software: design and analysis of distance sampling
+surveys for estimating population size. Journal of Applied Ecology, 47,
+5-14. https://doi.org/10.1111/j.1365-2664.2009.01737.x
+
+Thompson, S. K. (2012). Sampling (3rd ed.). Wiley.
+https://doi.org/10.1002/9781118162934
+
+Underwood, A. J. (1992). Beyond BACI: the detection of environmental
+impacts on populations in the real, but variable, world. Journal of
+Experimental Marine Biology and Ecology, 161, 145-178.
+https://doi.org/10.1016/0022-0981(92)90094-Q
+
+Underwood, A. J. (1996). Experiments in Ecology: Their Logical Design
+and Interpretation Using Analysis of Variance. Cambridge University
+Press. https://doi.org/10.1017/CBO9780511806407
+
+van Breugel, M., Ransijn, J., Craven, D., Bongers, F., & Hall, J. S.
+(2011a). Estimating carbon stock in secondary forests: decisions and
+uncertainties associated with allometric biomass models. Forest Ecology
+and Management, 262, 1648-1657.
+https://doi.org/10.1016/j.foreco.2011.07.018
+
+van Breugel, M., Hall, J. S., Craven, D., Gregoire, T. G., Park, A.,
+Dent, D. H., et al. (2011b). Early growth and survival of 49 tropical
+tree species across sites differing in soil fertility and rainfall in
+Panama. Forest Ecology and Management, 261, 1580-1589.
+https://doi.org/10.1016/j.foreco.2010.08.019
+
+van Breugel, M., Craven, D., Lai, H. R., Baillon, M., Turner, B. L., &
+Hall, J. S. (2019). Soil nutrients and dispersal limitation shape
+compositional variation in secondary tropical forests across multiple
+scales. Journal of Ecology, 107(2), 566-581.
+https://doi.org/10.1111/1365-2745.13126
+
+van Breugel, M., Bongers, F., Norden, N., Meave, J. A., Amissah, L.,
+Chanthorn, W., et al. (2024). Feedback loops drive ecological
+succession: towards a unified conceptual framework. Biological Reviews,
+99, 928-949. https://doi.org/10.1111/brv.13051
+
+van Breugel, M., Hall, J. S., Bailon, M., & Craven, D. (2025a).
+Persistent effects of landscape context on recruitment dynamics during
+secondary succession of tropical forests. Global Change Biology, 31,
+e70037. https://doi.org/10.1111/gcb.70037
+
+van Breugel, M., Rodriguez-Ronderos, M. E., Hall, J. S., Dent, D., &
+Craven, D. (2025b). Evaluating ecological restoration through natural
+regeneration requires replicated landscape-scale monitoring studies.
+Global Change Biology, 31, e70578. https://doi.org/10.1111/gcb.70578
+
+Walker, L. R., Wardle, D. A., Bardgett, R. D., & Clarkson, B. D. (2010).
+The use of chronosequences in studies of ecological succession and soil
+development. Journal of Ecology, 98, 725-736.
+https://doi.org/10.1111/j.1365-2745.2010.01664.x
+
+Wang, Y., & Finch, D. M. (2002). Consistency of mist netting and point
+counts in assessing landbird species richness and relative abundance
+during migration. The Condor, 104, 59-72.
+https://doi.org/10.1093/condor/104.1.59
+
+Wheater, C. P., Bell, J. R., & Cook, P. A. (2020). Practical Field
+Ecology: A Project Guide (2nd ed.). Wiley.
+https://www.wiley.com/en-us/Practical+Field+Ecology%3A+A+Project+Guide%2C+2nd+Edition-p-9781119413240
+
+White, L., & Edwards, A. (Eds.). (2000). Conservation Research in the
+African Rain Forests: A Technical Handbook. Wildlife Conservation
+Society.
+
+Wright, S. J., Yavitt, J. B., Wurzburger, N., Turner, B. L., Tanner, E.
+V. J., Sayer, E. J., et al. (2011). Potassium, phosphorus, or nitrogen
+limit root allocation, tree growth, or litter production in a lowland
+tropical forest. Ecology, 92, 1616-1625.
+https://doi.org/10.1890/10-1558.1
+
+Kanazawa, M. (2023). Research Methods for Environmental Studies: A
+Social Science Approach (2nd ed.). Routledge.
+https://www.routledge.com/Research-Methods-for-Environmental-Studies-A-Social-Science-Approach/Kanazawa/p/book/9781032198408

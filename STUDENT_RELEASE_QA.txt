@@ -1,0 +1,7 @@
+ENV2301 student release QA – 24 September 2026
+QMD files parsed: 11
+HTML pages checked: 11
+Figure captions checked: 31
+Glossary terms used: 9
+Errors: 0
+Warnings: 0

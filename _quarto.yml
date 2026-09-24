@@ -1,0 +1,40 @@
+project:
+  type: book
+  output-dir: _site
+
+book:
+  title: "ENV2301: Methods & Techniques for Environmental Studies"
+  subtitle: "Course notes – classroom draft, 24 September 2026"
+  author: "Michiel van Breugel"
+  chapters:
+    - index.qmd
+    - 01-inquiry.qmd
+    - 02-system-understanding.qmd
+    - 03-measurement.qmd
+    - 04-variability-uncertainty.qmd
+    - 05-sampling-replication.qmd
+    - 06-space.qmd
+    - 07-time.qmd
+    - 08-mobile-organisms.qmd
+    - 09-experiments.qmd
+    - references.qmd
+  sidebar:
+    search: true
+  page-navigation: true
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    code-fold: true
+    code-tools: false
+    smooth-scroll: true
+    include-after-body: glossary.js
+
+execute:
+  freeze: auto
