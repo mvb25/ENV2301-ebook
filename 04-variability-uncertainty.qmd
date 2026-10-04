@@ -3232,5 +3232,5 @@ L 683.264062 346.518438
 :::
 
 ::: {.env2301-update}
-<p class="source-note">Next available chapter in this update: <a href="08-mobile-organisms.html#ch8-s81">Chapter 8 · Studying animals</a>.</p>
+
 :::
