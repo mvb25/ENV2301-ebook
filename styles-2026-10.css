@@ -1,0 +1,56 @@
+/* Book-wide presentation layer, 4 October 2026.
+   Loaded AFTER the existing styles.css by _quarto.yml.
+   Preserves existing navigation, glossary popovers, images and other functionality.
+   Harmonises the entire Quarto site with the revised Chapters 4 and 8.
+   Other chapters do not need to be rewritten to receive this layout. */
+:root {
+  --book-ink: #27343a;
+  --book-muted: #50636b;
+  --book-rule: #cedadd;
+  --book-side: #f5f8f9;
+  --book-link: #175e75;
+  --env-head: #153e4d;
+  --env-soft: #f5f8f9;
+}
+html {scroll-behavior:smooth}
+body {background:#fff;color:var(--book-ink);font:17px/1.75 Georgia,'Times New Roman',serif}
+/* Text lives in a clean reading column while Quarto keeps sidebar, search and page navigation. */
+#quarto-document-content, main.content {color:var(--book-ink);line-height:1.75}
+main.content p, #quarto-document-content p {max-width:none;margin-top:0;margin-bottom:1.2rem}
+main.content h1, main.content h2, main.content h3, main.content h4,
+#quarto-document-content h1, #quarto-document-content h2, #quarto-document-content h3,
+.quarto-title h1 {font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:var(--env-head);letter-spacing:-.012em}
+main.content h1, .quarto-title h1 {line-height:1.26;font-weight:650}
+main.content h2,#quarto-document-content h2 {font-size:1.53rem;line-height:1.35;font-weight:650;margin-top:3.1rem;margin-bottom:1.0rem;scroll-margin-top:1.6rem}
+main.content h3,#quarto-document-content h3 {font-size:1.15rem;line-height:1.45;font-weight:625;margin-top:2rem;margin-bottom:.8rem;scroll-margin-top:1.6rem}
+main.content a, #quarto-document-content a {color:var(--book-link)}
+main.content a:hover, #quarto-document-content a:hover {text-decoration-thickness:2px}
+/* Navigation and compact UI intentionally retain a sans-serif font. */
+#quarto-sidebar,#quarto-margin-sidebar,#quarto-header,
+.sidebar, .sidebar-navigation, .sidebar-item-container,
+#TOC,.toc-actions,.quarto-title-meta,.page-navigation,
+.breadcrumb,.nav-footer {font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+#quarto-sidebar, .sidebar {background-color:var(--env-soft);border-color:var(--book-rule)}
+#quarto-sidebar .sidebar-title {color:var(--env-head);font-weight:650}
+#quarto-sidebar a, #quarto-margin-sidebar a {color:var(--env-head)}
+#quarto-sidebar a.active {font-weight:650;color:var(--book-link)}
+#TOC .active {color:var(--book-link)}
+/* Figures, tables and instructional materials use the same restrained visual language. */
+main.content figure, #quarto-document-content figure {margin:1.8rem 0}
+main.content figcaption, #quarto-document-content figcaption,
+main.content .figure-caption {font:13px/1.6 system-ui,sans-serif;color:var(--book-muted)}
+main.content table, #quarto-document-content table {border-collapse:collapse;width:100%;margin:1rem 0 1.2rem;font:14px/1.5 system-ui,sans-serif}
+main.content table th, #quarto-document-content table th {background:#edf3f4;color:#284451;padding:.55rem;border-color:var(--book-rule)}
+main.content table td, #quarto-document-content table td {padding:.5rem .55rem;border-color:var(--book-rule);vertical-align:top}
+main.content .worked-example,main.content .check-understanding,main.content .try-it-yourself,
+main.content .callout-note {border:1px solid var(--book-rule);border-left:3px solid #658c9a;border-radius:3px;background:var(--env-soft);padding:.85rem 1rem;margin:1.5rem 0;max-width:none}
+main.content details:not(.page-toc),#quarto-document-content details:not(.page-toc) {border:1px solid var(--book-rule);border-left:3px solid #658c9a;border-radius:3px;background:var(--env-soft);padding:.85rem 1rem;margin:1.5rem 0}
+main.content details summary,#quarto-document-content details summary {font:650 .94rem/1.45 system-ui,sans-serif;color:var(--book-link);cursor:pointer}
+main.content details[open]>summary,#quarto-document-content details[open]>summary {margin-bottom:1rem}
+/* Existing image assets retain their old size guardrail (styles.css). */
+.content blockquote {border-left:3px solid #a7bec6;padding-left:1rem;color:#495f66}
+/* Chapter 4/8 HTML fragment wrappers share the same typography as legacy chapters. */
+.env2301-update {color:var(--book-ink);font:inherit}
+.env2301-update .refs {font:14px/1.6 system-ui,sans-serif}
+@media (max-width: 850px) {body {font-size:16px;line-height:1.7}main.content h2,#quarto-document-content h2 {margin-top:2.4rem}}
+@media print {body{background:#fff;font:11pt/1.6 Georgia,'Times New Roman',serif}main.content details {break-inside:avoid}}
