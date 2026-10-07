@@ -2,12 +2,6 @@
 title: "References"
 ---
 
-The references below include sources cited directly in the text and
-books recommended for students who want more depth. DOI links are given
-for journal articles and books where available; book links point to the
-publisher or official book site rather than to secondary full-text
-repositories.
-
 Bailey, L. L., & Adams, M. J. (2005). Occupancy models to study
 wildlife. U.S. Geological Survey Fact Sheet 2005-3096.
 https://doi.org/10.3133/fs20053096
