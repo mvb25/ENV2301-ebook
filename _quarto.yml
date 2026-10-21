@@ -1,6 +1,9 @@
 project:
   type: book
   output-dir: _site
+  resources:
+    - chapter10-interactive.css
+    - chapter10-interactive.js
 
 book:
   title: "ENV2301: Methods & Techniques for Environmental Studies"
@@ -17,6 +20,7 @@ book:
     - 07-time.qmd
     - 08-mobile-organisms.qmd
     - 09-experiments.qmd
+    - 10-quantitative-socioenvironmental.qmd
     - references.qmd
   sidebar:
     search: true
