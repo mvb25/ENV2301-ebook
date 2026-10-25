@@ -21,6 +21,7 @@ book:
     - 08-mobile-organisms.qmd
     - 09-experiments.qmd
     - 10-quantitative-socioenvironmental.qmd
+    - 11-qualitative-participatory.qmd
     - references.qmd
   sidebar:
     search: true
