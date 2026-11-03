@@ -31,26 +31,26 @@ A restored landscape contains planted stands, naturally regenerating areas, stre
 
 <div class="practice-response" data-mode="matching">
 <div class="practice-matches"><p class="practice-label">Choose one design or interpretation for each statement.</p>
-<label class="practice-match"><span class="practice-match-statement">Estimate average tree basal area across all wooded land in the landscape.</span><select aria-label="Match for item 1 in exercise 01" data-answer="D"><option value="">Choose…</option>
-<option value="A">A. Replicate stands in both restoration categories, covering relevant initial conditions.</option>
+<label class="practice-match"><span class="practice-match-statement">Estimate mean stand basal area per hectare across all wooded land in the landscape.</span><select aria-label="Match for item 1 in exercise 01" data-answer="D"><option value="">Choose…</option>
+<option value="A">A. Select several separate stands in each restoration category, with plots within stands and attention to initial conditions.</option>
 <option value="B">B. Sample at several planned distances from the remnant forest, in more than one part of the landscape.</option>
 <option value="C">C. Recruit path users and people who do not use the path, across relevant times and groups.</option>
 <option value="D">D. Select locations across the whole defined wooded area using a probability-based sampling frame.</option>
 </select></label>
 <label class="practice-match"><span class="practice-match-statement">Compare seedling recruitment between planted and naturally regenerating stands.</span><select aria-label="Match for item 2 in exercise 01" data-answer="A"><option value="">Choose…</option>
-<option value="A">A. Replicate stands in both restoration categories, covering relevant initial conditions.</option>
+<option value="A">A. Select several separate stands in each restoration category, with plots within stands and attention to initial conditions.</option>
 <option value="B">B. Sample at several planned distances from the remnant forest, in more than one part of the landscape.</option>
 <option value="C">C. Recruit path users and people who do not use the path, across relevant times and groups.</option>
 <option value="D">D. Select locations across the whole defined wooded area using a probability-based sampling frame.</option>
 </select></label>
 <label class="practice-match"><span class="practice-match-statement">Investigate how seedling establishment varies with distance from a remnant forest.</span><select aria-label="Match for item 3 in exercise 01" data-answer="B"><option value="">Choose…</option>
-<option value="A">A. Replicate stands in both restoration categories, covering relevant initial conditions.</option>
+<option value="A">A. Select several separate stands in each restoration category, with plots within stands and attention to initial conditions.</option>
 <option value="B">B. Sample at several planned distances from the remnant forest, in more than one part of the landscape.</option>
 <option value="C">C. Recruit path users and people who do not use the path, across relevant times and groups.</option>
 <option value="D">D. Select locations across the whole defined wooded area using a probability-based sampling frame.</option>
 </select></label>
 <label class="practice-match"><span class="practice-match-statement">Understand why some residents avoid a particular walking path.</span><select aria-label="Match for item 4 in exercise 01" data-answer="C"><option value="">Choose…</option>
-<option value="A">A. Replicate stands in both restoration categories, covering relevant initial conditions.</option>
+<option value="A">A. Select several separate stands in each restoration category, with plots within stands and attention to initial conditions.</option>
 <option value="B">B. Sample at several planned distances from the remnant forest, in more than one part of the landscape.</option>
 <option value="C">C. Recruit path users and people who do not use the path, across relevant times and groups.</option>
 <option value="D">D. Select locations across the whole defined wooded area using a probability-based sampling frame.</option>
@@ -63,9 +63,13 @@ A restored landscape contains planted stands, naturally regenerating areas, stre
 
 **Suggested answer and reasoning**
 
-**First identify the quantity or comparison.** For a landscape-wide average, the target is all wooded land, so a probability-based sample across that defined area can be informative (**D**). To compare restoration approaches, both approaches must have replicated stands; several plots in only one stand per approach cannot provide that comparison (**A**).
+1. **Begin with what each question asks you to describe or compare.** An *average across the wooded landscape* is a different objective from *comparing planted and naturally regenerating stands*. The first concerns all eligible wooded land; the second requires good representation of both management categories.
+2. **Landscape mean — D.** Define what counts as wooded land, and choose locations from that whole area using a probability-based procedure. Every eligible part should have a known chance of selection. If you deliberately sample some habitats more intensively, an overall mean may need to take the areas or selection probabilities into account.
+3. **Restoration comparison — A.** Include several separate stands under each approach, then use plots within those stands. Ten plots in one planted stand cannot replace observations from several planted stands: otherwise management is mixed up with all the other characteristics of that particular stand.
+4. **Distance from mature forest — B.** Cover short, intermediate and long distances, ideally in several landscape sectors. A sample confined to nearby locations would tell you little about what happens farther away.
+5. **Path avoidance — C.** Speak to people who use the path **and** people who do not. Interviewing only users cannot tell you why others stay away. Sampling at different times may also reveal different experiences.
 
-**Then align spatial or social coverage with the question.** A distance effect requires adequate observations along the distance gradient and replication of that gradient (**B**). For path avoidance, interviews with current users alone would omit people who avoid the path (**C**). There is no single best sampling scheme for the landscape: the question determines which variation needs to be represented.
+The lesson is not to memorise four named sampling techniques. First ask *which variation or comparison is needed to answer this question?* Then choose where and whom to sample.
 
 :::
 
@@ -78,14 +82,14 @@ A restored landscape contains planted stands, naturally regenerating areas, stre
 
 **Is simple random sampling enough?**
 
-A project asks whether soil infiltration differs among planted woodland, natural regeneration and unrestored grassland. The three land covers occupy unequal areas. The team can establish 24 infiltration plots.
+A project asks whether measured soil infiltration differs among planted woodland, naturally regenerating woodland and unrestored grassland. The three land covers occupy unequal areas. The team can establish 24 infiltration plots.
 
 **Your task.** Which sampling proposal provides the clearest starting point for this question?
 
 <div class="practice-response" data-mode="single">
 <fieldset class="practice-choices" data-correct="B"><legend>Select the best answer</legend>
 <label class="practice-choice"><input type="radio" name="practice-group-02" value="A"><span><b>A.</b> Draw 24 random locations across the whole landscape without distinguishing land cover.</span></label>
-<label class="practice-choice"><input type="radio" name="practice-group-02" value="B"><span><b>B.</b> Define each land-cover category, select independent locations within each, and distribute effort across the three categories.</span></label>
+<label class="practice-choice"><input type="radio" name="practice-group-02" value="B"><span><b>B.</b> Define the three categories, include several separate sites in each, and select plots within those sites.</span></label>
 <label class="practice-choice"><input type="radio" name="practice-group-02" value="C"><span><b>C.</b> Put all 24 plots close to the main access road to reduce field time.</span></label>
 </fieldset>
 </div>
@@ -95,11 +99,13 @@ A project asks whether soil infiltration differs among planted woodland, natural
 
 **Suggested answer and reasoning**
 
-**Start with the comparison.** The question asks about three categories, so the design must produce usable observations in each. A simple random sample across the entire landscape could place most plots in the dominant category and very few in the others. It is suitable for some landscape-average questions, but unreliable here.
+1. **Identify the comparison.** The question concerns infiltration in *three land-cover categories*. You therefore need enough information from each category to describe and compare them.
+2. **See why A is weak here.** If most of the landscape is grassland, a completely random sample of 24 points may place most plots in grassland and only a few in the two woodland categories. You might estimate a landscape-wide average, but you would have little basis for comparing all three categories.
+3. **Choose B.** Delineate the three categories, include several separately located sites in each, and select plots within those sites. You could select sites or plots randomly *within* the categories. The important decision—ensuring coverage of every category—comes **before** the random draw.
+4. **Notice the difference between sites and plots.** Several plots in one planted stand tell you about that stand. To learn about planted woodland more generally, sample several planted stands. The same applies to the other land covers.
+5. **Keep the conclusion appropriate.** The study can describe how infiltration differs among the sampled categories. But different land covers may also occur on different soils or slopes. A difference would not automatically show that restoration *caused* the infiltration difference.
 
-**Define strata and allocation.** Option **B** ensures observations across the three land covers; random selection can still be used *within* each stratum. Plot selection also needs to consider whether several plots fall within one stand or site, because that changes the level at which land-cover differences can be compared.
-
-**Check the interpretation.** Stratification improves the comparison, but if land covers differ systematically in soil or topographic position, a measured difference cannot automatically be attributed to restoration. Those conditions must inform site selection or subsequent analysis.
+Option C is convenient, but convenient roadside locations may not represent the environments the question is about. Think about the comparison first, and accessibility second.
 
 :::
 
@@ -112,7 +118,7 @@ A project asks whether soil infiltration differs among planted woodland, natural
 
 **What is the target population?**
 
-A field team wants to estimate mean soil carbon stock per hectare across *all mangrove habitat* on an island. They collect 40 soil cores at eight accessible locations.
+A field team wants to estimate mean soil carbon stock per hectare in the upper metre of sediment across *all mangrove habitat* on an island. They collect 40 cores of that depth at eight accessible locations.
 
 **Your task.** Which statement best identifies the target population?
 
@@ -130,11 +136,13 @@ A field team wants to estimate mean soil carbon stock per hectare across *all ma
 
 **Suggested answer and reasoning**
 
-**Distinguish what you want to describe from what you measured.** The target is the mangrove area of the island (**C**); the eight locations and 40 cores are the observations used to estimate its properties. Cores within a location also share local conditions and should not automatically be treated as 40 independent landscape locations.
+1. **Ask which area the conclusion is meant to describe.** The team wants a mean stock for the upper metre of sediment across the island's *entire mangrove habitat*. That is the target area: **C**.
+2. **Distinguish the target from the sample.** The eight sampled locations and 40 cores are the places and soil volumes actually observed. They are **not** the whole population about which the team wants to make a claim. Option D is far too broad; the team is not studying wetlands worldwide.
+3. **Why does the distinction affect the design?** Suppose the eight locations are all beside accessible boardwalks. If inaccessible mangroves have different sediment conditions, averaging these cores may not describe the whole island. More cores beside the same boardwalk do not fix that coverage problem.
+4. **Recognise the sampling levels.** Several cores at one location improve the estimate of that location's sediment stock. More locations distributed across the island help describe differences *among locations*. Both can be useful, but they answer different needs.
+5. **Keep depth consistent.** The target is the upper metre, so the soil measurements and stock calculations must refer to that defined layer. Carbon concentration alone is not a stock; bulk density and sampled depth are also needed.
 
-**Examine the sampling frame.** If only accessible areas can be sampled, the sampled locations may not represent remote or difficult sections of the mangrove. The design needs a reasoned procedure for covering the island's environmental variation, or a narrower statement of where the result applies.
-
-**Match the estimate to the units.** Plot area, core volume and soil depth affect the conversion to a per-hectare stock, while the spatial sampling determines how confidently the estimate can be extended across the landscape.
+Before designing a sample, finish this sentence: *I want my estimate to represent ______.* That blank identifies the target population or area.
 
 :::
 
@@ -147,7 +155,7 @@ A field team wants to estimate mean soil carbon stock per hectare across *all ma
 
 **Sampling along a gradient**
 
-A mangrove researcher proposes that seedling survival declines where flooding lasts longer. Most accessible sites experience short flooding durations; the most frequently flooded sites are difficult to reach.
+A mangrove researcher proposes that seedling survival decreases as the duration of flooding increases. Most accessible sites experience shorter flooding, while the longest-flooded sites are difficult to reach. Seedlings would be marked and revisited to record survival.
 
 **Your task.** What would be the strongest design choice for investigating the proposed relationship?
 
@@ -164,11 +172,13 @@ A mangrove researcher proposes that seedling survival declines where flooding la
 
 **Suggested answer and reasoning**
 
-**The relevant variation is hydroperiod.** The study needs sites across the range of flooding durations, including the difficult-to-reach end; otherwise the response to long flooding remains unobserved (**B**).
+1. **Translate the question into a comparison.** The hypothesis is about survival under *different flooding durations*. A useful design needs seedlings exposed to short, intermediate and long flooding.
+2. **Choose B.** Sampling only easy-to-reach, briefly flooded sites (**A**) leaves out the most important part of the gradient. Sampling many seedlings at one site (**C**) gives detailed information about that site, not about the range of flooding conditions.
+3. **Replicate locations, not only seedlings.** If one long-flooded site has poor survival, this could be caused by salinity, sediment conditions or another feature of that particular site. Several locations at each part of the hydroperiod gradient give a stronger comparison.
+4. **Measure the conditions and response appropriately.** Record flooding duration at or near the seedling locations, preferably over representative periods. Mark seedlings and revisit them to find out which survive. If different species occupy different parts of the gradient, compare like with like or explicitly account for species.
+5. **Think about what you can conclude.** You can investigate whether survival and flooding duration are associated. Because salinity, elevation and soil properties may also change with flooding, the design must consider these alternative explanations before attributing survival differences to flooding alone.
 
-**Replicate the gradient.** Several locations with similar hydroperiods help distinguish a general relationship from a peculiarity of one site. Repeated measurements on seedlings help estimate survival, but cannot replace independent locations across the gradient.
-
-**Check competing differences.** Elevation, salinity, sediment properties and species composition could covary with flooding. Recording them or designing comparisons that partly separate them makes the interpretation stronger. A deliberately distributed gradient sample may be more informative than a simple random sample for this question, although it is not a probability sample of the whole mangrove.
+A targeted gradient design is appropriate here because it ensures that the environmental variation central to the question is actually sampled.
 
 :::
 
@@ -181,9 +191,9 @@ A mangrove researcher proposes that seedling survival declines where flooding la
 
 **What would you draw on the map?**
 
-You propose to select 12 sampling locations randomly within the restoration landscape. On inspection, the map includes steep slopes, fenced areas and stream margins, and the research question concerns erosion on hillslopes.
+You propose selecting 12 locations in a restoration landscape to investigate erosion on hillslopes. The map includes gentle and steep slopes, fenced areas and stream margins. Simply choosing 12 random points anywhere on the map could miss important differences among hillslopes.
 
-**Your task.** Explain what you would show on the map, how you would define eligible locations, and how you would select the 12 sites. Do not assume you must plot twelve final coordinates.
+**Your task.** Explain what you would mark on the map, which locations would qualify for sampling, and how you would choose the 12 sites. You do not need to specify all 12 final coordinates.
 
 <div class="practice-response" data-mode="text">
 <label class="practice-label" for="practice-input-05">Your answer</label>
@@ -195,11 +205,13 @@ You propose to select 12 sampling locations randomly within the restoration land
 
 **Suggested answer and reasoning**
 
-**Define the sampling frame.** Mark the hillslope area relevant to the erosion question. Decide which slopes or land uses are included. Fenced areas may require permission or a revised frame; steep sites should not be excluded merely because they are inconvenient if steepness is important to erosion.
+1. **First identify the area relevant to the question.** The question is about erosion *on hillslopes*. Mark the hillslopes on the map and decide, with a reason, whether stream channels or flat ground belong in the sampling frame. Do not choose random points from the whole landscape before making that decision.
+2. **Look for variation likely to affect erosion.** Steep and gentle slopes, land cover, soil type and management history may differ. If the question is about these differences, the sample must represent them. One option is to divide hillslopes into slope or land-cover categories (strata).
+3. **State how you would choose 12 sites.** For example, allocate a number of sites to each slope class, then draw locations randomly *within* each defined class. You can show the classes or candidate areas on the map and explain the selection procedure; the assignment need not specify every final GPS coordinate.
+4. **Deal with access rather than silently ignoring it.** A fence may require permission; a very steep location may be difficult or unsafe. If important locations cannot be sampled, explain which conditions are missing and how that limits the proposed conclusion.
+5. **Explain what is replicated.** Twelve plots on one hillside provide many observations of that hillside. If the aim is to understand erosion across the landscape, distribute sites among separate hillslopes as well.
 
-**Explain the selection.** You could divide the eligible hillslopes into slope classes or restoration categories and randomly select locations within those strata. Show the boundaries or candidate areas and state the intended allocation; the final coordinates can be drawn during implementation.
-
-**State the consequence.** If some terrain cannot be accessed, explain which parts of the landscape are not represented and whether that changes the claim you can make. A map of deliberately chosen sites should never be labelled as if those sites were selected at random.
+Random selection can be part of a good design, but it cannot determine *what* should be sampled. The question and the relevant environmental variation must do that.
 
 :::
 
@@ -212,23 +224,25 @@ You propose to select 12 sampling locations randomly within the restoration land
 
 **Solid and dashed arrows**
 
-A conceptual model proposes that increased canopy cover reduces understory light, changes infiltration, and ultimately reduces runoff. The study measures canopy cover and light at paired points; it measures runoff at stream outlets; and it uses soil bulk density as an indicator related to infiltration. No infiltration measurements are planned.
+A team is investigating how vegetation might influence water movement in a restored catchment. Its model includes these proposed links: canopy openness affects light below the trees; vegetation development may change roots, litter and soil structure, which can affect infiltration; infiltration may, in turn, influence runoff. The team measures canopy openness and understory light at the same plots, records soil bulk density, and measures runoff at the catchment outlet. It does **not** measure roots, litter or infiltration.
 
-**Your task.** For each relationship, choose the more appropriate representation **for this proposed study**.
+Here, a **solid arrow** means the proposed study can examine the particular link fairly directly with relevant observations and comparisons. A **dashed arrow** means that interpretation of the link depends substantially on unmeasured processes or assumptions. Neither kind of arrow, by itself, establishes causation.
+
+**Your task.** Decide which links are examined directly and which remain indirect **in this study**. After making your choices, consider this: would measuring infiltration make the canopy–infiltration link a direct causal relationship?
 
 <div class="practice-response" data-mode="matching">
 <div class="practice-matches"><p class="practice-label">Choose one design or interpretation for each statement.</p>
-<label class="practice-match"><span class="practice-match-statement">Canopy cover → understory light, examined using paired measurements across plots.</span><select aria-label="Match for item 1 in exercise 06" data-answer="S"><option value="">Choose…</option>
-<option value="S">S. Solid: the study directly investigates the association between the variables.</option>
-<option value="D">D. Dashed: the particular relationship is supported indirectly and depends on assumptions.</option>
+<label class="practice-match"><span class="practice-match-statement">Canopy openness → understory light, examined with paired measurements across plots under comparable light conditions.</span><select aria-label="Match for item 1 in exercise 06" data-answer="S"><option value="">Choose…</option>
+<option value="S">S. Solid: the study examines the specific proposed link fairly directly.</option>
+<option value="D">D. Dashed: the link is inferred mainly through other observations and assumptions.</option>
 </select></label>
-<label class="practice-match"><span class="practice-match-statement">Canopy cover → infiltration, inferred from canopy observations and soil bulk-density measurements.</span><select aria-label="Match for item 2 in exercise 06" data-answer="D"><option value="">Choose…</option>
-<option value="S">S. Solid: the study directly investigates the association between the variables.</option>
-<option value="D">D. Dashed: the particular relationship is supported indirectly and depends on assumptions.</option>
+<label class="practice-match"><span class="practice-match-statement">Canopy openness → infiltration, interpreted from canopy observations and bulk density, without measuring roots, litter or infiltration.</span><select aria-label="Match for item 2 in exercise 06" data-answer="D"><option value="">Choose…</option>
+<option value="S">S. Solid: the study examines the specific proposed link fairly directly.</option>
+<option value="D">D. Dashed: the link is inferred mainly through other observations and assumptions.</option>
 </select></label>
-<label class="practice-match"><span class="practice-match-statement">Infiltration → runoff, discussed using runoff records and existing process knowledge, without measuring infiltration.</span><select aria-label="Match for item 3 in exercise 06" data-answer="D"><option value="">Choose…</option>
-<option value="S">S. Solid: the study directly investigates the association between the variables.</option>
-<option value="D">D. Dashed: the particular relationship is supported indirectly and depends on assumptions.</option>
+<label class="practice-match"><span class="practice-match-statement">Soil infiltration → catchment runoff, inferred from outlet runoff records and existing knowledge, without measuring infiltration or the intervening catchment processes.</span><select aria-label="Match for item 3 in exercise 06" data-answer="D"><option value="">Choose…</option>
+<option value="S">S. Solid: the study examines the specific proposed link fairly directly.</option>
+<option value="D">D. Dashed: the link is inferred mainly through other observations and assumptions.</option>
 </select></label>
 </div>
 </div>
@@ -238,9 +252,14 @@ A conceptual model proposes that increased canopy cover reduces understory light
 
 **Suggested answer and reasoning**
 
-**Look at each arrow separately.** Paired canopy and light measurements allow the first relationship to be investigated directly (**solid**). Bulk density is relevant to infiltration but is not itself a measurement of infiltration, so the second arrow remains an indirect inference (**dashed**). The third arrow is also **dashed**, because runoff observations alone cannot isolate the contribution of infiltration.
+1. **Start with the first arrow: canopy openness → understory light.** The canopy controls how much of the sky and incoming light is obstructed above a point. The team measures canopy openness and light at matching locations, under comparable conditions. These observations address this link fairly directly, so **solid** is appropriate. Other influences on light, such as time of day and weather, still need attention.
+2. **Now consider canopy openness → infiltration.** This is **dashed**. Canopy openness is a description of the vegetation *above the soil*. Water entering the soil depends on the soil's structure, pores and current moisture, among other things. Vegetation can influence those conditions through **roots, litter, organisms living in the soil and previous land use**. Canopy openness might be associated with some of those processes, but it does not measure them.
+3. **What does soil bulk density add?** Bulk density tells us how much dry soil mass occupies a given volume. It can provide clues about compaction or pore space, but it is **not a measurement of infiltration**. Two soils with similar bulk density may allow water to enter at different rates because their pore structure, moisture or surface condition differs. The second arrow therefore remains dashed.
+4. **Consider infiltration → catchment runoff.** This is also **dashed** in the proposed study. Runoff at a stream outlet collects water from many locations and processes. Rainfall, soil saturation, surface drainage, storage and channel flow all affect that total. Without suitable measurements and comparisons, an outlet record does not tell us how much runoff changed because of infiltration at the sampled plots.
+5. **Would an infiltration measurement solve everything? No.** Measuring infiltration beside canopy observations would tell us whether *those measured quantities vary together*. It would not identify which roots, litter or soil processes connect them, or show that canopy openness itself caused the change. The canopy–infiltration *causal pathway* would still be indirect. To examine the mechanism more closely, we could measure relevant root or litter properties, soil structure and infiltration under informative contrasts.
+6. **Remember what the arrow means.** A solid arrow does not announce that a causal effect has been proved. It means the study is designed to examine that particular relationship reasonably directly. A dashed arrow identifies a part of the proposed explanation that depends on additional reasoning and unmeasured links.
 
-**Do not confuse direct measurement with causal proof.** A solid arrow indicates that the study includes observations and comparisons addressing the relationship; it does not mean the study can establish causation without considering other processes. Adding actual infiltration measurements at suitable locations would strengthen the second and third relationships, particularly if conditions or interventions provide informative contrasts. The question is which part of the proposed pathway the observations investigate.
+The answer is **solid, dashed, dashed**. Do not decide solely by whether you measured the variable at the beginning or end of an arrow. Ask what process the arrow represents, and whether your observations actually examine that process.
 
 :::
 
@@ -276,11 +295,13 @@ A student compares one planted forest with one naturally regenerating forest. Ea
 
 **Suggested answer and reasoning**
 
-**Locate the management contrast.** Planting versus natural regeneration differs between the two forests, not between plots within either forest. The design therefore has one forest per approach (**B**).
+1. **Find where the two approaches differ.** The planted approach was applied to one forest and natural regeneration to another. That makes **the forests** the units of the management comparison. There is one forest per approach.
+2. **What are the 20 plots doing?** They describe variation *within* each forest. A forest with a mix of wetter and drier plots will give different values across plots, and having many plots helps estimate the forest's average. But every plot in a given forest shares that forest's management history and many other conditions.
+3. **Why is B correct?** If the planted forest has more seedlings, that difference might reflect planting. It might also reflect soil, nearby seed sources, past farming or other differences between those two forests. With only one forest under each approach, the study cannot distinguish the approaches from those site differences.
+4. **Improve the design at the right level.** Include several separate planted forests and several separate naturally regenerating forests. Use plots *within* them. Consider whether management was assigned or selected and whether initial conditions are comparable.
+5. **Why the other options do not fix it.** More trees or plots inside the same two forests can improve their local estimates. Additional censuses track change through time. None of these creates new, independent forests under each approach.
 
-**Identify what the plots actually replicate.** They show within-forest spatial variation and can improve the estimate for each forest. They cannot distinguish the management approach from all other differences between those two particular forests, such as past land use or soil.
-
-**Improve the comparison.** Include several separately located sites under each approach, distribute plots within sites, and consider how sites were assigned or selected. If random assignment of management is impossible, measure and address relevant pre-existing differences. Monitoring plots again adds time information but does not create independent sites.
+This is a form of **pseudoreplication**: treating within-forest plots as though each were an independent replicate of the forest-level management treatment.
 
 :::
 
@@ -293,7 +314,7 @@ A student compares one planted forest with one naturally regenerating forest. Ea
 
 **Where would you spend the same effort?**
 
-You have enough field time for 48 vegetation plots to compare two restoration approaches. Both designs use the same total number of plots: **Design X** samples two sites per approach, with 12 plots in each site. **Design Y** samples six sites per approach, with four plots in each site.
+You have enough field time for 48 vegetation plots to compare two restoration approaches across multiple independently located sites. Both designs use the same total number of plots: **Design X** samples two sites per approach, with 12 plots in each site. **Design Y** samples six sites per approach, with four plots in each site.
 
 **Your task.** Fill in the site counts and name the design you would generally favour for a comparison intended to extend across restoration sites.
 
@@ -310,11 +331,13 @@ You have enough field time for 48 vegetation plots to compare two restoration ap
 
 **Suggested answer and reasoning**
 
-**Identify the main source of variation.** Design X contains **two independent sites per approach**, while Design Y contains **six**. If conclusions concern restoration approaches across sites, the number of independent sites is crucial, so **Y** is usually a stronger starting point.
+1. **Count the independent sites, not only the plots.** Design X samples **two sites per approach**. Design Y samples **six sites per approach**. Both have 24 plots per approach and 48 plots in total.
+2. **Identify what the question needs.** The aim is to compare restoration approaches *across sites*. Differences among separate sites are therefore an important part of the variation the study must represent.
+3. **Why favour Y?** With six sites per approach, Y provides information about how results vary among sites. X can measure each of its four sites in more detail, but cannot describe the broader variation among restoration sites as well.
+4. **What is lost by choosing Y?** Each site has only four plots rather than twelve. If conditions within a site are very heterogeneous, four plots may estimate its mean less precisely. A good design balances the need for site-level replication with adequate measurements inside sites.
+5. **Check practical and causal limits.** Travelling to twelve sites might take more time than visiting four. Also, if one approach occurs only on steep slopes and the other on gentle slopes, adding sites alone will not distinguish management from slope. Site selection must consider such differences.
 
-**Recognise the trade-off.** Design X characterises each sampled site more intensively. That can be useful for estimating site means or studying within-site variability, but it gives a narrower view of between-site variation. Design Y offers more site-level replication, provided four plots give an adequate within-site estimate.
-
-**Check field costs and confounding.** More sites can increase travel time, and their environmental settings still need consideration. The decision is not a universal rule to maximise site count: it follows from the scale at which the inference is intended.
+**Y** is the better starting point *for the question given*, assuming the twelve sites are meaningfully separate and the within-site plots adequately describe them. The best design can be different if the question instead concerns variation within one specific forest.
 
 :::
 
@@ -345,11 +368,13 @@ To investigate whether streamside vegetation is related to bank erosion across a
 
 **Suggested answer and reasoning**
 
-**Match spatial coverage to the conclusion.** Plots ten metres apart on one stream may be highly similar and describe that local reach well, but they provide little information about how relationships vary among streams. Sampling four streams (**B**) expands the spatial level represented.
+1. **Read the scale in the question.** The researcher wants to understand the vegetation–erosion relationship *across a watershed*. That is broader than describing erosion along one short stream reach.
+2. **See what twelve nearby plots can tell you.** They may show variation along that particular stream. But they share its rainfall, geology, land use and flow regime. Those plots are not twelve separate examples of how streams vary across the watershed.
+3. **Why is B preferable?** Three plots on each of four streams give information from four stream systems instead of one. The plots still describe variation *within* streams, while differences *among* streams become observable.
+4. **What could still complicate the comparison?** If streams with more vegetation also have gentler banks, you cannot assume the vegetation caused lower erosion. Record bank gradient, stream size, discharge or other conditions relevant to the question. Four streams may also be too few for some broad conclusions.
+5. **When might the first design be useful?** If your question is about fine-scale changes in erosion along one specified reach, closely spaced plots might be appropriate.
 
-**Retain both levels in the analysis.** Plots remain nested within streams; proximity within a stream can create spatial dependence. Four streams are still a small sample for broader watershed inference, but they offer a stronger basis than one.
-
-**Keep the question in view.** If the objective instead concerned fine-scale variation along that *particular* stream, the closely spaced plots could be better. Sampling designs are judged relative to the question, not by whether one is universally more rigorous.
+Option **B** gives a better spatial starting point for the stated watershed question. Sampling more widely improves **coverage of among-stream variation**; it does not automatically prove causation or eliminate spatial dependence within streams.
 
 :::
 
@@ -368,7 +393,7 @@ The same landscape can generate several different questions about time. Match ea
 
 <div class="practice-response" data-mode="matching">
 <div class="practice-matches"><p class="practice-label">Choose one design or interpretation for each statement.</p>
-<label class="practice-match"><span class="practice-match-statement">How does the survival of marked seedlings change over three years?</span><select aria-label="Match for item 1 in exercise 10" data-answer="B"><option value="">Choose…</option>
+<label class="practice-match"><span class="practice-match-statement">What fraction of marked seedlings survives during the next three years?</span><select aria-label="Match for item 1 in exercise 10" data-answer="B"><option value="">Choose…</option>
 <option value="A">A. Repeat measurements around rain events, including a pre-event baseline when feasible.</option>
 <option value="B">B. Follow identified individuals at successive censuses.</option>
 <option value="C">C. Sample across both day types, at comparable times, over representative weeks.</option>
@@ -400,11 +425,13 @@ The same landscape can generate several different questions about time. Match ea
 
 **Suggested answer and reasoning**
 
-**Identify the time process.** Seedling survival concerns the fate of particular individuals, so marking and revisiting them is essential (**B**). A weekday–weekend contrast requires coverage of both types of day at comparable times (**C**).
+1. **Marked seedling survival — B.** To learn what fraction survive over three years, you need to find the **same seedlings** again. A new set of seedlings every year could describe abundance but not the fate of the original group.
+2. **Weekdays versus weekends — C.** Observe both kinds of day, at comparable times. Otherwise a difference between a Saturday afternoon and a Monday morning could reflect time of day rather than the weekday–weekend contrast.
+3. **Intervention effect on turbidity — D.** Measure treated streams and comparable untreated streams before and after the intervention. That way you can see whether change in treated streams differs from change happening more generally. Rainfall and discharge still need consideration.
+4. **Short-term response to rain — A.** Turbidity may rise and fall over hours. Measurements once a month, or even once a week, could miss the event. Sample around rain events, including before and during or shortly after them when feasible.
+5. **Match the observation frequency to the process.** A three-year study can contain very different schedules: annual plant censuses, repeated visitor counts during selected days, and rapid measurements during storms. Duration alone does not tell you whether your sampling can capture the process.
 
-**Use the comparison that supports the inference.** A management-effect question calls for observing changes in both intervention and comparison streams (**D**); a simple before–after difference cannot separate the intervention from background changes. A rainfall-response question needs measurements around events, not just one survey per year (**A**).
-
-**Check frequency against process speed.** Three years of annual observations may be enough for some vegetation changes but miss storm-driven turbidity peaks or daily fluctuations in visitor use.
+Each strategy follows from *the time scale of the question and the comparison needed*. There is no universally appropriate measurement interval.
 
 :::
 
@@ -431,11 +458,13 @@ A team proposes to sample stream turbidity on the first Monday of every month fo
 
 **Suggested answer and reasoning**
 
-**Start with the process.** Sediment pulses may last hours, while monthly visits are unlikely to coincide with peak discharge. Monthly measurements could describe some background conditions but not the storm response the question addresses.
+1. **Begin with what a sediment pulse is.** After a heavy storm, suspended sediment and turbidity can rise rapidly and then fall. A water sample taken on the first Monday of each month may miss nearly all of those short peaks.
+2. **Change the schedule to match the events.** Record rainfall and stream discharge and collect turbidity observations at short intervals during a set of storms. An automated sensor may help, but an appropriately planned event-sampling schedule could also be used. It is useful to know conditions before the rain and during the rise and fall of the storm response.
+3. **Ask what would have happened without restoration.** Even if turbidity peaks decline after planting, storms may have been smaller in later years. To assess an intervention effect, include comparable untreated streams, or another carefully justified reference, measured during the same period.
+4. **Make comparisons meaningful.** Compare similar storm conditions where possible, and account for differences in rainfall intensity, discharge and seasonal context. Turbidity is also an indicator of suspended particles, not a direct measurement of the total mass of eroded soil.
+5. **State the conclusion carefully.** With event observations you can describe sediment-related responses to storms. With appropriate treated–untreated and before–after comparisons, you can investigate whether those responses changed differently after restoration. Without these comparisons, you cannot confidently attribute the change to restoration.
 
-**Revise the timing.** Add event-based sampling or automated turbidity and water-level records, with sufficient temporal resolution around storms. Include rainfall and flow information to compare events with different intensities.
-
-**Revise the comparison.** Monitor suitable restored and comparison catchments, preferably before and after the intervention, where feasible. Storm characteristics and watershed size or land use must be considered; observing lower turbidity in a restored stream at one moment would not by itself establish a restoration effect. The sampling schedule and site comparison each address a different part of the research question.
+A useful answer names **one event-focused sampling change** and **one comparison**. The essential lesson is that a monthly schedule may be long enough in calendar time but too sparse to observe the process of interest.
 
 :::
 
@@ -448,7 +477,7 @@ A team proposes to sample stream turbidity on the first Monday of every month fo
 
 **Detectability is part of the sampling design**
 
-Bird counts are conducted once in dense regenerating forest and once in adjacent open grassland. The researcher concludes that species are rarer in the forest because fewer were seen during the surveys.
+Bird counts are conducted once in dense regenerating forest and once in adjacent open grassland. The researcher concludes that the forest has fewer bird species because fewer were detected there during the surveys.
 
 **Your task.** Which change most directly addresses a weakness in that conclusion?
 
@@ -465,11 +494,13 @@ Bird counts are conducted once in dense regenerating forest and once in adjacent
 
 **Suggested answer and reasoning**
 
-**Separate presence or abundance from observation.** A bird can be present but not detected. Vegetation density, vocal activity, observer differences, weather and time of day can change the probability of detecting it.
+1. **Distinguish the birds from what the observer notices.** A bird species may be present in a forest but unseen or unheard during a particular visit. Dense vegetation, weather, species behaviour, observer skill and time of day affect what is detected.
+2. **Interpret the existing data correctly.** The observations show that **fewer species were detected** in the forest during those visits. They do *not* yet establish that fewer species were present there.
+3. **Why choose A?** Repeated surveys, carried out using comparable effort and conditions at several sites in each habitat, help describe how detections vary. Recording distance, visibility, listening conditions or other relevant factors can help evaluate differences in detection probability.
+4. **Keep replication and detection distinct.** Revisiting one forest site many times helps with the observation problem at that site. Sampling multiple forest sites helps you learn about forests more broadly. A sound design may need both.
+5. **What can the improved study conclude?** Depending on the sampling method and analysis, the observations may support comparisons of occupancy, occurrence or abundance while allowing for imperfect detection. Simply counting louder birds, or adding species to only one habitat's list, would not solve the bias.
 
-**Improve the design.** Repeated, standardised observations across independent sites and relevant conditions (**A**) help determine whether low counts reflect bird communities or lower detectability. Depending on the question and available data, occupancy, distance-sampling or repeated-count methods may be useful.
-
-**Limit the claim.** Counts from one visit establish that fewer individuals or species were *detected* under those conditions. They do not directly establish lower abundance or richness without assumptions about detection. Additional visits to the same site do not replace independent site replication when the intended conclusion concerns a habitat type.
+The starting question should be: *Could the observed difference be due partly to how easily animals were detected?* If so, the sampling design must address that possibility.
 
 :::
 
@@ -501,11 +532,13 @@ A researcher wants to understand why residents avoid a new park route. They inte
 
 **Suggested answer and reasoning**
 
-**Identify the people who cannot enter the sample.** Those who avoid the path are absent from on-path recruitment. The sample also misses visitors whose routines occur at other times, including evening users and people who are at work during weekday afternoons.
+1. **Ask who could possibly be interviewed.** The team stands *on the path*. A resident who avoids the path entirely cannot be approached there. That is the first important gap—and it directly concerns the research question.
+2. **Find those missing non-users.** Recruit through nearby residential areas, community groups, other park entrances or routes. Ask about their destinations and route choices, including people who rarely visit the park at all.
+3. **Look at when interviews occurred.** Two sunny weekdays between 10 a.m. and 2 p.m. exclude many people who work at those times and people who visit during evenings or weekends. Their concerns might differ from those of daytime visitors.
+4. **Add contrasting occasions.** Recruit on some evenings and weekends and, if relevant, under different conditions. Explain why you expect these occasions to bring in different types of experience, rather than simply increasing the number of interviews.
+5. **Connect the sample back to the claim.** Interviews with daytime path users can tell you what those people experience. They cannot, by themselves, explain why *residents who do not use the path* avoid it. A purposeful sample that includes different relevant groups is more informative for this question.
 
-**Broaden recruitment deliberately.** Contact potential non-users through nearby neighbourhoods, community organisations or alternative entrances. Recruit at different days and times to include a wider range of experiences and routines. The aim is not simply to maximise the number of interviews; it is to encounter accounts that could challenge the current explanation.
-
-**Relate the sample to the conclusion.** Interviews with current midday users can illuminate their experiences, but cannot establish why all residents avoid the route. If the research question changes to *what regular midday users value about the path*, the original recruitment is more suitable.
+Two good answers would name **non-users** and **people absent at the selected interview times**, then give a feasible way to reach each group. There are other reasonable answers if the missing perspectives and proposed recruitment are justified.
 
 :::
 
@@ -535,11 +568,13 @@ One stream receives an erosion-control intervention. Turbidity is measured for o
 
 **Suggested answer and reasoning**
 
-**Identify the competing cause.** Less rainfall can reduce sediment transport independently of the intervention. The observed before–after decrease does not separate these influences.
+1. **Begin with the observed change.** Turbidity was lower after the intervention. That is a real before–after difference in the available records.
+2. **Find another possible cause.** Rainfall was also lower. Less rain can mean less runoff and sediment transport, even if the erosion-control intervention has no effect. The study cannot yet separate these explanations.
+3. **Choose B: compare changes across streams.** Monitor several appropriate untreated streams as well as treated ones, before and after the intervention. Ask whether turbidity changed **more** in the treated streams than in the comparisons, under comparable rainfall and flow conditions.
+4. **See why more measurements *after* treatment are insufficient.** Option A provides a better description of the later period, but does not supply the missing comparison with what might have happened without treatment. Option C ignores an obvious alternative explanation.
+5. **Recognise the remaining limitation.** Untreated streams are not perfect copies of the treated ones. They could differ in land use, channel shape, upstream disturbance or hydrology. Measuring these differences and selecting comparisons carefully improves the study; random assignment of interventions, when feasible, would strengthen causal inference further.
 
-**Build a comparison of changes.** Option **B** asks whether turbidity changed differently in treated and untreated streams over the same period. Comparable monitoring methods and information about rainfall or discharge help interpret that difference. Replicated streams strengthen the inference if feasible.
-
-**Keep assumptions visible.** Even this design depends on comparison streams adequately representing what might have happened without intervention. If intervention and comparison streams differed markedly in land-use change or flood history, those differences could still affect conclusions. More post-intervention observations alone would not address the missing comparison.
+A good causal comparison tries to estimate what change would have occurred *without the intervention*. A simple before–after record from one stream usually cannot do that.
 
 :::
 
@@ -552,14 +587,14 @@ One stream receives an erosion-control intervention. Turbidity is measured for o
 
 **Which measurements support a carbon-stock estimate?**
 
-A team wants to estimate soil organic carbon stock across a restored mangrove. It has satellite imagery of vegetation greenness, measurements of soil carbon concentration, bulk density and core depth at sampled points, and a map of mangrove area.
+A team wants to estimate soil organic carbon stock down to a defined soil depth across a restored mangrove. It has satellite imagery of vegetation greenness, measurements of soil organic carbon concentration and dry bulk density from cores reaching the specified depth, and a map of the mangrove area.
 
-**Your task.** Which statements are supported by this information? Select all that apply.
+**Your task.** Which statements follow from these measurements and a suitably designed spatial sample? Select all that apply.
 
 <div class="practice-response" data-mode="multi">
 <fieldset class="practice-choices"><legend>Select all the statements you think are supported</legend>
 <label class="practice-choice"><input type="checkbox" value="A" data-answer="true"><span><b>A.</b> Carbon concentration, bulk density and depth can be combined to estimate soil carbon stock for sampled soil layers.</span></label>
-<label class="practice-choice"><input type="checkbox" value="B" data-answer="false"><span><b>B.</b> Satellite greenness alone directly measures soil carbon stock throughout the landscape.</span></label>
+<label class="practice-choice"><input type="checkbox" value="B" data-answer="false"><span><b>B.</b> Satellite greenness alone directly measures soil organic carbon stock throughout the landscape.</span></label>
 <label class="practice-choice"><input type="checkbox" value="C" data-answer="true"><span><b>C.</b> An island-wide estimate also requires a justified way to represent or model spatial variation between sampled locations.</span></label>
 <label class="practice-choice"><input type="checkbox" value="D" data-answer="false"><span><b>D.</b> Measuring many cores at a single convenient site guarantees a representative landscape estimate.</span></label>
 </fieldset>
@@ -570,11 +605,13 @@ A team wants to estimate soil organic carbon stock across a restored mangrove. I
 
 **Suggested answer and reasoning**
 
-**Work through the stock calculation.** Carbon concentration describes the carbon fraction of soil; bulk density and sampled depth provide the mass of soil per area for the sampled layer. Together they allow a stock estimate at each sampled point (**A**), provided units, sampling depth and coarse material are handled appropriately.
+1. **Identify what a stock means.** Soil carbon *concentration* tells you what proportion of the sampled dry soil mass is carbon. A **stock** asks how much carbon is stored beneath a specified area, down to a specified depth.
+2. **Work out the calculation in words.** Bulk density tells you how much dry soil mass there is per unit volume. Multiplying soil volume (area × depth) by bulk density gives soil mass. Multiplying that mass by the measured carbon fraction gives carbon mass. This is why **A** is supported, assuming the sampled depth, units and soil material are handled consistently.
+3. **Distinguish the point estimate from the landscape estimate.** A core estimates the stock at its sampled location. To estimate the entire mangrove, you must decide how sampled locations represent different sediment conditions across the area—for example through a spatial sampling design or an appropriately justified model. That makes **C** correct.
+4. **Why B is wrong.** Satellite greenness records a property of vegetation. It does not directly measure carbon stored below ground. It might help build a model with field data, but such a model would have assumptions and uncertainty.
+5. **Why D is wrong.** Forty cores at one convenient site may give a good estimate of that site's soil, but tell you little about other mangrove areas if sediment conditions vary.
 
-**Then address spatial inference.** To estimate the whole landscape, the study needs a sampling or modelling strategy that represents variation in soils across the mangrove (**C**). A vegetation-greenness map may help characterise spatial differences, but is not a direct measurement of sediment carbon stock (**B is incorrect**).
-
-**Recognise the sampling limitation.** Many cores from one site can give a precise estimate of that local area, but say little about the rest of the island (**D is incorrect**). Precision within a site and representativeness across a landscape are separate design issues.
+Choose **A and C**. Always ask two separate questions: *How is the quantity calculated at a sampled point?* and *How will the sampled points represent the larger area?*
 
 :::
 
@@ -601,11 +638,13 @@ A chronosequence of naturally regenerating forest sites shows higher tree richne
 
 **Suggested answer and reasoning**
 
-**Begin with the observation.** Older sites in this sample have higher tree richness. That is an age-related pattern across sites, not direct evidence that richness increased within each site through time.
+1. **State only what was observed.** Older forest sites in this particular sample have more tree species than younger sites, under the sampling method used. That is a pattern *across different sites*.
+2. **Ask whether those sites differ in other relevant ways.** The older sites are also closer to mature forest and have experienced less intensive land use. Nearby forest may supply more seeds, while past land use may affect soils or surviving vegetation. Either could help explain the richness difference.
+3. **Understand the problem with calling it succession.** The study did not observe these younger forests becoming older. It compared forests of different present ages. It therefore cannot tell, from this pattern alone, how much richness would increase as *one given forest* ages.
+4. **Improve the comparison.** One option is to add younger and older sites at similar distances from mature forest and with similar land-use histories. Another is to return repeatedly to the same sites and measure richness change through time. Both approaches help, but in different ways.
+5. **Consider what you actually count.** Species richness can also depend on plot area and the number of stems examined. Use comparable sampling effort across sites and be clear whether your question concerns richness per unit area or richness at a given number of individuals.
 
-**Identify alternative pathways.** Distance from remnant forest could influence seed arrival, and earlier land-use intensity could affect soils, surviving vegetation or propagule banks. Both covary with age in this dataset, so each could contribute to the richness pattern.
-
-**Strengthen the design.** Repeatedly census the same sites to observe actual change, or sample age classes across overlapping ranges of landscape distance and land-use history. Measurements of seed rain or recruitment could help distinguish species availability from subsequent establishment. The strongest next step depends on which explanation is central to the question. Additional plots only within the existing sites would not remove the confounding among age, history and landscape context.
+A supported conclusion is: *In the sampled forests, older sites had higher observed tree richness.* A stronger conclusion that **age caused** the difference needs a design that examines alternative explanations.
 
 :::
 
@@ -625,7 +664,7 @@ The final four exercises develop one study through successive decisions. Each an
 
 **A connected design challenge.** A hypothetical restoration landscape contains six separately managed restoration blocks: three planted and three naturally regenerating. Each block has upper and lower slopes. Management approaches were chosen by landowners rather than assigned randomly, and earlier land use is not identical among blocks. The proposal covers three years and has a total fieldwork allowance of **720 person-hours**. Your aim is to investigate establishment of native woody seedlings.
 
-**Your task.** Write one answerable research question and name the primary response variable, the relevant sampling unit, and one alternative explanation you would need to consider.
+**Your task.** Write one answerable research question. Identify its *main* response variable, the independent units for comparing restoration approaches, and one alternative explanation for a difference you might observe.
 
 <div class="practice-response" data-mode="text">
 <label class="practice-label" for="practice-input-17">Your answer</label>
@@ -637,11 +676,13 @@ The final four exercises develop one study through successive decisions. Each an
 
 **Suggested answer and reasoning**
 
-**Frame the question around measurable change.** One possible question is: *Over three years, how do recruitment and survival rates of native woody seedlings differ between planted and naturally regenerating blocks, and how do these rates vary between upper and lower slopes?*
+1. **Choose a question that the available study can actually investigate.** One option is: *How does the number of new native woody seedlings recorded per plot between annual censuses differ among planted and naturally regenerating blocks, and between upper and lower slopes?*
+2. **Name a primary response.** For this question, use the **number of newly recorded live native seedlings per fixed plot area over each census interval**, or convert it to a comparable rate. This is more informative than a one-time count of all seedlings. With annual censuses, it counts seedlings that are alive and detectable when the next census occurs; seedlings that emerged and died between visits will be missed. Survival of marked seedlings could be a useful *additional* response, but it is a separate quantity.
+3. **Find the correct unit for comparing approaches.** There are six separately managed **blocks**, three per approach. These are the main site-level units of the restoration comparison. Plots are selected *within* the blocks; individual seedlings are observed within plots.
+4. **Identify a credible alternative explanation.** If planted blocks previously had less intensive farming, they might have better soil or more surviving seed sources. That difference could affect recruitment even without an effect of planting. Record land-use history or other relevant baseline conditions.
+5. **Set the strength of the conclusion.** Management was chosen by landowners, not randomly assigned. The study can compare recruitment patterns associated with the two approaches, but attributing any difference solely to planting would require stronger control of initial differences.
 
-**Specify the response.** New seedlings entering fixed plots between censuses (recruitment), and the subsequent survival of marked individuals, can be observed directly. A one-time count of seedlings would not distinguish recruitment from survival.
-
-**Specify the levels.** The six restoration blocks are the principal independent site units for comparing approaches; permanent plots are nested within block and slope position; identified seedlings are followed within plots. An alternative explanation is that previous land use or proximity to seed sources differs among management approaches. The study can compare observed rates but cannot cleanly attribute any difference to the approach without addressing such differences.
+Many research questions are possible. A useful answer should make clear **what varies, what you will measure, which units you compare, and what else could explain the pattern**.
 
 :::
 
@@ -671,11 +712,13 @@ The final four exercises develop one study through successive decisions. Each an
 
 **Suggested answer and reasoning**
 
-**Preserve both comparison levels.** Option **B** samples all six blocks and represents both slope positions, producing **6 blocks × 2 positions × 2 plots = 24 plots**. Random selection within defined slope strata can reduce discretionary placement bias, while strata ensure both positions are observed.
+1. **Write out the comparisons.** The study has two management approaches, with three independently managed blocks under each. Within every block are upper and lower slopes. The design should include both slope positions and all six blocks.
+2. **Choose B and count the plots.** Two plots on the upper slope plus two on the lower slope gives **four plots per block**. Across six blocks, that gives **6 × 4 = 24 plots**.
+3. **Why select within slope groups?** If plots were placed without regard to slope, one block might have mostly upper-slope plots while another had mostly lower-slope plots. Sampling both positions in every block makes those conditions comparable across the blocks.
+4. **Where does random selection fit?** First define eligible upper- and lower-slope areas. Then draw the designated plot locations within each area randomly. Random selection helps avoid choosing only convenient or especially healthy-looking patches; it does not replace the earlier decision to sample both slope positions.
+5. **Keep the units straight.** There are 24 plots, but still only **six independently managed blocks**, three per approach. The plots help describe variation within a block. They do not create 24 independent replicates of the management approach.
 
-**Keep independence straight.** The six blocks remain the site-level replication; 24 plots do not become 24 independent management replicates. With only three blocks per approach, power and generalisation will be limited. Treat the comparison as observational because planting was not randomly assigned.
-
-**Check the sampling frame.** Eligible plot locations and plot size must be defined consistently. If steep or inaccessible slopes are excluded, this should be reported, especially if accessibility is correlated with seedling establishment.
+Option A would concentrate observations in one planted block. Option C would compare just one block per approach. Both would lose important site-level coverage. Because management was not assigned randomly, even option B provides an *observational comparison*, not a controlled treatment experiment.
 
 :::
 
@@ -690,32 +733,32 @@ The final four exercises develop one study through successive decisions. Each an
 
 **A connected design challenge.** A hypothetical restoration landscape contains six separately managed restoration blocks: three planted and three naturally regenerating. Each block has upper and lower slopes. Management approaches were chosen by landowners rather than assigned randomly, and earlier land use is not identical among blocks. The proposal covers three years and has a total fieldwork allowance of **720 person-hours**. Your aim is to investigate establishment of native woody seedlings.
 
-**Your task.** To estimate recruitment and survival while considering competing explanations, match each information need to an observation.
+**Your task.** To compare newly recorded seedlings and the survival of marked seedlings, while considering alternative explanations, match each information need to an observation.
 
 <div class="practice-response" data-mode="matching">
 <div class="practice-matches"><p class="practice-label">Choose one design or interpretation for each statement.</p>
-<label class="practice-match"><span class="practice-match-statement">Recruitment of native woody seedlings between years.</span><select aria-label="Match for item 1 in exercise 19" data-answer="C"><option value="">Choose…</option>
+<label class="practice-match"><span class="practice-match-statement">New live native woody seedlings first recorded in a plot at the next annual census.</span><select aria-label="Match for item 1 in exercise 19" data-answer="C"><option value="">Choose…</option>
 <option value="A">A. Map proximity to remnant forest and, if feasible, measure seed arrival at appropriately distributed locations.</option>
 <option value="B">B. Record baseline management history, land use, slope and relevant soil conditions for each block.</option>
-<option value="C">C. Revisit the same permanent plots at comparable intervals and record seedlings that first appear.</option>
+<option value="C">C. Revisit permanent plots at comparable intervals and identify seedlings not recorded at the previous census.</option>
 <option value="D">D. Tag or map individuals and check their status at successive visits.</option>
 </select></label>
-<label class="practice-match"><span class="practice-match-statement">Survival of seedlings already present.</span><select aria-label="Match for item 2 in exercise 19" data-answer="D"><option value="">Choose…</option>
+<label class="practice-match"><span class="practice-match-statement">Survival of individually marked seedlings present at an earlier census.</span><select aria-label="Match for item 2 in exercise 19" data-answer="D"><option value="">Choose…</option>
 <option value="A">A. Map proximity to remnant forest and, if feasible, measure seed arrival at appropriately distributed locations.</option>
 <option value="B">B. Record baseline management history, land use, slope and relevant soil conditions for each block.</option>
-<option value="C">C. Revisit the same permanent plots at comparable intervals and record seedlings that first appear.</option>
+<option value="C">C. Revisit permanent plots at comparable intervals and identify seedlings not recorded at the previous census.</option>
 <option value="D">D. Tag or map individuals and check their status at successive visits.</option>
 </select></label>
 <label class="practice-match"><span class="practice-match-statement">Differences in initial conditions among blocks.</span><select aria-label="Match for item 3 in exercise 19" data-answer="B"><option value="">Choose…</option>
 <option value="A">A. Map proximity to remnant forest and, if feasible, measure seed arrival at appropriately distributed locations.</option>
 <option value="B">B. Record baseline management history, land use, slope and relevant soil conditions for each block.</option>
-<option value="C">C. Revisit the same permanent plots at comparable intervals and record seedlings that first appear.</option>
+<option value="C">C. Revisit permanent plots at comparable intervals and identify seedlings not recorded at the previous census.</option>
 <option value="D">D. Tag or map individuals and check their status at successive visits.</option>
 </select></label>
 <label class="practice-match"><span class="practice-match-statement">Potential differences in access to propagules from mature forest.</span><select aria-label="Match for item 4 in exercise 19" data-answer="A"><option value="">Choose…</option>
 <option value="A">A. Map proximity to remnant forest and, if feasible, measure seed arrival at appropriately distributed locations.</option>
 <option value="B">B. Record baseline management history, land use, slope and relevant soil conditions for each block.</option>
-<option value="C">C. Revisit the same permanent plots at comparable intervals and record seedlings that first appear.</option>
+<option value="C">C. Revisit permanent plots at comparable intervals and identify seedlings not recorded at the previous census.</option>
 <option value="D">D. Tag or map individuals and check their status at successive visits.</option>
 </select></label>
 </div>
@@ -726,11 +769,13 @@ The final four exercises develop one study through successive decisions. Each an
 
 **Suggested answer and reasoning**
 
-**Recruitment and survival require different information.** New individuals appearing between visits are recruitment observations (**C**); survival requires following the fate of individuals already recorded (**D**). Four censuses—baseline and end of years 1, 2 and 3—provide three annual intervals, although shorter checks could be necessary for very transient seedlings.
+1. **Newly recorded live seedlings — C.** Revisit the same permanent plots, record each live seedling, and identify which individuals were *not present in the previous census*. These are new individuals recorded at the later visit. Using the same plot area and census rules lets you compare rates among blocks.
+2. **Survival — D.** Mark or map individual seedlings, then check whether each is alive at the next visit. If you simply count the total number each year, a dead seedling replaced by a new one could leave the total unchanged; you would miss the death.
+3. **Initial conditions — B.** Record slope position, soils, earlier land use and management history. Otherwise observed recruitment differences between approaches might reflect pre-existing environmental or historical differences.
+4. **Seed availability — A.** Note the distance to mature forest and, if relevant and feasible, measure seed arrival. Distance is a *possible indicator* of seed supply; it does not directly measure how many viable seeds arrive at a particular plot.
+5. **Recognise the census interval limitation.** A seedling might appear after one annual visit and die before the next. Annual censuses will never record it. The study therefore estimates **new seedlings surviving until the next census**, not every germination or establishment event that occurred during the year. If short-term emergence and early mortality are central to the question, visit more frequently.
 
-**Characterise competing explanations before interpreting rates.** Record initial conditions and history (**B**) and information relevant to seed availability (**A**). Distance to mature forest is a contextual variable, not a direct measure of seed rain. If seed arrival is important to the proposed mechanism, seed traps or direct recruitment observations may improve that part of the study.
-
-**Make the comparisons consistent.** Apply the same census criteria, species identification rules and seasonal timing across blocks and slopes. Otherwise differences in observation procedures could imitate ecological differences.
+These observations answer different parts of the investigation. They are complementary, but one does not automatically substitute for the others.
 
 :::
 
@@ -766,11 +811,14 @@ Assume a field census requires **3 person-hours per permanent plot**, and that y
 
 **Suggested answer and reasoning**
 
-**Calculate the plot effort first.** Plan X uses **36 × 4 × 3 = 432 person-hours** on censuses. Adding travel (120), setup and training (80), and identification and checks (70) gives **702 hours**, leaving only **18 hours**. Plan Y uses **24 × 4 × 3 = 288 hours** on censuses, for a total of **558 hours** and a remaining **162 hours** (**B**).
+1. **Calculate census effort.** Plan X has 36 plots, measured four times, at 3 person-hours each: **36 × 4 × 3 = 432 person-hours**. Plan Y needs **24 × 4 × 3 = 288 person-hours**.
+2. **Add the fixed project costs.** Travel is 120 hours, setup and training 80, and identification and data checks 70. Together that is **270 person-hours** for either plan.
+3. **Compare each total with the 720-hour allowance.** Plan X uses **432 + 270 = 702 hours**, leaving **720 − 702 = 18 hours**. Plan Y uses **288 + 270 = 558 hours**, leaving **720 − 558 = 162 hours**. The correct answer is **B**.
+4. **Think beyond the calculation.** Eighteen person-hours across a three-year field study leave little scope for rain delays, missed plots, replacements or necessary repeat visits. Plan Y retains the same six blocks and both slope positions, but with fewer plots per position, and leaves a much more useful reserve.
+5. **Understand the trade-off.** Fewer plots may make the estimate for each block less precise. However, both plans still have only three blocks per management approach. Adding plots within blocks does not add independent management replicates.
+6. **Use contingencies as part of the design.** Keep some hours unallocated for problems likely to arise. If you later add measurements, choose those that directly improve the answer to your research question, not simply those that are interesting to collect.
 
-**Consider what is sacrificed.** Plan Y has fewer plots within each block, so each block's mean may be less precisely estimated. However, both designs retain the same six independent blocks and the same upper/lower slope coverage. Given three years of fieldwork, the extra reserve is more credible than assuming weather, access and repeat visits will consume only 18 hours.
-
-**Decide how to use the reserve.** It is not necessary to spend every hour in advance. Some may be held for contingencies, while additional measurements could be added if they strengthen a critical causal comparison. Neither plan can turn the non-randomly assigned management approaches into a controlled experiment. A well-supported conclusion concerns observed recruitment and survival patterns, with causal interpretation bounded by the observational design.
+The arithmetic assumes the stated costs are correct and that one census of every plot takes the same average effort. Real proposals would need to justify those assumptions too. The best plan is the one that answers the question with realistic effort, not automatically the plan with the most plots.
 
 :::
 
