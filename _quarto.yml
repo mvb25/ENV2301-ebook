@@ -29,7 +29,7 @@ book:
   - exercise-index.qmd
   - references.qmd
   navbar:
-    title: "ENV2301"
+    title: "ENV2301 – Methods and techniques for environmental studies"
     background: "#fcfcf9"
     foreground: "#285d4c"
     search: true
