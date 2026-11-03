@@ -1,0 +1,110 @@
+/* Sampling and research-design practice supplement. Loaded only by practice-final-assessment.qmd. */
+#quarto-content main.content .practice-legend {
+  margin: 1.35rem 0 2rem;
+  padding: 0.9rem 1.1rem;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: .9rem;
+  line-height: 1.55;
+  border: 1px solid #d1dcd4;
+  background: #f6f8f4;
+  color: #33463e;
+}
+#quarto-content main.content .practice-exercise {
+  background: #f5f9fb;
+  border: 1px solid #d5e1e8;
+  border-left: 3px solid #5487a4;
+  margin: 1.6rem 0 2rem;
+  padding: 1.2rem 1.4rem 1.35rem;
+  border-radius: 3px;
+}
+#quarto-content main.content .practice-number {
+  display: block;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  text-transform: uppercase;
+  font-size: .72rem;
+  letter-spacing: .075em;
+  font-weight: 700;
+  color: #4a7286;
+  margin-bottom: .3rem;
+}
+#quarto-content main.content .practice-exercise > p:has(> strong):first-of-type { margin-top:0; }
+#quarto-content main.content .practice-exercise > p > strong:first-child { color: #273f4d; }
+#quarto-content main.content .practice-exercise p { margin: .68rem 0; }
+#quarto-content main.content .practice-response { padding: .45rem 0 .1rem; }
+#quarto-content main.content .practice-response textarea,
+#quarto-content main.content .practice-response select {
+  font: inherit;
+  background: #fff;
+  color: #273a32;
+  border: 1px solid #acbdc7;
+  border-radius: 3px;
+  padding: .52rem .65rem;
+}
+#quarto-content main.content .practice-response textarea { display:block; width:100%; resize: vertical; min-height:5.5rem; line-height:1.6; }
+#quarto-content main.content .practice-label,
+#quarto-content main.content .practice-choices legend {
+  display:block;
+  font-family:system-ui,-apple-system,'Segoe UI',sans-serif;
+  font-weight:600;
+  font-size: .88rem;
+  color:#3c5869;
+  margin-bottom: .6rem;
+}
+#quarto-content main.content .practice-choices { border:0; padding:0; margin:.1rem 0; min-width:0; }
+#quarto-content main.content .practice-choice {
+  display:flex; align-items:flex-start; gap:.55rem;
+  padding:.46rem .54rem; margin:.2rem 0;
+  border-radius:3px;
+  font-family:system-ui,-apple-system,'Segoe UI',sans-serif;
+  font-size: .9rem; line-height:1.52; color:#2d4149;
+  cursor:pointer;
+}
+#quarto-content main.content .practice-choice:hover {background:#eaf2f6;}
+#quarto-content main.content .practice-choice input { margin-top:.27rem; accent-color:#2e6e91; flex:none; }
+#quarto-content main.content .practice-matches { display:grid; gap:.45rem; }
+#quarto-content main.content .practice-match {
+  display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+  gap:.8rem; align-items:center;
+  padding:.65rem .35rem; border-bottom:1px solid #dce6eb;
+  font-family:system-ui,-apple-system,'Segoe UI',sans-serif;
+  line-height:1.45; font-size:.86rem;
+}
+#quarto-content main.content .practice-match-statement { font-weight:550; }
+#quarto-content main.content .practice-match select { min-width:0; width:100%; white-space:normal; }
+#quarto-content main.content .practice-actions {
+  display:flex; gap:.8rem; align-items:center; flex-wrap:wrap;
+  margin-top: .85rem;
+}
+#quarto-content main.content button.practice-reveal {
+  font-family: system-ui,-apple-system,'Segoe UI',sans-serif;
+  font-size: .88rem; border:1px solid #346b87;
+  background: #2e6683; color:white; border-radius:3px;
+  padding:.56rem .92rem; font-weight:600;
+}
+#quarto-content main.content button.practice-reveal:not(:disabled) { cursor:pointer; }
+#quarto-content main.content button.practice-reveal:hover:not(:disabled) { background:#214d63; }
+#quarto-content main.content button.practice-reveal:focus-visible {outline:3px solid #ffcf70; outline-offset:3px;}
+#quarto-content main.content button.practice-reveal:disabled {opacity:.45; cursor:not-allowed;}
+#quarto-content main.content .practice-status {
+  font-family:system-ui,-apple-system,'Segoe UI',sans-serif;
+  font-size:.83rem; line-height:1.45; color:#47675b;
+}
+#quarto-content main.content .practice-solution {
+  margin-top:1.15rem; border:1px solid #c7d9c3;
+  border-left:3px solid #658d61; padding: .8rem 1.1rem 1rem;
+  background:#f0f6ed; color:#2b4434; border-radius:2px;
+}
+#quarto-content main.content .practice-solution[hidden] {display:none !important;}
+#quarto-content main.content .practice-solution p {line-height:1.68;}
+#quarto-content main.content .practice-solution p:first-child {margin-top:.1rem;}
+#quarto-content main.content .practice-solution p:last-child {margin-bottom:.1rem;}
+@media(max-width:720px){
+  #quarto-content main.content .practice-exercise {padding:1rem .9rem;}
+  #quarto-content main.content .practice-match{grid-template-columns:1fr;gap:.35rem;}
+  #quarto-content main.content .practice-match select {width:100%;}
+}
+
+#quarto-content main.content .practice-fill {display:grid;gap:.75rem;}
+#quarto-content main.content .practice-fill-row {display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:.9rem;align-items:center;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;font-size:.88rem;}
+#quarto-content main.content .practice-fill-row input {width:100%;font:inherit;min-width:0;background:#fff;border:1px solid #acbdc7;border-radius:3px;padding:.52rem .65rem;}
+@media(max-width:600px){#quarto-content main.content .practice-fill-row{grid-template-columns:1fr;gap:.25rem;}}

@@ -3,7 +3,7 @@ title: "Exercise index"
 number-sections: false
 ---
 
-Short *Test your understanding* questions are embedded in the chapters and provide suggested responses. The *Further exercises* combine methodological decisions and are intended for longer discussion or independent practice. Links lead directly to the individual questions or exercise sections.
+Short *Test your understanding* questions are embedded in the chapters and provide suggested responses. The *Further exercises* combine methodological decisions and are intended for longer discussion or independent practice. Links lead directly to the individual questions or exercise sections. For additional short, interactive practice focused on sampling decisions, see [Practice for the final assessment](practice-final-assessment.qmd).
 
 ## Chapter 10 — Quantitative socio-environmental research
 

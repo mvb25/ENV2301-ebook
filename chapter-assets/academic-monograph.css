@@ -8,9 +8,9 @@ body { background:var(--book-paper)!important;color:var(--book-body);font-family
 #quarto-content main.content { font-family:Georgia,Cambria,"Times New Roman",serif;font-size:1.03rem;line-height:1.75;color:var(--book-body); }
 #quarto-content main.content p { line-height:1.75; }
 #quarto-content main.content h1,#quarto-content main.content h2,#quarto-content main.content h3 {font-family:Georgia,Cambria,"Times New Roman",serif;color:#285d4c;font-weight:normal;letter-spacing:-.023em;line-height:1.19;}
-#quarto-content main.content h2 {font-size:1.76rem;margin-top:2.05em;margin-bottom:.65em;}
-#quarto-content main.content h3 {font-size:1.34rem;margin-top:1.7em;}
-#title-block-header .title {font-family:Georgia,Cambria,"Times New Roman",serif;color:#22382e;letter-spacing:-.034em;font-size:clamp(2.35rem,3.5vw,3.2rem);font-weight:normal;line-height:1.1;}
+#quarto-content main.content h2 {font-size:1.68rem;margin-top:2.05em;margin-bottom:.65em;}
+#quarto-content main.content h3 {font-size:1.29rem;margin-top:1.7em;}
+#title-block-header .title {font-family:Georgia,Cambria,"Times New Roman",serif;color:#22382e;letter-spacing:-.034em;font-size:clamp(2.23rem,3.35vw,3.03rem);font-weight:normal;line-height:1.1;}
 #quarto-content .chapter-subtitle {font-family:Georgia,Cambria,"Times New Roman",serif;font-style:italic;font-size:1.18rem;color:var(--book-muted);margin:.35rem 0 1.15rem;line-height:1.45;}
 #quarto-content figure.chapter-opening-photo {margin:.75rem 0 2.15rem!important;max-width:none!important;padding:0!important;border:0!important;break-inside:avoid;}
 #quarto-content .chapter-opening-photo img {display:block;width:100%;height:auto;aspect-ratio:2.615/1;object-fit:cover;object-position:center center;border-radius:2px;box-shadow:none;}
@@ -38,7 +38,7 @@ body { background:var(--book-paper)!important;color:var(--book-body);font-family
 #quarto-content main.content figure figcaption {font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#546861;line-height:1.5;font-size:.82rem;}
 #quarto-content main.content details:not(.integrated-method):not(.integrated-example) {margin-top:1.5rem;margin-bottom:1.6rem;}
 #quarto-content main.content blockquote {font-family:Georgia,Cambria,serif;line-height:1.68;}
-@media(max-width:700px){#title-block-header .title {font-size:2.15rem;}#quarto-content main.content{font-size:1rem;}#quarto-content .chapter-opening-photo img {aspect-ratio:1.85/1;}#quarto-content main.content h2{font-size:1.55rem;}}
+@media(max-width:700px){#title-block-header .title {font-size:2.04rem;}#quarto-content main.content{font-size:1rem;}#quarto-content .chapter-opening-photo img {aspect-ratio:1.85/1;}#quarto-content main.content h2{font-size:1.48rem;}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important;}}
 
 #title-block-header .subtitle { font-family:Georgia,Cambria,"Times New Roman",serif; font-size:1.17rem; font-weight:normal; font-style:italic; color:var(--book-muted); line-height:1.42; margin:.25rem 0 1rem; }

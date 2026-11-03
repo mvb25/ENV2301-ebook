@@ -724,7 +724,7 @@ A third decision concerns the strength of the claim. Describing current use requ
 
 The **[combined interactive method-selection guide in Chapter 12](12-socioenvironmental-explanations.html#integrated-method-guide)** takes you through these decisions, allows you to revisit earlier choices, and offers alternative methods and combinations with expandable worked guidance. It connects to the course-of-inquiry diagram in Chapter 1. The guide provides examples for practising design reasoning, not a complete catalogue of methods or a substitute for methodological literature.
 
-The six practical guides below remain available as references for the quantitative methods discussed here. The combined guide links directly to them.
+Six practical guides to quantitative research methods are available below.
 
 ```{=html}
 <details class="foldable method-guide" id="guide-method-guide-10a-fixed-point-counts-and-activity-scans"><summary>Method guide 10A — fixed-point counts and activity scans</summary>
