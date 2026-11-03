@@ -5,11 +5,10 @@ project:
   - chapter10-interactive.css
   - chapter10-interactive.js
   - chapter-assets/**
-
 book:
-  title: "ENV2301: Methods & Techniques for Environmental Studies"
-  subtitle: "Course notes – provisional student edition"
-  author: "Michiel van Breugel"
+  title: 'ENV2301: Methods & Techniques for Environmental Studies'
+  subtitle: Course notes – provisional student edition
+  author: Michiel van Breugel
   chapters:
   - index.qmd
   - preface.qmd
@@ -29,49 +28,53 @@ book:
   - exercise-index.qmd
   - references.qmd
   navbar:
-    title: "ENV2301 – Methods and techniques for environmental studies"
-    background: "#fcfcf9"
-    foreground: "#285d4c"
+    title: false
+    background: '#fcfcf9'
+    foreground: '#285d4c'
     search: true
     pinned: true
     toggle-position: right
+    left:
+    - text: '**ENV2301** – Methods and techniques for environmental studies'
+      href: index.qmd
     right:
+    - text: Contents
+      icon: list
+      menu:
+      - text: Preface
+        href: preface.qmd
+      - text: Environmental inquiry
+        href: 01-inquiry.qmd
+      - text: Understanding the study system
+        href: 02-system-understanding.qmd
+      - text: Measurements and methods
+        href: 03-measurement.qmd
+      - text: Variability and uncertainty
+        href: 04-variability-uncertainty.qmd
+      - text: Sampling and replication
+        href: 05-sampling-replication.qmd
+      - text: Sampling space
+        href: 06-space.qmd
+      - text: Studying change
+        href: 07-time.qmd
+      - text: Studying animals
+        href: 08-mobile-organisms.qmd
+      - text: Field experiments
+        href: 09-experiments.qmd
+      - text: Quantitative socio-environmental research
+        href: 10-quantitative-socioenvironmental.qmd
+      - text: Qualitative and participatory methods
+        href: 11-qualitative-participatory.qmd
+      - text: Explaining socio-environmental patterns
+        href: 12-socioenvironmental-explanations.qmd
+      - text: Practice for the final assessment
+        href: practice-final-assessment.qmd
+      - text: References
+        href: references.qmd
+    tools:
     - icon: house
       href: index.qmd
       aria-label: Home
-    - text: "Contents"
-      icon: list
-      menu:
-      - text: "Preface"
-        href: preface.qmd
-      - text: "Environmental inquiry"
-        href: 01-inquiry.qmd
-      - text: "Understanding the study system"
-        href: 02-system-understanding.qmd
-      - text: "Measurements and methods"
-        href: 03-measurement.qmd
-      - text: "Variability and uncertainty"
-        href: 04-variability-uncertainty.qmd
-      - text: "Sampling and replication"
-        href: 05-sampling-replication.qmd
-      - text: "Sampling space"
-        href: 06-space.qmd
-      - text: "Studying change"
-        href: 07-time.qmd
-      - text: "Studying animals"
-        href: 08-mobile-organisms.qmd
-      - text: "Field experiments"
-        href: 09-experiments.qmd
-      - text: "Quantitative socio-environmental research"
-        href: 10-quantitative-socioenvironmental.qmd
-      - text: "Qualitative and participatory methods"
-        href: 11-qualitative-participatory.qmd
-      - text: "Explaining socio-environmental patterns"
-        href: 12-socioenvironmental-explanations.qmd
-      - text: "Practice for the final assessment"
-        href: practice-final-assessment.qmd
-      - text: "References"
-        href: references.qmd
   sidebar:
     search: false
     style: floating
@@ -82,15 +85,15 @@ book:
       href: preface.qmd
     - text: 1  Environmental inquiry
       href: 01-inquiry.qmd
-    - text: 2  Understanding the study system
+    - text: 2  Understanding study systems
       href: 02-system-understanding.qmd
-    - text: 3  Measurements and methods
+    - text: 3  From concept to methods
       href: 03-measurement.qmd
-    - text: 4  Variability and uncertainty
+    - text: 4  Variability
       href: 04-variability-uncertainty.qmd
-    - text: 5  Sampling and replication
+    - text: 5  Sampling effort
       href: 05-sampling-replication.qmd
-    - text: 6  Sampling in space
+    - text: 6  Spatial sampling
       href: 06-space.qmd
     - text: 7  Studying change
       href: 07-time.qmd
@@ -98,9 +101,9 @@ book:
       href: 08-mobile-organisms.qmd
     - text: 9  Field experiments
       href: 09-experiments.qmd
-    - text: 10  Quantitative social research
+    - text: 10  Quantitative socio-environmental research
       href: 10-quantitative-socioenvironmental.qmd
-    - text: 11  Qualitative and participatory research
+    - text: 11  Qualitative socio-environmental research
       href: 11-qualitative-participatory.qmd
     - text: 12  Explaining socio-environmental patterns
       href: 12-socioenvironmental-explanations.qmd
@@ -111,13 +114,11 @@ book:
     - text: References
       href: references.qmd
   page-navigation: true
-
   reader-mode: true
   search:
     location: navbar
     type: overlay
 bibliography: references.bib
-
 format:
   html:
     theme: cosmo
@@ -136,6 +137,5 @@ format:
     citations-hover: true
     link-citations: true
     include-after-body: glossary.js
-
 execute:
   freeze: auto
