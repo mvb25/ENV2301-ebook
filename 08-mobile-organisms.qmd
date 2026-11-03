@@ -1,5 +1,6 @@
 ---
-title: "8 - Studying animals: field methods, sampling and population estimation"
+title: "8. Studying animals"
+subtitle: "Field methods, sampling and population estimation"
 ---
 
 

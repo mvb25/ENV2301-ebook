@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1220" height="690" viewBox="0 0 1220 690" role="img" aria-label="Illustrative park map showing observation stations, participant walking routes, environmental features and complementary evidence from interviews and observations">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eef7f1"/><stop offset="1" stop-color="#e6f2f7"/></linearGradient><pattern id="grass" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="6" cy="7" r="1.4" fill="#b7d9ab" opacity=".45"/></pattern><marker id="arr" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#24617d" stroke-width="1.5"/></marker></defs>
+<rect x="0" y="0" width="1220" height="690" rx="18" fill="#fff"/>
+<rect x="18" y="18" width="804" height="570" rx="18" fill="url(#bg)" stroke="#c8dcd9" stroke-width="2"/>
+<rect x="19" y="19" width="801" height="566" rx="17" fill="url(#grass)"/>
+<!-- Water & heritage edge -->
+<path d="M20 460C130 425 170 483 269 454S422 460 500 505 700 492 818 440L820 580 20 580Z" fill="#a9d4e9" stroke="#79a9c5" stroke-width="3"/>
+<path d="M24 495C180 474 220 506 320 491S554 526 674 492S764 485 815 480" fill="none" stroke="#ecfcff" stroke-width="4" opacity=".8"/>
+<!-- woodland patches -->
+<path d="M46 99Q55 44 112 52Q155 19 223 55Q287 54 304 109Q328 190 253 240Q175 270 105 222Q33 206 46 99Z" fill="#8dbd93" opacity=".55" stroke="#6d9a75" stroke-width="2"/>
+<path d="M498 45Q562 16 617 58Q698 51 725 109Q744 187 672 226Q606 235 556 194Q491 176 498 45Z" fill="#8dbd93" opacity=".55" stroke="#6d9a75" stroke-width="2"/>
+<path d="M486 306Q533 268 594 302Q673 271 732 324Q774 389 733 439Q663 476 596 426Q507 441 486 306Z" fill="#b3d4aa" opacity=".65" stroke="#86ad84" stroke-width="2"/>
+<!-- paths -->
+<path d="M25 380 C130 342 164 296 234 284 S407 251 463 209 589 242 677 215 S763 209 810 244" stroke="#bec6c6" stroke-width="22" fill="none" stroke-linecap="round"/>
+<path d="M25 380 C130 342 164 296 234 284 S407 251 463 209 589 242 677 215 S763 209 810 244" stroke="#f2eee4" stroke-width="16" fill="none" stroke-linecap="round"/>
+<path d="M144 28Q180 90 244 140T302 263Q312 378 419 390T572 497" stroke="#c4c9c6" stroke-width="19" fill="none" stroke-linecap="round"/>
+<path d="M144 28Q180 90 244 140T302 263Q312 378 419 390T572 497" stroke="#fbf3e9" stroke-width="12" fill="none" stroke-linecap="round"/>
+<path d="M330 542Q390 467 496 405T740 320" stroke="#c7caca" stroke-width="18" fill="none" stroke-linecap="round"/>
+<path d="M330 542Q390 467 496 405T740 320" stroke="#fcf5e9" stroke-width="12" fill="none" stroke-linecap="round"/>
+<!-- trees -->
+<circle cx="94" cy="101" r="30" fill="#5e9c70" stroke="#3a8057" stroke-width="2" opacity=".89"/><circle cx="85" cy="93" r="10" fill="#b6dd9b" opacity=".65"/>
+<circle cx="149" cy="76" r="34" fill="#5e9c70" stroke="#3a8057" stroke-width="2" opacity=".89"/><circle cx="140" cy="68" r="11" fill="#b6dd9b" opacity=".65"/>
+<circle cx="225" cy="114" r="31" fill="#5e9c70" stroke="#3a8057" stroke-width="2" opacity=".89"/><circle cx="216" cy="106" r="10" fill="#b6dd9b" opacity=".65"/>
+<circle cx="188" cy="186" r="29" fill="#5e9c70" stroke="#3a8057" stroke-width="2" opacity=".89"/><circle cx="179" cy="178" r="10" fill="#b6dd9b" opacity=".65"/>
+<circle cx="100" cy="175" r="30" fill="#5e9c70" stroke="#3a8057" stroke-width="2" opacity=".89"/><circle cx="91" cy="167" r="10" fill="#b6dd9b" opacity=".65"/>
+<circle cx="543" cy="92" r="30" fill="#5e9c70" stroke="#3a8057" stroke-width="2" opacity=".89"/><circle cx="534" cy="84" r="10" fill="#b6dd9b" opacity=".65"/>
+<circle cx="612" cy="93" r="34" fill="#5e9c70" stroke="#3a8057" stroke-width="2" opacity=".89"/><circle cx="603" cy="85" r="11" fill="#b6dd9b" opacity=".65"/>
+<circle cx="677" cy="137" r="38" fill="#5e9c70" stroke="#3a8057" stroke-width="2" opacity=".89"/><circle cx="668" cy="129" r="13" fill="#b6dd9b" opacity=".65"/>
+<circle cx="599" cy="175" r="31" fill="#5e9c70" stroke="#3a8057" stroke-width="2" opacity=".89"/><circle cx="590" cy="167" r="10" fill="#b6dd9b" opacity=".65"/>
+<circle cx="562" cy="347" r="32" fill="#5e9c70" stroke="#3a8057" stroke-width="2" opacity=".89"/><circle cx="553" cy="339" r="11" fill="#b6dd9b" opacity=".65"/>
+<circle cx="646" cy="330" r="32" fill="#5e9c70" stroke="#3a8057" stroke-width="2" opacity=".89"/><circle cx="637" cy="322" r="11" fill="#b6dd9b" opacity=".65"/>
+<circle cx="700" cy="393" r="28" fill="#5e9c70" stroke="#3a8057" stroke-width="2" opacity=".89"/><circle cx="691" cy="385" r="9" fill="#b6dd9b" opacity=".65"/>
+<circle cx="549" cy="410" r="26" fill="#5e9c70" stroke="#3a8057" stroke-width="2" opacity=".89"/><circle cx="540" cy="402" r="9" fill="#b6dd9b" opacity=".65"/>
+<circle cx="408" cy="109" r="24" fill="#5e9c70" stroke="#3a8057" stroke-width="2" opacity=".89"/><circle cx="399" cy="101" r="8" fill="#b6dd9b" opacity=".65"/>
+<circle cx="381" cy="450" r="22" fill="#5e9c70" stroke="#3a8057" stroke-width="2" opacity=".89"/><circle cx="372" cy="442" r="7" fill="#b6dd9b" opacity=".65"/>
+<circle cx="738" cy="82" r="18" fill="#5e9c70" stroke="#3a8057" stroke-width="2" opacity=".89"/><circle cx="729" cy="74" r="6" fill="#b6dd9b" opacity=".65"/>
+<!-- lawn, bench and management -->
+<ellipse cx="386" cy="320" rx="70" ry="48" fill="#d9e8ab" stroke="#b2c978" stroke-width="2"/>
+<g transform="translate(394 323)"><rect x="-26" y="-8" width="54" height="11" rx="3" fill="#a56e46"/><path d="M-18 3V18M20 3V18" stroke="#80553c" stroke-width="5"/></g>
+<g transform="translate(715 271)"><rect x="-25" y="-28" width="50" height="37" rx="5" fill="#f7f0da" stroke="#c5aa7b" stroke-width="3"/><path d="M-18 -17H18M-18 -6H18" stroke="#9caa8a" stroke-width="2"/></g>
+<!-- counted points -->
+<g fill="#fff" stroke="#215b83" stroke-width="5"><circle cx="201" cy="302" r="17"/><circle cx="459" cy="212" r="17"/><circle cx="699" cy="324" r="17"/></g>
+<g fill="#165b85" font-family="Arial" font-size="17" font-weight="700" text-anchor="middle"><text x="201" y="308">A</text><text x="459" y="218">B</text><text x="699" y="330">C</text></g>
+<!-- walking route -->
+<path d="M38 379 C135 351 183 304 251 292 S408 250 461 212 592 237 681 216" fill="none" stroke="#e88a26" stroke-width="5" stroke-dasharray="14 9" opacity=".93"/>
+<!-- named map labels -->
+<g fill="#2a5260" font-family="Arial, sans-serif" font-size="19"><text x="52" y="35" font-weight="700">Woodland</text><text x="573" y="29" font-weight="700">Shaded route</text><text x="341" y="300" font-weight="700">Open lawn</text><text x="51" y="551" font-weight="700">Waterfront</text><text x="650" y="468" font-weight="700">Managed edge</text></g>
+<g font-family="Arial,sans-serif" fill="#173c54"><text x="34" y="620" font-size="20" font-weight="700">Evidence on the map</text><text x="34" y="650" font-size="17">Locations A–C: counts at specified times  •  orange dashed line: participant-guided walking route</text></g>
+<!-- right panel -->
+<rect x="848" y="18" width="354" height="654" rx="18" fill="#f2f8fa" stroke="#cadde8" stroke-width="2"/>
+<text x="874" y="57" font-family="Arial" font-weight="700" font-size="22" fill="#17476b">Three kinds of evidence</text>
+<g font-family="Arial" fill="#25475f"><rect x="871" y="83" width="307" height="141" rx="12" fill="#e2f0f8"/>
+<circle cx="897" cy="109" r="11" fill="#2e7297"/><text x="920" y="115" font-size="19" font-weight="700">Structured observation</text><text x="882" y="144" font-size="17">Who passes A, B and C? At what</text><text x="882" y="168" font-size="17">time and during which conditions?</text><text x="882" y="203" font-size="16" fill="#5b7180">Counts cannot explain motives.</text>
+<rect x="871" y="239" width="307" height="153" rx="12" fill="#e9f3e9"/>
+<circle cx="897" cy="268" r="11" fill="#477c52"/><text x="920" y="274" font-size="19" font-weight="700">Walking interview</text><text x="882" y="307" font-size="17">How does the route feel to users?</text><text x="882" y="331" font-size="17">Which places do they notice?</text><text x="882" y="366" font-size="16" fill="#5b7180">Accounts are situated, not</text><text x="882" y="386" font-size="16" fill="#5b7180">population prevalence estimates.</text>
+<rect x="871" y="408" width="307" height="153" rx="12" fill="#f8efe3"/>
+<circle cx="897" cy="437" r="11" fill="#c78530"/><text x="920" y="444" font-size="19" font-weight="700">Context &amp; management</text><text x="882" y="477" font-size="17">Shade, benches, route connections,</text><text x="882" y="501" font-size="17">signage and maintenance decisions</text><text x="882" y="536" font-size="16" fill="#5b7180">A visible feature does not prove</text><text x="882" y="556" font-size="16" fill="#5b7180">why it was installed.</text></g>
+<text x="872" y="601" font-family="Arial" font-size="16" fill="#436577">Illustrative scheme, not a surveyed</text><text x="872" y="624" font-family="Arial" font-size="16" fill="#436577">map or data from Labrador Park.</text>
+</svg>

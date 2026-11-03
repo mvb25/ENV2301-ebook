@@ -1,0 +1,75 @@
+/* Local layout for Quarto chapters 11–12. The original stand-alone HTML shell
+   is deliberately not imported: the Quarto sidebar and page TOC remain native. */
+main.content {min-width:0;font-size:1.015rem;line-height:1.72;}
+main.content h2 {font-family:Georgia,Cambria,serif;color:#193f63;border-bottom:1px solid #dbe6ec;padding-bottom:.35rem;margin:2.5rem 0 1.1rem;scroll-margin-top:45px;}
+main.content h3 {font-size:1.15rem;margin-top:1.9rem;}
+main.content p {margin-bottom:1.17rem;}
+main.content figure {background:#fafcfd;border:1px solid #d9e4e9;border-radius:11px;margin:1.65rem 0;padding:12px;position:relative;}
+main.content figure img,main.content figure svg {display:block;max-width:100%;height:auto;object-fit:contain;margin:0 auto;}
+main.content figure figcaption {font-size:.85rem;line-height:1.5;color:#496173;margin-top:11px;}
+main.content figure.wide-figure img {width:100%;}
+main.content figure.medium-illustration {max-width:770px;margin-left:auto;margin-right:auto;}
+main.content .figure-enlarge {font-size:.76rem;background:#eaf2f7;border:1px solid #cadae4;color:#1d5477;border-radius:6px;padding:5px 10px;cursor:pointer;margin:0 0 10px;}
+main.content .figure-enlarge:hover {background:#dcecf5;}
+main.content table {width:100%;font-size:.85rem;line-height:1.5;border-collapse:collapse;margin:1.2rem 0 1.6rem;}
+main.content th,main.content td {border:1px solid #d9e4e9;padding:9px 10px;vertical-align:top;}
+main.content th {background:#edf4f8;color:#224b69;}
+main.content tbody tr:nth-child(even){background:#fafcfd;}
+main.content table caption {caption-side:top;text-align:left;font-size:.85rem;line-height:1.5;padding-bottom:9px;color:#4a6072;}
+main.content blockquote {background:#f4f8fa;border-left:4px solid #87aebc;padding:12px 19px;margin:1.4rem 0;}
+main.content .csl-entry {margin-bottom:.7rem;overflow-wrap:anywhere;}
+/* One 'Box' treatment. No worked-example/protocol/method colour subclasses. */
+main.content .ch11-foldable,main.content .callout-note,main.content .box,
+main.content details.ch11-foldable {background:#f5f8fa;border:1px solid #cbdbe4;border-left:4px solid #8baabb;border-radius:9px;padding:13px 17px;margin:1.5rem 0;}
+main.content details.ch11-foldable summary,main.content .callout-title {font-weight:700;color:#245672;cursor:pointer;}
+main.content details.ch11-foldable[open]>summary {border-bottom:1px solid #d5e2e9;padding-bottom:10px;margin-bottom:12px;}
+main.content .ch11-exercise,main.content .test-your-understanding {background:#f1f7fc;border:1px solid #bbd5e6;border-left:5px solid #347bac;border-radius:11px;padding:0 18px 17px;margin:1.9rem 0;}
+main.content .ch11-exercise h4,main.content .test-your-understanding h4 {background:#2e6f9b;color:#fff;margin:0 -18px 15px;padding:12px 18px;font-size:1rem;}
+main.content .ch11-question p {margin-bottom:12px;}
+main.content .ch11-exercise label,main.content .test-your-understanding label{display:block;margin:12px 0 7px;font-size:.84rem;font-weight:700;color:#315a76;}
+main.content .ch11-exercise textarea,main.content .test-your-understanding textarea {display:block;width:100%;min-height:96px;border:1px solid #b6cedd;border-radius:8px;padding:10px;background:white;font-size:.94rem;}
+main.content .ch11-actions {display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin-top:11px;}
+main.content .ch11-count,main.content .answer-status{font-size:.77rem;color:#55748a;}
+main.content button.ch11-reveal {border:0;border-radius:7px;background:#236d9f;color:white;padding:9px 14px;font-size:.85rem;font-weight:700;cursor:pointer;}
+main.content button.ch11-reveal:disabled {background:#d9e4eb;color:#607d90;cursor:not-allowed;}
+main.content .ch11-solution,main.content .exercise-solution {background:#e8f3ea;border:1px solid #bad7c2;border-radius:8px;padding:12px 16px;margin-top:13px;}
+main.content .ch11-solution[hidden],main.content .exercise-solution[hidden]{display:none!important;}
+main.content .ch11-exercise noscript {display:none;}
+main.content .method-guide-link {background:#f3f7f9;border-left:4px solid #82aabb;padding:13px 16px;}
+main.content .further-exercises p {margin-bottom:15px;}
+main.content [hidden] {display:none!important;}
+/* Figure enlargement works in Quarto without the old stand-alone shell. */
+.figure-dialog {border:1px solid #b6c8d3;border-radius:10px;background:#fff;padding:22px;width:min(94vw,1400px);max-height:93vh;overflow:auto;}
+.figure-dialog::backdrop {background:rgba(12,28,43,.78);}
+.figure-dialog img {width:100%;max-height:78vh;object-fit:contain;}
+.figure-dialog p {font-size:.86rem;margin-top:12px;}
+.figure-close {position:sticky;top:0;float:right;border:1px solid #bfd1de;background:#f1f6f9;border-radius:6px;padding:7px 10px;cursor:pointer;z-index:2;}
+@media(max-width:750px){main.content table{display:block;overflow-x:auto;}main.content figure{padding:8px;}main.content .ch11-exercise{padding:0 11px 13px;}main.content .ch11-exercise h4{margin:0 -11px 13px;padding:11px;}}
+/* Integrated interactive guide (a navigation tool, not another 'box' category). */
+main.content .integrated-guide {background:#fbfcfd;border:1px solid #b9cfdf;border-radius:13px;padding:19px 21px;margin:1.7rem 0;}
+main.content .integrated-guide h3 {font-size:1.14rem;margin:0 0 9px;color:#1c5076;}
+main.content .integrated-guide p {font-size:.95rem;line-height:1.6;}
+main.content .inquiry-route {display:flex;flex-wrap:wrap;align-items:center;gap:8px;color:#486b82;background:#eef4f7;border-radius:8px;padding:11px 13px;font-size:.85rem;font-weight:600;margin:16px 0;}
+main.content .inquiry-route span {color:#1d678f;font-weight:800;}
+main.content .integrated-step {margin:13px 0 15px;padding:13px 14px;background:#eef5f9;border:1px solid #d6e5ee;border-radius:9px;}
+main.content .integrated-step label {display:block;font-size:.93rem;color:#1d4b68;font-weight:750;margin-bottom:8px;}
+main.content .integrated-step select {width:100%;padding:10px;border:1px solid #a9c4d5;border-radius:6px;background:white;color:#223f53;}
+main.content .integrated-results {margin-top:16px;}
+main.content .integrated-summary {padding-top:9px;border-top:1px solid #cbdfe8;}
+main.content .integrated-summary h4 {margin:6px 0 9px;font-size:1.01rem;}
+main.content details.integrated-method {background:#fff;border:1px solid #cfdee6;border-radius:9px;margin:11px 0;padding:0;}
+main.content details.integrated-method summary {display:flex;flex-direction:column;gap:3px;padding:12px 15px;cursor:pointer;list-style-position:inside;}
+main.content details.integrated-method summary strong {font-size:.97rem;color:#245875;}
+main.content details.integrated-method summary span {font-size:.88rem;line-height:1.48;color:#3d5669;}
+main.content details.integrated-method summary small {font-size:.76rem;color:#2f7097;}
+main.content details.integrated-method[open] summary {background:#edf5fa;border-bottom:1px solid #d6e3eb;}
+main.content .integrated-detail {padding:14px 17px 16px;font-size:.91rem;}
+main.content .integrated-detail p {font-size:.91rem;margin-bottom:12px;}
+main.content .integrated-original-guide {padding-top:3px;}
+main.content .integrated-example {background:#f5f8fa;border:1px solid #d6e3e9;border-radius:7px;margin:14px 0;padding:10px 12px;}
+main.content .integrated-example summary {font-weight:700;cursor:pointer;}
+main.content .integrated-example >div {padding-top:9px;}
+main.content .integrated-combination {border-top:1px solid #d0e0e9;margin-top:17px;padding-top:11px;}
+main.content .integrated-combination h4 {font-size:1.01rem;}
+main.content #integrated-start-over {background:#235d84;border:0;color:white;font-weight:700;border-radius:7px;padding:9px 13px;cursor:pointer;}
+main.content .integrated-provisional {font-size:.9rem;color:#536d7e;}

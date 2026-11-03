@@ -4,6 +4,7 @@ project:
   resources:
     - chapter10-interactive.css
     - chapter10-interactive.js
+    - chapter-assets/**
 
 book:
   title: "ENV2301: Methods & Techniques for Environmental Studies"
@@ -22,6 +23,8 @@ book:
     - 09-experiments.qmd
     - 10-quantitative-socioenvironmental.qmd
     - 11-qualitative-participatory.qmd
+    - 12-socioenvironmental-explanations.qmd
+    - exercise-index.qmd
     - references.qmd
   sidebar:
     search: true
@@ -35,12 +38,17 @@ format:
     css:
       - styles.css
       - styles-2026-10.css
+      - styles-learning.css
+      - chapter-assets/academic-monograph.css
     toc: true
     toc-depth: 3
     number-sections: false
     code-fold: true
     code-tools: false
     smooth-scroll: true
+    include-in-header: chapter-assets/book-head.html
+    citations-hover: true
+    link-citations: true
     include-after-body: glossary.js
 
 execute:

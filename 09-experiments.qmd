@@ -1,5 +1,6 @@
 ---
-title: "9 - Field experiments and interventions: testing causal pathways"
+title: "9. Field experiments"
+subtitle: "Testing causal pathways and interventions"
 ---
 
 The preceding chapters have concentrated on learning from environmental variation that already exists: differences among sites, individuals, environmental conditions and trajectories through time. Those observational studies are indispensable because they describe systems at realistic scales and under combinations of conditions that researchers often cannot assign. They can also leave causal pathways difficult to separate when several drivers vary together. Field experiments and structured interventions add information by deliberately changing a condition, or by taking advantage of a change that has been imposed for other reasons, and asking whether the response changes as the causal model predicts. The measurement, sampling, spatial and temporal principles developed in Chapters 3–8 still apply; the additional design problem is how the focal contrast is generated and what comparison can represent the outcome that would have occurred without it. Experiments complement observation rather than replacing it. Monitoring can reveal where and when a process appears important, establish the range of natural variation and identify candidate mechanisms. A field manipulation can then isolate one part of that pathway while leaving much of the surrounding system intact. Conversely, an experimental response observed in a small number of plots needs observational information to show how common the relevant conditions are and whether the effect persists across landscapes or years. Treatments are applied to spatial units, replicated across units and often followed through time, so Chapters 5–7 remain part of experimental design. The useful degree of control depends on the question, feasibility, ethics and the spatial and temporal scale of the process.
@@ -113,13 +114,13 @@ Experimental design extends the sampling logic developed in Chapters 5–7. It s
 
 ## Further reading for Chapter 9
 
-Ruxton and Colegrave (2016) and Quinn and Keough (2023) provide broader
+@ruxton2016 and @quinn2023 provide broader
 introductions to experimental design for biological and field research.
 
 Underwood (1992, 1996) develops the logic of environmental-impact
 comparisons, BACI-type designs and replicated field experiments in
 variable natural systems.
 
-Schnitzer et al. (2010, 2014) and Estrada-Villegas and Schnitzer (2018)
+Schnitzer et al. (2010, 2014) and @estrada2018
 provide concrete tropical-forest examples of how liana-removal
 experiments can test mechanisms suggested by observational patterns.

@@ -1,0 +1,62 @@
+---
+title: "Exercise index"
+number-sections: false
+---
+
+Short *Test your understanding* questions are embedded in the chapters and provide suggested responses. The *Further exercises* combine methodological decisions and are intended for longer discussion or independent practice. Links lead directly to the individual questions or exercise sections.
+
+## Chapter 10 — Quantitative socio-environmental research
+
+**Test your understanding**
+
+- [10A — What was observed, and what remains uncertain?](10-quantitative-socioenvironmental.html#test-your-understanding-10a-what-was-observed-and-what-remains-uncertain)
+- [10B — Why did two observers disagree?](10-quantitative-socioenvironmental.html#test-your-understanding-10b-why-did-two-observers-disagree)
+- [10C — What does the bar chart conceal?](10-quantitative-socioenvironmental.html#test-your-understanding-10c-what-does-the-bar-chart-conceal)
+- [10D — Improve a survey question](10-quantitative-socioenvironmental.html#test-your-understanding-10d-improve-a-survey-question)
+- [10E — Is this a fair photographic comparison?](10-quantitative-socioenvironmental.html#test-your-understanding-10e-is-this-a-fair-photographic-comparison)
+- [10F — Five hundred responses from whom?](10-quantitative-socioenvironmental.html#test-your-understanding-10f-five-hundred-responses-from-whom)
+- [10G — Can existing records establish a mowing effect?](10-quantitative-socioenvironmental.html#test-your-understanding-10g-can-existing-records-establish-a-mowing-effect)
+
+**Further exercises**
+
+- [Exercise 1 — Design and defend a park study](10-quantitative-socioenvironmental.html#exercise-1-design-and-defend-a-park-study)
+- [Exercise 2 — Combine methods in two systems](10-quantitative-socioenvironmental.html#exercise-2-combine-methods-in-two-systems)
+
+
+## Chapter 11 — Qualitative and participatory research
+
+**Test your understanding**
+
+- [11.1 · Match the claim to the evidence](11-qualitative-participatory.html#ch11-exercise-1)
+- [11.2 · Who would you interview, and when?](11-qualitative-participatory.html#ch11-exercise-3)
+- [11.3 · Does the archive show a change in values?](11-qualitative-participatory.html#ch11-exercise-extra-11D)
+- [11.4 · What would contradict the garden explanation?](11-qualitative-participatory.html#ch11-exercise-extra-11E)
+- [11.5 · Reconstruct an empirical qualitative study](11-qualitative-participatory.html#ch11-exercise-8)
+- [11.6 · A participatory mapping protocol](11-qualitative-participatory.html#ch11-exercise-5)
+- [11.7 · What would participation change?](11-qualitative-participatory.html#ch11-exercise-participation)
+
+**Further exercises**
+
+- [Exercise 1 — Selecting parks and participants](11-qualitative-participatory.html#ch11-further-1)
+- [Exercise 2 — Deciding whom to interview next](11-qualitative-participatory.html#ch11-further-2)
+- [Exercise 3 — Observations and interviews](11-qualitative-participatory.html#ch11-further-3)
+
+
+## Chapter 12 — Explaining socio-environmental patterns
+
+**Test your understanding**
+
+- [12.1 : codes are not findings](12-socioenvironmental-explanations.html#ch12-original-exercise-1)
+- [12.2 · From codes to an interpretation](12-socioenvironmental-explanations.html#ch12-ch11-exercise-extra-11F)
+- [12.3 : agreement, disagreement or different questions?](12-socioenvironmental-explanations.html#ch12-original-exercise-2)
+- [12.4 · When evidence appears to conflict](12-socioenvironmental-explanations.html#ch12-ch11-exercise-7)
+- [12.5 : integration without false agreement](12-socioenvironmental-explanations.html#ch12-original-exercise-3)
+
+**Further exercises**
+
+- [Exercise 1 — Distinguishing explanations](12-socioenvironmental-explanations.html#ch12-further-1)
+- [Exercise 2 — Combining knowledge and evidence](12-socioenvironmental-explanations.html#ch12-further-2)
+- [Exercise 3 — Using the method guide](12-socioenvironmental-explanations.html#ch12-further-3)
+
+
+The exercise index will be extended to Chapters 1–9 when their chapter revisions are undertaken.

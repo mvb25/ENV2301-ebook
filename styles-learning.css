@@ -1,0 +1,18 @@
+/* ENV2301 shared book styling, additive and conservative.
+   Apply via final css entry in _quarto.yml; no earlier chapter files edited.
+   One neutral 'Box' treatment; question blue; revealed answer green. */
+:root{--env-ink:#223b50;--env-border:#cadbe4;--env-accent:#2c6f95;}
+main.content h2 {scroll-margin-top:36px;}
+main.content figure img {max-width:100%;height:auto;}
+main.content .callout:not(.callout-tip):not(.callout-warning):not(.callout-important),
+main.content .explanation-box,
+main.content details.foldable:not(.integrated-method):not(.integrated-example),
+main.content .worked-case,
+main.content .box {background:#f5f8fa;border-color:#cbdbe4;border-left-color:#8baabb;}
+main.content .self-test,main.content .test-your-understanding,
+main.content .ch11-exercise {background:#f1f7fc!important;border-color:#bcd4e6!important;border-left-color:#347bac!important;}
+main.content .self-test h4,main.content .test-your-understanding h4 {color:#fff;background:#2e6f9b;}
+main.content .test-answer,main.content .ch11-solution,
+main.content .exercise-solution {background:#e8f3ea!important;border-color:#b9d6c2!important;}
+main.content .self-test .test-answer[hidden], main.content [hidden] {display:none!important;}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto!important;}}

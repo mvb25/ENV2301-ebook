@@ -76,8 +76,8 @@ A field database should record not only the measurements but also how those meas
 
 ## Further reading for Chapter 5
 
-Lohr (2022) and Thompson (2012) provide the formal foundations for sampling populations, sample size, stratification and allocation of effort.
+@lohr2022 and @thompson2012 provide the formal foundations for sampling populations, sample size, stratification and allocation of effort.
 
-Hurlbert (1984) remains a useful ecological reference for pseudoreplication and the level at which independent treatment or comparison units occur, although the concept is most useful when placed within the broader hierarchical sampling framework used here.
+@hurlbert1984 remains a useful ecological reference for pseudoreplication and the level at which independent treatment or comparison units occur, although the concept is most useful when placed within the broader hierarchical sampling framework used here.
 
-Gotelli and Ellison (2013) provides an accessible ecological bridge between sampling design, variability and statistical analysis.
+@gotelli2013 provides an accessible ecological bridge between sampling design, variability and statistical analysis.

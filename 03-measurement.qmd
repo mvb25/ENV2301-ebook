@@ -78,15 +78,15 @@ The **choice of methods** involves deciding which forms of information matter mo
 
 ## Further reading for Chapter 3
 
-Wheater, Bell and Cook (2020), Practical Field Ecology, provides applied
+@wheater2020, Practical Field Ecology, provides applied
 guidance on turning field questions into feasible measurements and
 sampling plans across a range of organisms and habitats.
 
-van Breugel et al. (2011a) is a useful example of a measurement chain in
+@vanbreugel2011a is a useful example of a measurement chain in
 which tree diameter and wood density are converted through allometric
 models into tree and landscape biomass, with uncertainty arising at
 several stages.
 
-Schmid et al. (2026) examines how remotely sensed and field observations
+@schmid2026 examines how remotely sensed and field observations
 can represent different components of natural regeneration and why
 process understanding remains necessary when measurements are scaled up.

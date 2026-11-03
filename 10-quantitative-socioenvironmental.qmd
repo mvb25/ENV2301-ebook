@@ -24,7 +24,7 @@ Quantitative social research provides methods for investigating these relationsh
 
 Imagine observing that people stop more often at a shaded park bench than on an exposed path. One possible explanation follows a sequence: trees alter the shade and thermal environment; these conditions may affect comfort; and comfort may affect where people choose to remain. Yet the comparison is not self-explanatory. The shaded bench might also lie nearer the entrance, have seating, offer a more appealing view or be visited at a cooler time of day. Before treating shade as an explanation, we need to distinguish the environmental feature, the possible pathway connecting it to behaviour, the behaviour of interest and the record produced by our observation method.
 
-Why does one park have dense canopy while another retains open grass? Those conditions partly reflect previous management decisions about recreation, maintenance, flood management, design and budgets. Park use may in turn influence later investment and maintenance priorities. This wider view becomes important when we investigate why greenery differs among neighbourhoods, rather than simply asking how visitors respond to existing vegetation. Social–ecological systems frameworks, including the approach proposed by Ostrom (2009) and compared by Binder et al. (2013), can help trace connections among actors, management and ecological change. Which connections to measure depends on the specific research question.
+Why does one park have dense canopy while another retains open grass? Those conditions partly reflect previous management decisions about recreation, maintenance, flood management, design and budgets. Park use may in turn influence later investment and maintenance priorities. This wider view becomes important when we investigate why greenery differs among neighbourhoods, rather than simply asking how visitors respond to existing vegetation. Social–ecological systems frameworks, including the approach proposed by @ostrom2009 and compared by @binder2013, can help trace connections among actors, management and ecological change. Which connections to measure depends on the specific research question.
 
 We also need to distinguish what happens in the park from what our observation procedure records. Suppose 42 passages are counted on a shaded path and 18 on an open path during separate 15-minute periods. Shade, convenience, destinations and preferences all contribute to the number of trips people make. The field record captures only those passages occurring within the selected observation areas and periods; it may count a person twice if they walk through twice. Thus the environmental and social processes producing park use, the observer’s counting procedure and the inference based on the counts belong to different parts of the study. Chapter 8 drew a related distinction between an animal’s presence and its availability for detection. Here the observational limitations arise chiefly from the choice of site, time and event definition.
 
@@ -74,7 +74,7 @@ Suppose we begin with a reconnaissance visit to two areas of Labrador Nature Par
 
 Even then, a 15-minute count is not self-explanatory. If one person walks through the area twice, is that one person or two passages? A count of passages may appropriately include both, especially when estimating movement through a corridor. A study of unique people needs another procedure and may be difficult without tracking individuals, which introduces additional privacy concerns. Similarly, an observer scanning a lawn once every five minutes records visible occupancy snapshots rather than all arrivals and departures between scans. Those are different sampling designs. The observation unit should correspond to the claim and be kept distinct from the people or events recorded within it.
 
-Structured instruments can improve comparability. The System for Observing Play and Recreation in Communities (SOPARC) provides a published example of scanning defined park areas to record activity levels and contextual conditions. McKenzie et al. (2006) tested the approach in multiple park areas and evaluated agreement among observers. Its importance here is methodological: a park-use study can standardise where an observer stands, how scanning occurs, which categories are permitted and what contextual information is registered. We should not assume that a validated instrument in one setting transfers unchanged to Singapore. Activity categories, park layout, observer viewpoints and ethical expectations may require adaptation and local reliability testing. Consider a pilot with two observers simultaneously recording the same small area independently. If one records 11 passages and the other 18, the discrepancy may reflect different field-of-view boundaries, disagreement about whether a person re-entering is a new event, or missed movements when a group passes. The discrepancy is evidence about the observation process. It is not reduced by collecting more data under an inconsistent protocol. We can walk both observers through the boundary, specify the timing convention, practice categorising ambiguous cases, repeat a trial and compare records. An agreement statistic may be appropriate for particular categorical variables, but the first priority is understanding why discrepancies arise. For an activity type with rare occurrences, raw percent agreement can also be misleading because observers often agree on absence.
+Structured instruments can improve comparability. The System for Observing Play and Recreation in Communities (SOPARC) provides a published example of scanning defined park areas to record activity levels and contextual conditions. @mckenzie2006 tested the approach in multiple park areas and evaluated agreement among observers. Its importance here is methodological: a park-use study can standardise where an observer stands, how scanning occurs, which categories are permitted and what contextual information is registered. We should not assume that a validated instrument in one setting transfers unchanged to Singapore. Activity categories, park layout, observer viewpoints and ethical expectations may require adaptation and local reliability testing. Consider a pilot with two observers simultaneously recording the same small area independently. If one records 11 passages and the other 18, the discrepancy may reflect different field-of-view boundaries, disagreement about whether a person re-entering is a new event, or missed movements when a group passes. The discrepancy is evidence about the observation process. It is not reduced by collecting more data under an inconsistent protocol. We can walk both observers through the boundary, specify the timing convention, practice categorising ambiguous cases, repeat a trial and compare records. An agreement statistic may be appropriate for particular categorical variables, but the first priority is understanding why discrepancies arise. For an activity type with rare occurrences, raw percent agreement can also be misleading because observers often agree on absence.
 
 Field observation does not become representative merely because each observation was recorded carefully. A study focused on how use differs by vegetation structure needs more than one open and one wooded location if the intended inference concerns vegetation types generally. It also needs relevant temporal coverage. Visitors who exercise before work, families who arrive on weekends and people seeking shade in the afternoon may be unevenly represented by an afternoon-only survey. If we sample weekday and weekend mornings and evenings across several locations, the resulting observations can begin to represent a wider set of circumstances. Weather, public holidays, festivals and construction can introduce further variation. The number of visits and the distribution of effort should follow the target population of location-times, not an arbitrary quota of observations. A carefully stated result might be: ‘In the sampled locations and observation periods, the mean number of passage events per 15-minute interval was greater on the wooded paths.’ A broader statement about regular park users would require a defensible connection from sampled intervals to the intended schedule and site population. To estimate an annual visitation total, a design must represent conditions across the year and define how intervals are weighted. A few observations can still be valuable for generating hypotheses or designing a larger survey, but that is a different purpose.
 
@@ -286,7 +286,7 @@ scenario.</p>
 
 When people have not experienced a proposed environmental change, a verbal description may leave too much to individual imagination. Photographs or visual scenarios can make alternative appearances more concrete. Suppose researchers want to know how residents evaluate less frequent mowing. They could prepare images of the same park path with short grass, a moderately tall flowering verge and taller spontaneous vegetation. Respondents then rate or choose among these alternatives. The visual comparison provides a common reference for the question, but what differs between photographs needs careful attention. If the tallest vegetation is also shown with fewer benches, poorer lighting or a narrowed path, we cannot know which feature influenced the rating. A pilot should therefore check whether the changes shown correspond to the attributes researchers mean to investigate, with image order varied or counterbalanced where appropriate.
 
-Hwang et al. (2019) used photographs to investigate preferences for spontaneous vegetation growth in Singapore's urban green spaces. Their study presented three vegetation-growth conditions in four urban settings to 663 respondents from the general public and 48 respondents associated with nature or environmental interests. The results indicated that moderately wilder vegetation could be acceptable in parks, while respondents generally favoured more managed appearances in streetscapes. The context was therefore part of the response: a growth condition that people found acceptable in a park was not necessarily preferred alongside a street. Features such as flowers, fauna and boardwalks also contributed to the evaluations. This example shows why asking whether people simply ‘prefer natural vegetation’ would be a much less informative research question.
+@hwang2019 used photographs to investigate preferences for spontaneous vegetation growth in Singapore's urban green spaces. Their study presented three vegetation-growth conditions in four urban settings to 663 respondents from the general public and 48 respondents associated with nature or environmental interests. The results indicated that moderately wilder vegetation could be acceptable in parks, while respondents generally favoured more managed appearances in streetscapes. The context was therefore part of the response: a growth condition that people found acceptable in a park was not necessarily preferred alongside a street. Features such as flowers, fauna and boardwalks also contributed to the evaluations. This example shows why asking whether people simply ‘prefer natural vegetation’ would be a much less informative research question.
 
 ![Figure 10.6. A hypothetical photographic-preference study: people rate different vegetation conditions in parks and on rooftops. Repeated ratings from each respondent can be organised by person, setting and vegetation level, then compared across conditions.](chapter10-assets/illustrated_urban_greenery_preference_survey.jpg){width=6.25in}
 
@@ -710,43 +710,21 @@ Consider the same intervention from the point of view of someone who uses open l
 
 This analysis has a policy implication that the method must make visible without substituting scientific judgement for public choice. A result about average visitor activity cannot determine how a manager should balance thermal comfort, biodiversity, informal sport, accessibility and maintenance cost. Those are partly empirical and partly normative questions. Quantitative research can clarify how outcomes differ, for whom, under what conditions and with how much uncertainty. Qualitative and participatory work can investigate how people understand the outcomes and whether important concerns were excluded from the quantitative instrument. Institutional and ethical considerations then shape whose interests and knowledge enter the decision process. The synthesis in Week 13 will return to this distinction between estimating environmental consequences and deciding which consequences ought to receive priority.
 
-## 10.13 A question-led key for choosing methods and study designs
+## 10.13 Choosing and combining research methods
 
-Research-method selection begins with the question a study is intended to answer. The starting point is the kind of question to be answered, followed by what would count as informative evidence. A question about actual behaviour leads toward observations or records of activity. One about experiences leads toward a suitable instrument for obtaining reported information. A question about change after management needs a comparison design in addition to measurements. The branching guide below narrows the possibilities by asking what is being studied, where the observations must come from and what sort of inference is intended. It offers *shortlists*, not unique prescriptions: several approaches may be needed to examine different parts of a relationship.
+Research-method selection begins with the question a study is intended to answer. The starting point is the kind of question to be answered, followed by what would count as informative evidence. A question about actual behaviour leads toward observations or records of activity. One about experiences leads toward a suitable instrument for obtaining reported information. A question about change after management needs a comparison design in addition to measurements. The combined guide in Chapter 12 narrows the possibilities by asking what is being studied, where the observations must come from and what sort of inference is intended. It offers *shortlists*, not unique prescriptions: several approaches may be needed to examine different parts of a relationship.
 
 The first practical decision is to distinguish the *object of investigation* from the *data-collection instrument*. “Why do residents avoid a restored wetland?” concerns non-users’ constraints and choices. Counting people already present at the wetland describes use but cannot reach those non-users. A residential questionnaire can investigate reported constraints, while an accessibility analysis can measure travel barriers; interviews or participatory mapping can subsequently investigate how residents understand those barriers (Chapter 11). Conversely, the question “How many people pass this entrance during weekday mornings?” may be answered by a standardised observer count or a properly calibrated automated counter, without immediately requiring a questionnaire.
 
 A second decision concerns the unit and scale. Are the observations about people, visits, events, park sections, neighbourhoods, days or management units? Do we need to sample non-users? Is the exposure being compared a characteristic of the individual, a site or an intervention assigned to an entire park? What time span is relevant? These decisions alter the sample and the structure of the analysis table. They cannot be postponed until the end of the study merely because data are easy to collect.
 
-A third decision concerns the strength of the claim. Describing current use requires suitable coverage of the places and periods of interest. Comparing stated preferences requires a suitable respondent pool and consistent scenarios. Estimating the effect of a policy change generally needs comparable observations before and after the change and/or suitable comparison units. Both observation methods and survey methods can be embedded within such designs. The interactive key below follows these questions step by step and opens practical guidance for the relevant shortlist.
+A third decision concerns the strength of the claim. Describing current use requires suitable coverage of the places and periods of interest. Comparing stated preferences requires a suitable respondent pool and consistent scenarios. Estimating the effect of a policy change generally needs comparable observations before and after the change and/or suitable comparison units. Both observation methods and survey methods can be embedded within such designs. The combined key in Chapter 12 follows these questions step by step and opens practical guidance for the relevant shortlist.
 
-```{=html}
-<section aria-label="Interactive question-led research method key" class="method-explorer" id="research-method-key">
-<h3>Research-method decision key</h3><p>Work from the question toward the evidence. The result is a shortlist of methods and a warning about what the proposed sample may miss. Choose the closest answer; several approaches can be combined.</p>
-<div class="question-grid">
-<label>1. What do you most want to learn?<select id="k_goal"><option value="activity">What people actually do</option><option value="report">What people think or experience</option><option value="absence">Why people do not use or access a place</option><option value="change">Whether a change in management affects people</option><option value="pattern">How activity changes across time or space</option></select></label>
-<label>2. Who or what should the result represent?<select id="k_target"><option value="users">Current visitors or observed activities</option><option value="residents">Residents, including non-users</option><option value="sites">A defined collection of places or time periods</option><option value="units">Management or intervention units</option></select></label>
-<label>3. What kinds of observations are available?<select id="k_evidence"><option value="field">New field observations or questionnaires</option><option value="records">Existing records or automatic counters</option><option value="both">Both new and existing records</option></select></label>
-<label>4. What comparison is needed?<select id="k_design"><option value="describe">Describe the sampled situation</option><option value="groups">Compare groups, sites or times</option><option value="effect">Evaluate a change or intervention</option></select></label></div>
-<div aria-live="polite" class="key-output" id="k_output"></div>
-<p class="small-note">Explore the shortlisted approaches below; the guides explain what each records and how it can be used.</p>
-</section>
-```
 
-**How do people use a place?** Systematic observations, event counts or automated counters may be suitable. Define the behaviour, location–time units and observation coverage.
 
-**What do people experience or prefer?** An intercept or resident questionnaire or photographic comparison may help. The respondent population, repeated ratings and question wording determine interpretation.
+The **[combined interactive method-selection guide in Chapter 12](12-socioenvironmental-explanations.html#integrated-method-guide)** takes you through these decisions, allows you to revisit earlier choices, and offers alternative methods and combinations with expandable worked guidance. It connects to the course-of-inquiry diagram in Chapter 1. The guide provides examples for practising design reasoning, not a complete catalogue of methods or a substitute for methodological literature.
 
-**Why are some groups absent?** Recruitment outside the place, residential surveys or existing access records are needed; interviews and participatory mapping can complement them (Chapter 11).
-
-**How does activity vary over time?** Repeat standardised observations or analyse consistent existing records, keeping timestamps and observation effort.
-
-**Does a management change affect use?** Combine suitable behavioural or survey outcomes with a credible intervention or comparison design.
-
-**What environmental conditions do people experience?** Link measurements to the relevant respondent, location and time, accounting for exposure variability.
-
-The guides below explain how to implement each approach once the key has identified plausible options. Each describes a practical implementation, the resulting data, typical analyses and the main circumstances in which interpretation becomes difficult. The interactive key above provides clickable recommendations and expandable guides. The short descriptions remain visible below for readers who prefer to follow the alternatives in sequence.
-
+The six practical guides below remain available as references for the quantitative methods discussed here. The combined guide links directly to them.
 
 ```{=html}
 <details class="foldable method-guide" id="guide-method-guide-10a-fixed-point-counts-and-activity-scans"><summary>Method guide 10A — fixed-point counts and activity scans</summary>
@@ -774,9 +752,8 @@ vegetation effect. Known limitations include partially obscured areas,
 changes in detection when crowds become dense, and activity induced or
 discouraged by observer presence. SOPARC is a useful example of a
 structured park-activity protocol (McKenzie et al. 2006).</p>
-<div class="guide-actions"><a class="back-to-key" href="#research-method-key">← Return to method key</a><button class="restart-method-key" type="button">Start key again</button></div></details>
+<div class="guide-actions"><a class="back-to-key" href="12-socioenvironmental-explanations.html#integrated-method-guide">Explore the combined guide (Chapters 10–12)</a></div></details>
 ```
-
 
 ```{=html}
 <details class="foldable method-guide" id="guide-method-guide-10b-intercept-surveys"><summary>Method guide 10B — intercept surveys</summary>
@@ -804,9 +781,8 @@ label the result representative of all visitors or residents. Responses
 are reports made in a particular encounter, possibly influenced by
 interviewer, language and context. For established guidance see AAPOR
 Best Practices.</p>
-<div class="guide-actions"><a class="back-to-key" href="#research-method-key">← Return to method key</a><button class="restart-method-key" type="button">Start key again</button></div></details>
+<div class="guide-actions"><a class="back-to-key" href="12-socioenvironmental-explanations.html#integrated-method-guide">Explore the combined guide (Chapters 10–12)</a></div></details>
 ```
-
 
 ```{=html}
 <details class="foldable method-guide" id="guide-method-guide-10c-residential-and-household-questionnaires"><summary>Method guide 10C — residential and household questionnaires</summary>
@@ -830,10 +806,9 @@ disposition, then use design-consistent estimates and uncertainty where
 justified. Weights may adjust known over- or underrepresentation, but do
 not eliminate unknown error. Distinguish current park use, past reported
 use and hypothetical future choices. References include Dillman, Smyth,
-and Christian (2014), Lohr (2022) and Groves et al. (2009).</p>
-<div class="guide-actions"><a class="back-to-key" href="#research-method-key">← Return to method key</a><button class="restart-method-key" type="button">Start key again</button></div></details>
+and Christian (2014), Lohr (2022) and <a class="book-reference-link" role="doc-biblioref" href="references.html#ref-groves2009">Groves et al. (2009)</a>.</p>
+<div class="guide-actions"><a class="back-to-key" href="12-socioenvironmental-explanations.html#integrated-method-guide">Explore the combined guide (Chapters 10–12)</a></div></details>
 ```
-
 
 ```{=html}
 <details class="foldable method-guide" id="guide-method-guide-10d-photographs-and-stated-preference-scenarios"><summary>Method guide 10D — photographs and stated-preference scenarios</summary>
@@ -854,12 +829,11 @@ one.</p>
 more elaborate choice experiments, estimate associations with
 systematically varied attributes under the relevant model. Examine
 whether responses differ among settings and recruited groups. Do not
-equate stated preference with actual use. Hwang et al. (2019)
+equate stated preference with actual use. <a class="book-reference-link" role="doc-biblioref" href="references.html#ref-hwang2019">Hwang et al. (2019)</a>
 illustrates the substantive value of presenting comparable management
 conditions in multiple Singapore urban contexts.</p>
-<div class="guide-actions"><a class="back-to-key" href="#research-method-key">← Return to method key</a><button class="restart-method-key" type="button">Start key again</button></div></details>
+<div class="guide-actions"><a class="back-to-key" href="12-socioenvironmental-explanations.html#integrated-method-guide">Explore the combined guide (Chapters 10–12)</a></div></details>
 ```
-
 
 ```{=html}
 <details class="foldable method-guide" id="guide-method-guide-10e-administrative-records-and-digital-traces"><summary>Method guide 10E — administrative records and digital traces</summary>
@@ -881,9 +855,8 @@ the distribution of cultural values. Avoid release of fine-grained
 locations or combinations that could identify individuals. Thiagarajah
 et al. (2015) provides a useful example of interpreting contemporary
 photographs as one source with its own selection mechanism.</p>
-<div class="guide-actions"><a class="back-to-key" href="#research-method-key">← Return to method key</a><button class="restart-method-key" type="button">Start key again</button></div></details>
+<div class="guide-actions"><a class="back-to-key" href="12-socioenvironmental-explanations.html#integrated-method-guide">Explore the combined guide (Chapters 10–12)</a></div></details>
 ```
-
 
 ```{=html}
 <details class="foldable method-guide" id="guide-method-guide-10f-linking-environmental-exposures-to-experiences"><summary>Method guide 10F — linking environmental exposures to experiences</summary>
@@ -905,14 +878,14 @@ reported comfort. Treat relationships as associational unless the design
 provides a credible causal comparison. Aggregate cautiously: an average
 park temperature cannot be treated as a person-specific exposure without
 assumptions about where that person spent time.</p>
-<div class="guide-actions"><a class="back-to-key" href="#research-method-key">← Return to method key</a><button class="restart-method-key" type="button">Start key again</button></div></details>
+<div class="guide-actions"><a class="back-to-key" href="12-socioenvironmental-explanations.html#integrated-method-guide">Explore the combined guide (Chapters 10–12)</a></div></details>
 ```
 
 ## 10.14 Reading and reporting quantitative socio-environmental evidence
 
 A published claim should be traceable from a question to a defined target population, an observation or response process, a dataset and an analysis. When reading a survey report, look for the wording of central questions, who could have been selected, how respondents were recruited, how nonresponse was recorded, whether responses were weighted, and which uncertainty statements the sampling design justifies. When reading a behavioural study, look for the event definitions, spatial boundaries, timing, observation effort, replication and any observer checks. When reading a model, ask what the response variable actually records, what variation the sample contains and which alternative explanations were measured or left unresolved.
 
-The interpretive distinction is especially important where the outcome is reported preference. The Hwang et al. (2019) survey offers evidence about respondents’ evaluations of depicted vegetation conditions, including differences among urban contexts. It does not by itself establish the ecological effects of the vegetation represented, the long-term acceptance of an implemented policy, or resulting changes in park use. Likewise, historical photographs and contemporary social media images may depict different cultural uses of mangroves, but their production and selection processes differ. The Thiagarajah et al. (2015) example will be developed with qualitative and mixed methods in the next chapter, where the sources of cultural meanings and the interpretation of records can receive fuller attention.
+The interpretive distinction is especially important where the outcome is reported preference. The @hwang2019 survey offers evidence about respondents’ evaluations of depicted vegetation conditions, including differences among urban contexts. It does not by itself establish the ecological effects of the vegetation represented, the long-term acceptance of an implemented policy, or resulting changes in park use. Likewise, historical photographs and contemporary social media images may depict different cultural uses of mangroves, but their production and selection processes differ. The @thiagarajah2015 example will be developed with qualitative and mixed methods in the next chapter, where the sources of cultural meanings and the interpretation of records can receive fuller attention.
 
 An adequate methods report should enable a reader to reconstruct how an eligible person or activity became a row in the dataset. Describe site selection and boundaries, observation times, respondent recruitment, eligibility, refusals, wording and response categories, instrument pretesting, protocols for repeat records, any matching or intervention allocation, relevant permissions and the planned treatment of missing observations. Provide the number of independent higher-level units as well as raw respondent or event counts. A polished statistical table is no substitute for such information. Many published claims are difficult to assess because the reported ‘sample size’ is detached from the sample construction and measurement process that generated it.
 
@@ -920,39 +893,11 @@ The final presentation of a quantitative study should allow readers to identify 
 
 ### Further exercises
 
-The shorter *Test your understanding* activities can be completed while reading individual sections. The following exercises bring several parts of the chapter together and may be used for more extended study or discussion.
-
 #### Exercise 1 — design and defend a park study
 
 A municipality manages eight parks, four with extensive canopy and four with largely open lawns. With resources for 32 distinct 15-minute observation intervals, allocate observations across parks, weekday/weekend periods and morning/afternoon conditions. Explain which comparisons the design permits and why collecting all 32 intervals at two convenient parks would restrict inference. Then propose a short comfort survey and specify whose experiences it would represent. Draw the possible causal pathway from vegetation to thermal exposure, comfort and visitor use, while naming two alternative pathways.
 
-#### Exercise 2 — test the method key on two different systems
+#### Exercise 2 — combine methods in two systems
 
-1. In a regenerating tropical-forest landscape, the question is whether landowners who retain tree regeneration differ in reported reasons for land-use decisions from those who continue farming. Specify the target population, the unit, a recruitment frame, the information to be asked, and how ecological plot data could be linked without confusing independent parcels with interviewed people. 2. In a coastal neighbourhood, the question is whether opening an accessible mangrove boardwalk changes use among residents, including those who did not previously visit. Identify a measurement method, appropriate comparison design and sampling approach for non-users. For each case, list two plausible methods from the key and explain what each contributes that the other does not.
-
-### References and further reading
-
-American Association for Public Opinion Research. 2023. “Best Practices for Survey Research.” 2023. https://aapor.org/standards-and-ethics/best-practices/.
-
-Binder, Claudia R., Jochen Hinkel, Pieter W. G. Bots, and Claudia Pahl-Wostl. 2013. “Comparison of Frameworks for Analyzing Social-Ecological Systems.” Ecology and Society 18 (4): 26. https://doi.org/10.5751/ES-05551-180426.
-
-Dillman, Don A., Jolene D. Smyth, and Leah Melani Christian. 2014. Internet, Phone, Mail, and Mixed-Mode Surveys: The Tailored Design Method. 4th ed. Wiley. https://doi.org/10.1002/9781394260645.
-
-Groves, Robert M., Floyd J. Fowler, Mick P. Couper, James M. Lepkowski, Eleanor Singer, and Roger Tourangeau. 2009. Survey Methodology. 2nd ed. Wiley.
-
-Hwang, Yun Hye, Zi En Jonathan Yue, Seow Kang Ling, and Hee Hiong Victor Tan. 2019. “It’s OK to Be Wilder: Preference for Natural Growth in Urban Green Spaces in a Tropical City.” Urban Forestry & Urban Greening 38: 165–76. https://doi.org/10.1016/j.ufug.2018.12.005.
-
-Johnston, Robert J., Kevin J. Boyle, Wiktor Adamowicz, Jeff Bennett, Roy Brouwer, Trudy Ann Cameron, W. Michael Hanemann, et al. 2017. “Contemporary Guidance for Stated Preference Studies.” Journal of the Association of Environmental and Resource Economists 4 (2): 319–405. https://doi.org/10.1086/691697.
-
-Lohr, Sharon L. 2022. Sampling: Design and Analysis. 3rd ed. Chapman; Hall/CRC. https://www.routledge.com/Sampling-Design-and-Analysis/Lohr/p/book/9780367279509.
-
-McKenzie, Thomas L., Deborah A. Cohen, Amber Sehgal, Stephanie Williamson, and Daniela Golinelli. 2006. “System for Observing Play and Recreation in Communities (SOPARC): Reliability and Feasibility Measures.” Journal of Physical Activity and Health 3 (s1): S208–22. https://doi.org/10.1123/jpah.3.s1.s208.
-
-Ostrom, Elinor. 2009. “A General Framework for Analyzing Sustainability of Social-Ecological Systems.” Science 325 (5939): 419–22. https://doi.org/10.1126/science.1172133.
-
-Thiagarajah, Jharyathri, Shermaine K. M. Wong, Daniel R. Richards, and Daniel A. Friess. 2015. “Historical and Contemporary Cultural Ecosystem Service Values in the Rapidly Urbanizing City State of Singapore.” Ambio 44: 666–77. https://doi.org/10.1007/s13280-015-0647-7.
-
-Tourangeau, Roger, Lance J. Rips, and Kenneth A. Rasinski. 2000. The Psychology of Survey Response. Cambridge University Press.
-
-Willis, Gordon B. 2005. Cognitive Interviewing: A Tool for Improving Questionnaire Design. SAGE Publications. https://us.sagepub.com/en-us/nam/cognitive-interviewing/book225856.
+1. In a regenerating tropical-forest landscape, the question is whether landowners who retain tree regeneration differ in reported reasons for land-use decisions from those who continue farming. Specify the target population, the unit, a recruitment frame, the information to be asked, and how ecological plot data could be linked without confusing independent parcels with interviewed people. 2. In a coastal neighbourhood, the question is whether opening an accessible mangrove boardwalk changes use among residents, including those who did not previously visit. Identify a measurement method, appropriate comparison design and sampling approach for non-users. For each case, use the combined key in Chapter 12 to identify two plausible methods and explain what each contributes that the other does not.
 
