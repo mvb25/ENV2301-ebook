@@ -82,3 +82,152 @@ body:has(.env2301-cover) #title-block-header { display:none; }
 #quarto-header .navbar .navbar-nav { align-items:center; }
 #quarto-header .navbar .dropdown-menu { font-size:.85rem;max-height:min(76vh,680px);overflow-y:auto; }
 @media(max-width:1100px){#quarto-header .navbar .nav-link {font-size:.78rem;} }
+
+/* Landing page correction: full-height photographic cover, no credit/buttons. */
+body:has(.env2301-cover) #quarto-content main.content {
+  max-width: none !important;
+  width: 100%;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+body:has(.env2301-cover) #quarto-content main.content .env2301-cover {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: max(560px, calc(100svh - 6.5rem));
+  margin: 0;
+  padding: clamp(2rem, 5vw, 5.5rem);
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  background-position: 50% 50%;
+  border-radius: 0;
+}
+body:has(.env2301-cover) #quarto-content main.content .env2301-cover-heading {
+  max-width: min(730px, 96%);
+}
+body:has(.env2301-cover) #quarto-content main.content .env2301-cover h1 {
+  margin: 1.35rem 0 0;
+  font-size: clamp(2.55rem, 4.6vw, 4.7rem);
+  text-wrap: balance;
+  line-height: 1.08;
+}
+body:has(.env2301-cover) #quarto-content main.content .env2301-cover-rule {
+  margin: 1.8rem 0 1.25rem;
+}
+body:has(.env2301-cover) #quarto-content main.content .env2301-cover-subtitle {
+  margin: 0;
+}
+@media (max-width: 700px) {
+  body:has(.env2301-cover) #quarto-content main.content .env2301-cover {
+    min-height: max(480px, calc(100svh - 5.2rem));
+    padding: 2.25rem 1.4rem;
+  }
+}
+
+
+/* 2026-11-03 navigation refinement: quieter two-column book navigation.
+   Keep the heading names in chapter pages; sidebar labels are shorter in _quarto.yml. */
+#quarto-sidebar,
+#quarto-sidebar.sidebar,
+#quarto-sidebar .sidebar-menu-container,
+#quarto-sidebar .sidebar-navigation,
+#quarto-margin-sidebar {
+  background: #fcfcf9 !important;
+  box-shadow: none !important;
+}
+#quarto-sidebar {border-right: 0 !important;}
+#quarto-sidebar .sidebar-navigation {
+  padding-top: 1.1rem;
+  padding-bottom: 1.5rem;
+}
+#quarto-sidebar .sidebar-item-container {
+  padding-top: .10rem;
+  padding-bottom: .10rem;
+  border-left: 2px solid transparent;
+  border-radius: 0;
+}
+#quarto-sidebar .sidebar-item-text,
+#quarto-sidebar .sidebar-item-container a {
+  font-family: system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size: .89rem !important;
+  line-height: 1.35 !important;
+  font-weight: 400;
+  color: #485e55;
+  text-decoration: none;
+}
+#quarto-sidebar .sidebar-item-container:hover {
+  background: #f2f5ef;
+}
+#quarto-sidebar .sidebar-item-container:has(a.active),
+#quarto-sidebar .sidebar-item-container:has(a[aria-current="page"]) {
+  border-left-color:#4d7e63;
+  background: #f5f7f3;
+}
+#quarto-sidebar .sidebar-item-container a.active,
+#quarto-sidebar .sidebar-item-container a[aria-current="page"] {
+  color: #254a38 !important;
+  font-weight: 600;
+}
+/* Neither vertical margin needs its own visible 'Table of contents' header. */
+#quarto-sidebar .sidebar-title,
+#quarto-sidebar .sidebar-header .sidebar-title,
+#quarto-margin-sidebar #toc-title,
+#quarto-margin-sidebar .toc-title,
+#quarto-margin-sidebar .nav-title,
+#quarto-margin-sidebar .toc-actions .toc-title,
+nav#TOC > h2,
+nav#TOC > .title { display:none !important; }
+#quarto-margin-sidebar {border-left:0 !important;}
+#quarto-margin-sidebar #TOC {padding-top:.4rem;}
+#quarto-margin-sidebar #TOC .nav-link,
+#quarto-margin-sidebar #TOC a {
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:.86rem !important;
+  line-height:1.40;
+  color:#66776f;
+  text-decoration:none;
+}
+#quarto-margin-sidebar #TOC .nav-link.active,
+#quarto-margin-sidebar #TOC a.active {
+  color:#285d4c !important;
+  font-weight:600;
+  border-left-color:#58856b;
+}
+#quarto-margin-sidebar #TOC a:hover {color:#254a38 !important;}
+/* Slightly smaller chapter titles (additional ~10%, section heading sizes unchanged). */
+#title-block-header .title {
+  font-size:clamp(1.87rem,2.75vw,2.52rem) !important;
+}
+/* Home page: a near full-screen photographic cover, without book sidebars or TOC.
+   Quarto's page-specific sidebar:false takes precedence; CSS is a safe fallback. */
+body:has(.env2301-cover) #quarto-sidebar,
+body:has(.env2301-cover) #quarto-margin-sidebar,
+body:has(.env2301-cover) #TOC {display:none !important;}
+body:has(.env2301-cover) #quarto-content.page-columns,
+body:has(.env2301-cover) #quarto-content {
+  display:block !important;
+  width:100% !important;
+  max-width:100% !important;
+  margin:0 !important;
+  padding:0 !important;
+}
+body:has(.env2301-cover) #quarto-content main.content {
+  display:block;
+  box-sizing:border-box;
+  width:100% !important;
+  max-width:100% !important;
+  margin:0 !important;
+  padding:0 !important;
+}
+body:has(.env2301-cover) #quarto-content main.content .env2301-cover {
+  min-height: max(550px, calc(100svh - 3.5rem));
+  width:100%;
+  margin:0;
+}
+@media(max-width:700px){
+  #title-block-header .title {font-size:1.76rem !important;}
+  #quarto-sidebar .sidebar-item-container a {font-size:.89rem !important;}
+  body:has(.env2301-cover) #quarto-content main.content .env2301-cover {
+    min-height:max(480px,calc(100svh - 4.4rem));
+  }
+}

@@ -2,32 +2,32 @@ project:
   type: book
   output-dir: _site
   resources:
-    - chapter10-interactive.css
-    - chapter10-interactive.js
-    - chapter-assets/**
+  - chapter10-interactive.css
+  - chapter10-interactive.js
+  - chapter-assets/**
 
 book:
   title: "ENV2301: Methods & Techniques for Environmental Studies"
   subtitle: "Course notes – provisional student edition"
   author: "Michiel van Breugel"
   chapters:
-    - index.qmd
-    - preface.qmd
-    - 01-inquiry.qmd
-    - 02-system-understanding.qmd
-    - 03-measurement.qmd
-    - 04-variability-uncertainty.qmd
-    - 05-sampling-replication.qmd
-    - 06-space.qmd
-    - 07-time.qmd
-    - 08-mobile-organisms.qmd
-    - 09-experiments.qmd
-    - 10-quantitative-socioenvironmental.qmd
-    - 11-qualitative-participatory.qmd
-    - 12-socioenvironmental-explanations.qmd
-    - practice-final-assessment.qmd
-    - exercise-index.qmd
-    - references.qmd
+  - index.qmd
+  - preface.qmd
+  - 01-inquiry.qmd
+  - 02-system-understanding.qmd
+  - 03-measurement.qmd
+  - 04-variability-uncertainty.qmd
+  - 05-sampling-replication.qmd
+  - 06-space.qmd
+  - 07-time.qmd
+  - 08-mobile-organisms.qmd
+  - 09-experiments.qmd
+  - 10-quantitative-socioenvironmental.qmd
+  - 11-qualitative-participatory.qmd
+  - 12-socioenvironmental-explanations.qmd
+  - practice-final-assessment.qmd
+  - exercise-index.qmd
+  - references.qmd
   navbar:
     title: "ENV2301"
     background: "#fcfcf9"
@@ -36,58 +36,101 @@ book:
     pinned: true
     toggle-position: right
     left:
-      - text: "Methods and techniques for environmental studies"
-        href: index.qmd
+    - icon: house
+      href: index.qmd
+      aria-label: Home
+    - text: "Methods and techniques for environmental studies"
+      href: index.qmd
     right:
-      - text: "Contents"
-        icon: list
-        menu:
-          - text: "Preface"
-            href: preface.qmd
-          - text: "Environmental inquiry"
-            href: 01-inquiry.qmd
-          - text: "Understanding the study system"
-            href: 02-system-understanding.qmd
-          - text: "Measurements and methods"
-            href: 03-measurement.qmd
-          - text: "Variability and uncertainty"
-            href: 04-variability-uncertainty.qmd
-          - text: "Sampling and replication"
-            href: 05-sampling-replication.qmd
-          - text: "Sampling space"
-            href: 06-space.qmd
-          - text: "Studying change"
-            href: 07-time.qmd
-          - text: "Studying animals"
-            href: 08-mobile-organisms.qmd
-          - text: "Field experiments"
-            href: 09-experiments.qmd
-          - text: "Quantitative socio-environmental research"
-            href: 10-quantitative-socioenvironmental.qmd
-          - text: "Qualitative and participatory methods"
-            href: 11-qualitative-participatory.qmd
-          - text: "Explaining socio-environmental patterns"
-            href: 12-socioenvironmental-explanations.qmd
-          - text: "Practice for the final assessment"
-            href: practice-final-assessment.qmd
-          - text: "References"
-            href: references.qmd
+    - text: "Contents"
+      icon: list
+      menu:
+      - text: "Preface"
+        href: preface.qmd
+      - text: "Environmental inquiry"
+        href: 01-inquiry.qmd
+      - text: "Understanding the study system"
+        href: 02-system-understanding.qmd
+      - text: "Measurements and methods"
+        href: 03-measurement.qmd
+      - text: "Variability and uncertainty"
+        href: 04-variability-uncertainty.qmd
+      - text: "Sampling and replication"
+        href: 05-sampling-replication.qmd
+      - text: "Sampling space"
+        href: 06-space.qmd
+      - text: "Studying change"
+        href: 07-time.qmd
+      - text: "Studying animals"
+        href: 08-mobile-organisms.qmd
+      - text: "Field experiments"
+        href: 09-experiments.qmd
+      - text: "Quantitative socio-environmental research"
+        href: 10-quantitative-socioenvironmental.qmd
+      - text: "Qualitative and participatory methods"
+        href: 11-qualitative-participatory.qmd
+      - text: "Explaining socio-environmental patterns"
+        href: 12-socioenvironmental-explanations.qmd
+      - text: "Practice for the final assessment"
+        href: practice-final-assessment.qmd
+      - text: "References"
+        href: references.qmd
   sidebar:
     search: false
+    style: floating
+    background: '#fcfcf9'
+    border: false
+    contents:
+    - text: Preface
+      href: preface.qmd
+    - text: 1  Environmental inquiry
+      href: 01-inquiry.qmd
+    - text: 2  Understanding the study system
+      href: 02-system-understanding.qmd
+    - text: 3  Measurements and methods
+      href: 03-measurement.qmd
+    - text: 4  Variability and uncertainty
+      href: 04-variability-uncertainty.qmd
+    - text: 5  Sampling and replication
+      href: 05-sampling-replication.qmd
+    - text: 6  Sampling in space
+      href: 06-space.qmd
+    - text: 7  Studying change
+      href: 07-time.qmd
+    - text: 8  Studying animals
+      href: 08-mobile-organisms.qmd
+    - text: 9  Field experiments
+      href: 09-experiments.qmd
+    - text: 10  Quantitative social research
+      href: 10-quantitative-socioenvironmental.qmd
+    - text: 11  Qualitative and participatory research
+      href: 11-qualitative-participatory.qmd
+    - text: 12  Explaining socio-environmental patterns
+      href: 12-socioenvironmental-explanations.qmd
+    - text: Practice for the final assessment
+      href: practice-final-assessment.qmd
+    - text: Exercise index
+      href: exercise-index.qmd
+    - text: References
+      href: references.qmd
   page-navigation: true
 
+  reader-mode: true
+  search:
+    location: navbar
+    type: overlay
 bibliography: references.bib
 
 format:
   html:
     theme: cosmo
     css:
-      - styles.css
-      - styles-2026-10.css
-      - styles-learning.css
-      - chapter-assets/academic-monograph.css
+    - styles.css
+    - styles-2026-10.css
+    - styles-learning.css
+    - chapter-assets/academic-monograph.css
     toc: true
-    toc-depth: 3
+    toc-depth: 2
     number-sections: false
     code-fold: true
     code-tools: false

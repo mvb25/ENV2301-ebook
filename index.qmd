@@ -1,17 +1,19 @@
 ---
 title: "Environmental inquiry and study design"
 number-sections: false
+page-navigation: false
+sidebar: false
+format:
+  html:
+    toc: false
+    page-layout: full
 ---
 
 <div class="env2301-cover">
-  <div class="env2301-cover-heading">
-    <span class="env2301-cover-course">ENV2301 – Methods and techniques for environmental studies</span>
-    <h1>Environmental inquiry and study design</h1>
-    <span class="env2301-cover-rule" aria-hidden="true"></span>
-    <p class="env2301-cover-subtitle">Course readings</p>
-  </div>
+<div class="env2301-cover-heading">
+<span class="env2301-cover-course">ENV2301 – Methods and techniques for environmental studies</span>
+<h1>Environmental inquiry and study design</h1>
+<span class="env2301-cover-rule" aria-hidden="true"></span>
+<p class="env2301-cover-subtitle">Course readings</p>
 </div>
-
-<p class="env2301-cover-credit">Photograph: Michiel van Breugel</p>
-
-<div class="env2301-cover-links"><a href="preface.html">Read the preface</a><a href="01-inquiry.html">Start Chapter 1</a></div>
+</div>
