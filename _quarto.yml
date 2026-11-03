@@ -35,13 +35,10 @@ book:
     search: true
     pinned: true
     toggle-position: right
-    left:
+    right:
     - icon: house
       href: index.qmd
       aria-label: Home
-    - text: "Methods and techniques for environmental studies"
-      href: index.qmd
-    right:
     - text: "Contents"
       icon: list
       menu:
