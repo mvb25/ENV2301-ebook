@@ -12,7 +12,7 @@ The exercises draw on the ideas developed particularly in [Chapter 1](01-inquiry
 
 The final design challenge uses the assignment's **three-year** period and **720 person-hour** fieldwork allowance. Its landscape and cost estimates are invented for practice; they do not describe the particular restoration landscape in your assignment.
 
-<div class="practice-legend" role="note"><strong>How to use this page:</strong> Choose or type an answer. When the <em>Show explained answer</em> button becomes available, select it to see the reasoning. Your answer stays visible. Multiple-choice and matching questions indicate whether your choices match the suggested answers; short written answers are for self-assessment, not automated grading. You can change your response and try again.</div>
+<div class="practice-legend" role="note"><strong>How to use this page:</strong> Choose or type an answer. When the <em>Show explained answer</em> button becomes available, select it to see the reasoning. Your answer stays visible. Multiple-choice and matching questions indicate whether your choices match the suggested answers. You can change your response and try again.</div>
 
 ## A. From the research question to the sampling design
 
@@ -347,7 +347,7 @@ To investigate whether streamside vegetation is related to bank erosion across a
 
 **Match spatial coverage to the conclusion.** Plots ten metres apart on one stream may be highly similar and describe that local reach well, but they provide little information about how relationships vary among streams. Sampling four streams (**B**) expands the spatial level represented.
 
-**Retain both levels in the analysis.** Plots remain nested within streams; proximity within a stream can create spatial dependence. Four streams are still a small sample for broader watershed inference, but they offer a more defensible basis than one.
+**Retain both levels in the analysis.** Plots remain nested within streams; proximity within a stream can create spatial dependence. Four streams are still a small sample for broader watershed inference, but they offer a stronger basis than one.
 
 **Keep the question in view.** If the objective instead concerned fine-scale variation along that *particular* stream, the closely spaced plots could be better. Sampling designs are judged relative to the question, not by whether one is universally more rigorous.
 
@@ -589,7 +589,7 @@ A team wants to estimate soil organic carbon stock across a restored mangrove. I
 
 A chronosequence of naturally regenerating forest sites shows higher tree richness in older sites. The older forests are also closer to remnant mature forest and have had less intensive previous land use.
 
-**Your task.** State a defensible conclusion and propose one additional comparison or measurement that would help distinguish age from the other explanations.
+**Your task.** State a conclusion supported by the observations and propose one additional comparison or measurement that would help distinguish age from the other explanations.
 
 <div class="practice-response" data-mode="text">
 <label class="practice-label" for="practice-input-16">Your answer</label>
@@ -770,7 +770,7 @@ Assume a field census requires **3 person-hours per permanent plot**, and that y
 
 **Consider what is sacrificed.** Plan Y has fewer plots within each block, so each block's mean may be less precisely estimated. However, both designs retain the same six independent blocks and the same upper/lower slope coverage. Given three years of fieldwork, the extra reserve is more credible than assuming weather, access and repeat visits will consume only 18 hours.
 
-**Decide how to use the reserve.** It is not necessary to spend every hour in advance. Some may be held for contingencies, while additional measurements could be added if they strengthen a critical causal comparison. Neither plan can turn the non-randomly assigned management approaches into a controlled experiment. A defensible conclusion concerns observed recruitment and survival patterns, with causal interpretation bounded by the observational design.
+**Decide how to use the reserve.** It is not necessary to spend every hour in advance. Some may be held for contingencies, while additional measurements could be added if they strengthen a critical causal comparison. Neither plan can turn the non-randomly assigned management approaches into a controlled experiment. A well-supported conclusion concerns observed recruitment and survival patterns, with causal interpretation bounded by the observational design.
 
 :::
 
@@ -779,4 +779,4 @@ Assume a field census requires **3 person-hours per permanent plot**, and that y
 
 ## What to take into your assessment
 
-A defensible sampling proposal connects the research question to a target population, independent units, appropriate comparisons, meaningful coverage across space and time, and the field effort available. You should also be able to explain what your observations would establish and which relationships remain partly inferred. A clear justification for a focused, feasible design is more useful than a long inventory of techniques.
+A good sampling proposal connects the research question to a target population, independent units, appropriate comparisons, meaningful coverage across space and time, and the field effort available. You should also be able to explain what your observations would establish and which relationships remain partly inferred. A clear justification for a focused, feasible design is more useful than a long inventory of techniques.

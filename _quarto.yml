@@ -12,6 +12,7 @@ book:
   author: "Michiel van Breugel"
   chapters:
     - index.qmd
+    - preface.qmd
     - 01-inquiry.qmd
     - 02-system-understanding.qmd
     - 03-measurement.qmd
@@ -27,8 +28,52 @@ book:
     - practice-final-assessment.qmd
     - exercise-index.qmd
     - references.qmd
-  sidebar:
+  navbar:
+    title: "ENV2301"
+    background: "#fcfcf9"
+    foreground: "#285d4c"
     search: true
+    pinned: true
+    toggle-position: right
+    left:
+      - text: "Methods and techniques for environmental studies"
+        href: index.qmd
+    right:
+      - text: "Contents"
+        icon: list
+        menu:
+          - text: "Preface"
+            href: preface.qmd
+          - text: "Environmental inquiry"
+            href: 01-inquiry.qmd
+          - text: "Understanding the study system"
+            href: 02-system-understanding.qmd
+          - text: "Measurements and methods"
+            href: 03-measurement.qmd
+          - text: "Variability and uncertainty"
+            href: 04-variability-uncertainty.qmd
+          - text: "Sampling and replication"
+            href: 05-sampling-replication.qmd
+          - text: "Sampling space"
+            href: 06-space.qmd
+          - text: "Studying change"
+            href: 07-time.qmd
+          - text: "Studying animals"
+            href: 08-mobile-organisms.qmd
+          - text: "Field experiments"
+            href: 09-experiments.qmd
+          - text: "Quantitative socio-environmental research"
+            href: 10-quantitative-socioenvironmental.qmd
+          - text: "Qualitative and participatory methods"
+            href: 11-qualitative-participatory.qmd
+          - text: "Explaining socio-environmental patterns"
+            href: 12-socioenvironmental-explanations.qmd
+          - text: "Practice for the final assessment"
+            href: practice-final-assessment.qmd
+          - text: "References"
+            href: references.qmd
+  sidebar:
+    search: false
   page-navigation: true
 
 bibliography: references.bib

@@ -8,9 +8,9 @@ body { background:var(--book-paper)!important;color:var(--book-body);font-family
 #quarto-content main.content { font-family:Georgia,Cambria,"Times New Roman",serif;font-size:1.03rem;line-height:1.75;color:var(--book-body); }
 #quarto-content main.content p { line-height:1.75; }
 #quarto-content main.content h1,#quarto-content main.content h2,#quarto-content main.content h3 {font-family:Georgia,Cambria,"Times New Roman",serif;color:#285d4c;font-weight:normal;letter-spacing:-.023em;line-height:1.19;}
-#quarto-content main.content h2 {font-size:1.68rem;margin-top:2.05em;margin-bottom:.65em;}
-#quarto-content main.content h3 {font-size:1.29rem;margin-top:1.7em;}
-#title-block-header .title {font-family:Georgia,Cambria,"Times New Roman",serif;color:#22382e;letter-spacing:-.034em;font-size:clamp(2.23rem,3.35vw,3.03rem);font-weight:normal;line-height:1.1;}
+#quarto-content main.content h2 {font-size:1.59rem;margin-top:2.05em;margin-bottom:.65em;}
+#quarto-content main.content h3 {font-size:1.23rem;margin-top:1.7em;}
+#title-block-header .title {font-family:Georgia,Cambria,"Times New Roman",serif;color:#22382e;letter-spacing:-.034em;font-size:clamp(2.08rem,3.08vw,2.80rem);font-weight:normal;line-height:1.1;}
 #quarto-content .chapter-subtitle {font-family:Georgia,Cambria,"Times New Roman",serif;font-style:italic;font-size:1.18rem;color:var(--book-muted);margin:.35rem 0 1.15rem;line-height:1.45;}
 #quarto-content figure.chapter-opening-photo {margin:.75rem 0 2.15rem!important;max-width:none!important;padding:0!important;border:0!important;break-inside:avoid;}
 #quarto-content .chapter-opening-photo img {display:block;width:100%;height:auto;aspect-ratio:2.615/1;object-fit:cover;object-position:center center;border-radius:2px;box-shadow:none;}
@@ -38,8 +38,47 @@ body { background:var(--book-paper)!important;color:var(--book-body);font-family
 #quarto-content main.content figure figcaption {font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#546861;line-height:1.5;font-size:.82rem;}
 #quarto-content main.content details:not(.integrated-method):not(.integrated-example) {margin-top:1.5rem;margin-bottom:1.6rem;}
 #quarto-content main.content blockquote {font-family:Georgia,Cambria,serif;line-height:1.68;}
-@media(max-width:700px){#title-block-header .title {font-size:2.04rem;}#quarto-content main.content{font-size:1rem;}#quarto-content .chapter-opening-photo img {aspect-ratio:1.85/1;}#quarto-content main.content h2{font-size:1.48rem;}}
+@media(max-width:700px){#title-block-header .title {font-size:1.93rem;}#quarto-content main.content{font-size:1rem;}#quarto-content .chapter-opening-photo img {aspect-ratio:1.85/1;}#quarto-content main.content h2{font-size:1.41rem;}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important;}}
 
 #title-block-header .subtitle { font-family:Georgia,Cambria,"Times New Roman",serif; font-size:1.17rem; font-weight:normal; font-style:italic; color:var(--book-muted); line-height:1.42; margin:.25rem 0 1rem; }
 #quarto-content .chapter-opening-photo {max-width:100%;}
+
+
+/* Dedicated book landing page. The accessible title is live HTML text,
+   separate from the original author-owned photograph. */
+body:has(.env2301-cover) #title-block-header { display:none; }
+#quarto-content main.content .env2301-cover {
+  isolation:isolate; position:relative; overflow:hidden;
+  display:flex; justify-content:flex-start; align-items:center;
+  text-align:center; min-height:clamp(440px,69vh,730px);
+  padding:clamp(2.5rem,6vw,5rem) clamp(1.25rem,5vw,4rem);
+  background-image:linear-gradient(to bottom,rgba(11,31,36,.72) 0%,rgba(13,37,41,.46) 43%,rgba(12,34,36,.12) 78%,rgba(12,34,36,.06) 100%),url('chapter-openers/front-cover.jpg');
+  background-position:center center; background-size:cover;
+  border-radius:2px; color:#fbf7eb;
+}
+#quarto-content main.content .env2301-cover-heading {max-width:670px;position:relative;z-index:1;}
+#quarto-content main.content .env2301-cover-course {font-family:system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:.03em;font-size:clamp(.82rem,1.12vw,.98rem);line-height:1.55;font-weight:500;display:inline-block;text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:1px;}
+#quarto-content main.content .env2301-cover h1 {color:#fbf7eb;font-size:clamp(2.5rem,5.3vw,4.35rem);font-style:italic;letter-spacing:-.025em;line-height:1.14;font-weight:normal;margin:1.7rem auto 0;}
+#quarto-content main.content .env2301-cover-rule {display:block;width:82px;height:3px;background:#9cac83; margin:2.1rem auto 1.75rem;}
+#quarto-content main.content .env2301-cover .env2301-cover-subtitle {font-family:Georgia,Cambria,serif;font-size:clamp(1.3rem,2.2vw,1.75rem);color:#f9f5e7;line-height:1.25;margin:0;}
+#quarto-content main.content .env2301-cover-credit {font-family:system-ui,-apple-system,'Segoe UI',sans-serif;font-size:.69rem;color:var(--book-muted);margin:.5rem 0 1.5rem;}
+#quarto-content main.content .env2301-cover-links {display:flex;flex-wrap:wrap;justify-content:center;gap:.9rem;margin:1.5rem auto 2.5rem;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;}
+#quarto-content main.content .env2301-cover-links a {padding:.68rem 1.25rem;border:1px solid #94b1a2;border-radius:4px;color:#245f50;background:#f6f9f4;text-decoration:none;font-weight:600;}
+#quarto-content main.content .env2301-cover-links a:hover,#quarto-content main.content .env2301-cover-links a:focus {background:#e6eee5;outline-offset:3px;}
+#quarto-content figure.preface-opening-photo {margin-top:.55rem!important;}
+#quarto-content figure.preface-opening-photo img {aspect-ratio:2.10/1;object-position:center center;}
+@media(max-width:700px){
+  #quarto-content main.content .env2301-cover {min-height:clamp(390px,65vh,600px);padding:2.5rem 1.2rem;background-position:center center;}
+  #quarto-content main.content .env2301-cover-course {font-size:.82rem;line-height:1.5;}
+  #quarto-content main.content .env2301-cover h1 {font-size:clamp(2.15rem,9vw,3.1rem);}
+  #quarto-content main.content .env2301-cover-links {flex-direction:column;align-items:stretch;}
+}
+
+/* Compact, functional Quarto book navigation. No custom search/menu scripts. */
+#quarto-header .navbar { background:#fcfcf9!important;border-bottom:1px solid #d9e4da; box-shadow:none; }
+#quarto-header .navbar-brand { font-size:.99rem;font-weight:700;letter-spacing:.015em; }
+#quarto-header .navbar .nav-link { font-size:.84rem;line-height:1.3; }
+#quarto-header .navbar .navbar-nav { align-items:center; }
+#quarto-header .navbar .dropdown-menu { font-size:.85rem;max-height:min(76vh,680px);overflow-y:auto; }
+@media(max-width:1100px){#quarto-header .navbar .nav-link {font-size:.78rem;} }
