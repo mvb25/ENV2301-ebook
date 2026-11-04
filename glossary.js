@@ -1,34 +1,51 @@
 <script>
 (() => {
   const glossary = {
-    "population": "The full set of units, places, times or conditions that an estimate is intended to represent.",
-    "sample": "In the statistical sense used in this book, the set of sampling units selected for a study. In running prose we often use the concrete units (for example, 'the plots we measured') to avoid confusion with the everyday meaning of sample.",
-    "sampling unit": "A unit selected by the sampling design to be observed or measured. A sampling unit is not necessarily the same as an individual measurement or a physical specimen.",
-    "sample size": "The number of sampling units contributing to an estimate at the level relevant to the question.",
-    "ecological variability": "Real variation among organisms, places, times, environmental conditions or ecological states in the system being studied. This book uses ecological variability as a broad term that includes what is often called environmental variability.",
-    "environmental variability": "Real variation in environmental conditions across places or times, such as variation in temperature, soil moisture or inundation. The term is often used more broadly; in this book, ecological variability is the broader house term.",
-    "sampling variability": "Variation among estimates that would result if different sets of sampling units were selected from the same population using the same sampling procedure.",
-    "standard deviation": "A measure of how spread out observed values are around their mean; in this chapter it is used as information about variability among units in the wider population.",
-    "standard error": "An estimate of how much an estimated quantity, such as a mean, would vary across repeated samples of the same size under the sampling assumptions.",
-    "confidence interval": "A range around an estimate that expresses sampling uncertainty. A 95% confidence-interval procedure is designed so that, over many repeated samples under its assumptions, about 95% of the intervals contain the population quantity being estimated.",
-    "replicate": "A separate sampling or experimental unit that provides a distinct example of the focal comparison or treatment.",
-    "subsample": "An observation taken within a larger sampling unit to characterise that unit more fully."
-  };
-
+    "accessible population": "The part of the intended population from which units could realistically be selected under the actual field constraints.",
+    "confidence interval": "A range expressing uncertainty in an estimate under a specified sampling and statistical procedure.",
+    "detection probability": "The chance that an animal or species is recorded during a specified survey when it is present or using the relevant area, under the survey model.",
+    "ecological variability": "Real differences among the organisms, places, times or conditions in the system being studied.",
+    "environmental variability": "Real variation in environmental conditions among places or times.",
+    "nonresponse": "Failure to obtain a usable response from a person or unit selected or invited by a study.",
+    "population": "The full set of units, places, times or conditions about which a specific estimate or claim is made.",
+    "probability sampling": "Selection using a specified random procedure in which each eligible unit has a known, nonzero chance of selection.",
+    "pseudoreplication": "Treating observations within a shared higher-level unit as though they were independent replicates of a treatment or comparison at that level.",
+    "random sampling": "Selecting eligible units by a specified random procedure rather than choosing those that seem typical or convenient.",
+    "replicate": "A separate unit providing another example of the focal treatment, comparison or predictor at the level where it varies.",
+    "replication": "Including separate units that provide additional examples of the comparison or process the study is intended to investigate.",
+    "sample": "The set of units selected for observation by a sampling procedure.",
+    "sample size": "The number of contributing sampling units at the level relevant to a particular estimate or comparison.",
+    "sampling frame": "The operational list, map or selection rule used to identify which eligible units can be selected.",
+    "sampling unit": "A unit selected by the sampling design to be observed or measured.",
+    "sampling variability": "Differences among estimates that would result from selecting different samples from the same population using the same procedure.",
+    "selection bias": "A systematic difference introduced when the units included in a study are selected in a way related to the quantity being estimated.",
+    "standard deviation": "A measure of the spread of observed values around their mean.",
+    "standard error": "An estimate of how strongly an estimator, such as a sample mean, would vary across repeated samples under the relevant assumptions.",
+    "stratified sampling": "Dividing a target population into defined groups or ranges, then selecting units separately within them.",
+    "subsample": "An observation collected within a larger selected unit to describe that unit more fully.",
+    "systematic sampling": "Selecting units at regular spatial or temporal intervals, sometimes with a random starting position.",
+    "target population": "The full set of people, places, organisms, times or conditions to which a study intends to generalise.",
+    "targeted sampling": "Deliberately selecting units because they represent specific conditions, contrasts or features relevant to the question."
+};
   let popover = null;
   let active = null;
+  let hideTimer = null;
 
   function ensurePopover() {
     if (!popover) {
       popover = document.createElement('div');
       popover.className = 'glossary-popover';
-      popover.setAttribute('role', 'tooltip');
+      popover.setAttribute('role', 'dialog');
+      popover.setAttribute('aria-label', 'Glossary definition');
       popover.hidden = true;
+      popover.addEventListener('mouseenter', cancelHide);
+      popover.addEventListener('mouseleave', scheduleHide);
       document.body.appendChild(popover);
     }
     return popover;
   }
-
+  function cancelHide() { if (hideTimer) { clearTimeout(hideTimer); hideTimer = null; } }
+  function scheduleHide() { cancelHide(); hideTimer = setTimeout(hide, 220); }
   function position(el) {
     const p = ensurePopover();
     const r = el.getBoundingClientRect();
@@ -41,39 +58,51 @@
     p.style.left = `${left}px`;
     p.style.top = `${Math.max(12, top)}px`;
   }
-
   function show(el) {
+    cancelHide();
     const key = (el.dataset.term || '').toLowerCase();
     const definition = glossary[key];
     if (!definition) return;
     const p = ensurePopover();
-    p.textContent = definition;
+    p.replaceChildren();
+    const def = document.createElement('div');
+    def.textContent = definition;
+    p.appendChild(def);
+    const link = document.createElement('a');
+    link.className = 'glossary-more';
+    link.href = el.getAttribute('href') || `glossary.html#glossary-${key.replace(/[^a-z0-9]+/g, '-')}`;
+    link.textContent = 'Full glossary entry';
+    p.appendChild(link);
     active = el;
     position(el);
   }
-
   function hide() {
+    cancelHide();
     if (popover) popover.hidden = true;
     active = null;
   }
-
   document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('.glossary[data-term]').forEach(el => {
+    document.querySelectorAll('a.glossary[data-term]').forEach(el => {
       const key = (el.dataset.term || '').toLowerCase();
       if (!glossary[key]) return;
       el.removeAttribute('title');
-      el.setAttribute('tabindex', '0');
-      el.setAttribute('aria-label', `${el.textContent}: ${glossary[key]}`);
+      el.setAttribute('aria-label', `${el.textContent}: ${glossary[key]}. Activate to open definition.`);
       el.addEventListener('mouseenter', () => show(el));
-      el.addEventListener('mouseleave', hide);
+      el.addEventListener('mouseleave', scheduleHide);
       el.addEventListener('focus', () => show(el));
-      el.addEventListener('blur', hide);
+      el.addEventListener('blur', scheduleHide);
       el.addEventListener('click', ev => {
+        ev.preventDefault();
         ev.stopPropagation();
-        if (active === el && popover && !popover.hidden) hide(); else show(el);
+        show(el);
       });
     });
-    document.addEventListener('click', hide);
+    document.addEventListener('click', ev => {
+      if (popover && popover.contains(ev.target)) return;
+      if (active && active.contains(ev.target)) return;
+      hide();
+    });
+    document.addEventListener('keydown', ev => { if (ev.key === 'Escape') hide(); });
     window.addEventListener('scroll', () => { if (active) position(active); }, true);
     window.addEventListener('resize', () => { if (active) position(active); });
   });

@@ -1,0 +1,158 @@
+---
+title: "Glossary"
+---
+
+The terms below explain concepts used across the course. Selected terms in the chapters have dotted underlines; selecting one opens a brief definition and a link to the longer entry here. The examples show how the same concept applies in different environmental research settings.
+
+<div id="glossary-list"></div>
+
+### Accessible population {#glossary-accessible-population}
+
+The part of the intended population from which units could realistically be selected under the actual field constraints.
+
+In a forest landscape, cliffs or fenced areas may be outside the part that fieldworkers can reach. The accessible area can differ systematically from the target landscape. Selecting many sites within the accessible area does not remove that coverage limitation.
+
+### Confidence interval {#glossary-confidence-interval}
+
+A range expressing uncertainty in an estimate under a specified sampling and statistical procedure.
+
+For a 95% confidence-interval procedure, roughly 95% of intervals constructed across many samples would contain the population quantity, provided the assumptions are satisfied. A narrow interval does not remove bias from an unrepresentative selection of sites or an inappropriate measurement model.
+
+### Detection probability {#glossary-detection-probability}
+
+The chance that an animal or species is recorded during a specified survey when it is present or using the relevant area, under the survey model.
+
+The probability depends on activity, availability, conditions and the observation method. Multiple survey occasions can help estimate detection probability, but repeated detections at one station do not replace spatial replication across habitats.
+
+### Ecological variability {#glossary-ecological-variability}
+
+Real differences among the organisms, places, times or conditions in the system being studied.
+
+Soil carbon genuinely varies among patches, even before any soil cores are collected. This variation differs from the sampling variability of an estimated mean across alternative samples.
+
+### Environmental variability {#glossary-environmental-variability}
+
+Real variation in environmental conditions among places or times.
+
+Examples include differences in inundation, rainfall, temperature or soil properties. The book uses ecological variability more broadly to include differences among organisms and ecological states.
+
+### Nonresponse {#glossary-nonresponse}
+
+Failure to obtain a usable response from a person or unit selected or invited by a study.
+
+If people who decline a survey differ systematically in their views, the respondents may poorly represent those selected. The response rate alone does not establish the direction or size of that bias.
+
+### Population {#glossary-population}
+
+The full set of units, places, times or conditions about which a specific estimate or claim is made.
+
+A population might be all trees above a defined size in one forest, all stream reaches in a catchment or all eligible residents in a municipality. The relevant population depends on the research question.
+
+### Probability sampling {#glossary-probability-sampling}
+
+Selection using a specified random procedure in which each eligible unit has a known, nonzero chance of selection.
+
+For example, households could be randomly selected from an address list, followed by a defined rule for selecting a resident within each household. Coverage and nonresponse still need attention when estimating results for a wider population.
+
+### Pseudoreplication {#glossary-pseudoreplication}
+
+Treating observations within a shared higher-level unit as though they were independent replicates of a treatment or comparison at that level.
+
+Thirty plots within one planted forest and thirty plots within one naturally regenerating forest provide information about the two forests, but they are not thirty independently managed forests per treatment. More lower-level observations cannot create missing higher-level replicates.
+
+### Random sampling {#glossary-random-sampling}
+
+Selecting eligible units by a specified random procedure rather than choosing those that seem typical or convenient.
+
+A random selection of possible plot locations can reduce researcher selection preferences. It does not guarantee even representation of rare environments, and it only applies to the locations that had a chance of being selected.
+
+### Replicate {#glossary-replicate}
+
+A separate unit providing another example of the focal treatment, comparison or predictor at the level where it varies.
+
+If management is applied to whole forest patches, different patches provide replication for the management comparison. Plots within a single patch may improve its description but are not new management replicates.
+
+### Replication {#glossary-replication}
+
+Including separate units that provide additional examples of the comparison or process the study is intended to investigate.
+
+The relevant level depends on the question. Several sites may replicate a site-level comparison; repeated leaves on one tree provide information within that tree, not independent trees.
+
+### Sample {#glossary-sample}
+
+The set of units selected for observation by a sampling procedure.
+
+In statistics, a sample of twenty plots means twenty selected plots. In field language, a soil sample may mean a physical core. The book uses concrete unit names when possible to avoid confusion.
+
+### Sample size {#glossary-sample-size}
+
+The number of contributing sampling units at the level relevant to a particular estimate or comparison.
+
+A study may contain hundreds of tree measurements but only four independently managed forest patches. The effective amount of information differs for a tree-level mean and a patch-level management comparison.
+
+### Sampling frame {#glossary-sampling-frame}
+
+The operational list, map or selection rule used to identify which eligible units can be selected.
+
+A household address list, a mapped grid of eligible sampling locations, or a defined schedule of park entrance–time slots can serve as a sampling frame. The frame is not the same as the units ultimately selected or the people who respond; it may omit parts of the target population.
+
+### Sampling unit {#glossary-sampling-unit}
+
+A unit selected by the sampling design to be observed or measured.
+
+A sampling unit can be a plot, stream reach, monitoring station or household. One selected unit can yield many recorded observations. Which level provides independent information depends on the research question.
+
+### Sampling variability {#glossary-sampling-variability}
+
+Differences among estimates that would result from selecting different samples from the same population using the same procedure.
+
+If several sets of twenty plots are randomly sampled from a forest, each sample may give a different mean biomass. This variation among means is distinct from the real variation among forest plots.
+
+### Selection bias {#glossary-selection-bias}
+
+A systematic difference introduced when the units included in a study are selected in a way related to the quantity being estimated.
+
+Roadside plots may differ from interior forest plots, and park-entrance interviews exclude people who do not visit the park. Increasing the number of similarly selected observations may improve precision without removing the bias.
+
+### Standard deviation {#glossary-standard-deviation}
+
+A measure of the spread of observed values around their mean.
+
+The SD of biomass among forest plots describes variability among those plots. It should not be confused with the standard error of a mean estimated from a sample of plots.
+
+### Standard error {#glossary-standard-error}
+
+An estimate of how strongly an estimator, such as a sample mean, would vary across repeated samples under the relevant assumptions.
+
+For independent observations and a simple mean, a familiar approximation is SD divided by the square root of sample size. Clustered or repeated observations require attention to the actual units providing independent information.
+
+### Stratified sampling {#glossary-stratified-sampling}
+
+Dividing a target population into defined groups or ranges, then selecting units separately within them.
+
+A wetland might be divided into upper, middle and lower elevations, with sites selected in each. This can ensure coverage of uncommon conditions. An overall mean must account for unequal stratum areas and selection fractions.
+
+### Subsample {#glossary-subsample}
+
+An observation collected within a larger selected unit to describe that unit more fully.
+
+Several soil cores within one plot can characterise within-plot variation and improve the plot estimate. For a comparison among independently managed sites, those cores do not create new site-level replicates.
+
+### Systematic sampling {#glossary-systematic-sampling}
+
+Selecting units at regular spatial or temporal intervals, sometimes with a random starting position.
+
+For example, sample plots could be placed every 50 metres along transects. This gives predictable coverage but can interact with regular landscape patterns, such as planting rows or drainage ditches.
+
+### Target population {#glossary-target-population}
+
+The full set of people, places, organisms, times or conditions to which a study intends to generalise.
+
+The target population is defined by the research question, even when some units are inaccessible or absent from the list used to select observations. A study of all Singapore residents differs from a study of current visitors to a particular park.
+
+### Targeted sampling {#glossary-targeted-sampling}
+
+Deliberately selecting units because they represent specific conditions, contrasts or features relevant to the question.
+
+Researchers might select the wettest and driest sites along a gradient to investigate a process. The observations can be highly informative about that process without constituting an area-representative sample.
+

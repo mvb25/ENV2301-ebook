@@ -654,7 +654,7 @@ In a shifting-cultivation landscape, fields closer to a village are cultivated m
 4. **Improve the comparison.** One option is to add younger and older sites at similar distances from mature forest and with similar land-use histories. Another is to return repeatedly to the same sites and measure richness change through time. Both approaches help, but in different ways.
 5. **Consider what you actually count.** Species richness can also depend on plot area and the number of stems examined. Use comparable sampling effort across sites and be clear whether your question concerns richness per unit area or richness at a given number of individuals.
 
-*Research connection:* This hypothetical example is inspired by studies of shifting cultivation and landscape history in West Kalimantan ([Lawrence, Peart & Leighton, 1998](https://doi.org/10.1023/A:1007985915187); [Lawrence, 2004](https://doi.org/10.1890/03-5321)) and in the middle Amazon ([Jakovac et al., 2017](https://doi.org/10.1371/journal.pone.0181092)). The particular age–richness pattern above is invented for this exercise, not a result taken from those studies.
+*Research connection:* This hypothetical example is inspired by studies of shifting cultivation and landscape history in West Kalimantan [@lawrence1998; @lawrence2004] and in the middle Amazon [@jakovac2017]. The particular age–richness pattern above is invented for this exercise, not a result taken from those studies.
 
 *Related reading:* [2.5 Alternative pathways and history](02-system-understanding.qmd#alternative-pathways-variability-and-history); [7.6 Chronosequences](07-time.qmd#chronosequences-using-space-as-a-substitute-for-time).
 

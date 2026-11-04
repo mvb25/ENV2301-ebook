@@ -117,10 +117,10 @@ Experimental design extends the sampling logic developed in Chapters 5–7. It s
 @ruxton2016 and @quinn2023 provide broader
 introductions to experimental design for biological and field research.
 
-Underwood (1992, 1996) develops the logic of environmental-impact
+Underwood [-@underwood1992; -@underwood1996] develops the logic of environmental-impact
 comparisons, BACI-type designs and replicated field experiments in
 variable natural systems.
 
-Schnitzer et al. (2010, 2014) and @estrada2018
+Schnitzer et al. [-@schnitzer2010; -@schnitzer2014] and @estrada2018
 provide concrete tropical-forest examples of how liana-removal
 experiments can test mechanisms suggested by observational patterns.

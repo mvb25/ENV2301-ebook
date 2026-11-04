@@ -1,5 +1,21 @@
 ---
 title: "References"
+nocite: |
+  @aapor2023
+  @dillman2014
+  @groves2009
+  @jakovac2015
+  @jakovac2017
+  @jakovac2021
+  @johnston2017
+  @lawrence1998
+  @lawrence2004
+  @schnitzer2010
+  @schnitzer2014
+  @tourangeau2000
+  @underwood1992
+  @underwood1996
+  @willis2005
 ---
 
 ::: {#refs}

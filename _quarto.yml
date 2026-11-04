@@ -26,6 +26,7 @@ book:
   - 12-socioenvironmental-explanations.qmd
   - practice-final-assessment.qmd
   - exercise-index.qmd
+  - glossary.qmd
   - references.qmd
   navbar:
     title: false
@@ -69,6 +70,8 @@ book:
         href: 12-socioenvironmental-explanations.qmd
       - text: Practice for the final assessment
         href: practice-final-assessment.qmd
+      - text: Glossary
+        href: glossary.qmd
       - text: References
         href: references.qmd
     tools:
@@ -111,6 +114,8 @@ book:
       href: practice-final-assessment.qmd
     - text: Exercise index
       href: exercise-index.qmd
+    - text: Glossary
+      href: glossary.qmd
     - text: References
       href: references.qmd
   page-navigation: true
@@ -128,6 +133,7 @@ format:
     - styles-learning.css
     - chapter-assets/academic-monograph.css
     - navbar-chapter-title-tweaks.css
+    - glossary-enhancements.css
     toc: true
     toc-depth: 2
     number-sections: false
@@ -137,6 +143,7 @@ format:
     include-in-header: chapter-assets/book-head.html
     citations-hover: true
     link-citations: true
-    include-after-body: glossary.js
+    include-after-body:
+    - glossary.js
 execute:
   freeze: auto

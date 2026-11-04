@@ -841,10 +841,7 @@ retain disagreements rather than erase them in one average score. If
 planting proceeds in stages, repeated observations can inform adaptive
 changes in placement, although simple before–after comparisons remain
 vulnerable to changes in season, weather and surrounding facilities.</p>
-<p><strong>Comparable studies:</strong> <a href="https://doi.org/10.1016/j.ufug.2018.12.005">Hwang et al. (2019),
-Singapore vegetation preferences</a>; <a href="https://doi.org/10.3390/ijerph18010212">van Vliet et al. (2021),
-experimental preferences for tree distribution and amenities</a>; <a href="https://doi.org/10.1002/ppp3.10188">Talal et al. (2021), park-user
-interviews</a>. These provide methodological precedents, not findings
+<p><strong>Comparable studies:</strong> @hwang2019, Singapore vegetation preferences; @vanvliet2021, experimental preferences for tree distribution and amenities; @talal2021, park-user interviews. These provide methodological precedents, not findings
 about current SBG visitor opinions.</p>
 </details><details id="ch12-investigation-2">
 <summary>
@@ -884,11 +881,7 @@ comparable observations before and after, and suitable comparison
 locations to address concurrent changes. Removing vegetation might
 improve sightlines while reducing thermal comfort or habitat, so the
 relevant outcomes should be measured together.</p>
-<p><strong>Comparable studies:</strong> <a href="https://doi.org/10.3390/su11226324">Lis et al. (2019), vegetation
-and perceived park safety</a>; <a href="https://doi.org/10.1038/s42949-026-00337-w">Berdejo-Espinola et
-al. (2026), physical disorder and safety in Paraguay</a>; <a href="https://doi.org/10.3390/ijerph21030347">Dillon et al. (2024),
-responses to Singapore green spaces</a>; <a href="https://doi.org/10.5354/0717-5051.2025.76952">Yunda (2025),
-different patterns in Bogotá park reviews</a>.</p>
+<p><strong>Comparable studies:</strong> @lis2019, vegetation and perceived park safety; @berdejo2026, physical disorder and safety in Paraguay; @dillon2024, responses to Singapore green spaces; @yunda2025, different patterns in Bogotá park reviews.</p>
 </details><details id="ch12-investigation-3">
 <summary>
 <strong>3. Community gardening and maintenance norms</strong> —
@@ -929,9 +922,7 @@ social process produced the differences. This is a case where
 environmental observations and ethnographic material need to remain
 analytically distinct until the proposed pathway connecting them has
 been examined.</p>
-<p><strong>Comparable studies:</strong> <a href="https://doi.org/10.1080/02723638.2020.1788304">Montefrio et
-al. (2021), aesthetic politics in Singapore community gardens</a>; <a href="https://doi.org/10.17528/cifor/002095">Evans et al. (2006), the
-role of participatory research and decision authority</a>.</p>
+<p><strong>Comparable studies:</strong> @montefrio2021, aesthetic politics in Singapore community gardens; @evans2006, the role of participatory research and decision authority.</p>
 </details><details id="ch12-investigation-4">
 <summary>
 <strong>4. Mangroves, memory and changing cultural
@@ -970,10 +961,7 @@ sources. If the research influences management, participants should have
 opportunities to assess how their experiences are represented and
 whether publication of particular locations or customary practices could
 have consequences.</p>
-<p><strong>Comparable study:</strong> <a href="https://doi.org/10.1007/s13280-015-0647-7">Thiagarajah et
-al. (2015), historical and contemporary cultural ecosystem-service
-values in Singapore</a>. See also <a href="https://doi.org/10.1007/s13280-014-0501-3">Tengö et al. (2014),
-multiple evidence bases</a>.</p>
+<p><strong>Comparable study:</strong> @thiagarajah2015, historical and contemporary cultural ecosystem-service values in Singapore. See also @tengo2014, multiple evidence bases.</p>
 </details><details id="ch12-investigation-5">
 <summary>
 <strong>5. A restored urban waterway</strong> — connecting environmental
@@ -1012,9 +1000,7 @@ consequential, while retaining the different evidence needed for
 hydrological, ecological and social questions. The study can then
 specify which results guide further monitoring or design changes and
 which decisions involve balancing multiple objectives.</p>
-<p><strong>Comparable methodological studies:</strong> <a href="https://doi.org/10.1111/1475-6773.12117">Fetters et al. (2013),
-integration across mixed-methods designs</a>; <a href="https://doi.org/10.1038/s41893-019-0448-2">Norström et al. (2020),
-knowledge co-production</a>. These are methodological precedents, not
+<p><strong>Comparable methodological studies:</strong> @fetters2013, integration across mixed-methods designs; @norstrom2020, knowledge co-production. These are methodological precedents, not
 empirical evaluations of the hypothetical waterway.</p>
 </details>
 </div>
@@ -1025,11 +1011,11 @@ empirical evaluations of the hypothetical waterway.</p>
 
 <span id="ch12-further-1"></span>
 
-**Exercise 1 — What would distinguish the explanations? (Talal et al. 2021 and Lis et al. 2019).** A survey suggests that park visitors prefer areas with extensive tree cover, while observations show that a wooded route is rarely used. Develop two explanations for the apparent contrast. For each, specify what interviews, behavioural observations and environmental measurements could reveal, and what comparison would make the explanation more credible. Explain which conclusions the proposed study could not establish.
+**Exercise 1 — What would distinguish the explanations? [@talal2021; @lis2019].** A survey suggests that park visitors prefer areas with extensive tree cover, while observations show that a wooded route is rarely used. Develop two explanations for the apparent contrast. For each, specify what interviews, behavioural observations and environmental measurements could reveal, and what comparison would make the explanation more credible. Explain which conclusions the proposed study could not establish.
 
 <span id="ch12-further-2"></span>
 
-**Exercise 2 — Combining knowledge and evidence (Thiagarajah et al. 2015).** The study reconstructs changing cultural ecosystem services in Singapore through historical and contemporary sources. Select a specific environmental change and identify how a historical document, an interview and a current field observation would each contribute different information. What would you do if the sources appeared to disagree?
+**Exercise 2 — Combining knowledge and evidence [@thiagarajah2015].** The study reconstructs changing cultural ecosystem services in Singapore through historical and contemporary sources. Select a specific environmental change and identify how a historical document, an interview and a current field observation would each contribute different information. What would you do if the sources appeared to disagree?
 
 <span id="ch12-further-3"></span>
 
