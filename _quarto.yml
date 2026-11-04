@@ -127,6 +127,7 @@ format:
     - styles-2026-10.css
     - styles-learning.css
     - chapter-assets/academic-monograph.css
+    - navbar-chapter-title-tweaks.css
     toc: true
     toc-depth: 2
     number-sections: false

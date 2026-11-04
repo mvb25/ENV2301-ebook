@@ -1,0 +1,30 @@
+/* Minimal 4 Nov 2026 appearance adjustments for Quarto e-book. 
+   This file is loaded after the existing CSS; all previous styles are preserved. */
+
+/* The left-hand course name matches the dark-green foreground used by the
+   navigation tools on the right (navbar.foreground in _quarto.yml). */
+#quarto-header .navbar .navbar-nav.me-auto .nav-link,
+#quarto-header .navbar .navbar-nav.me-auto .nav-link .menu-text,
+#quarto-header .navbar .navbar-nav.me-auto .nav-link strong,
+#quarto-header .navbar .navbar-brand {
+  color: #285d4c !important;
+  opacity: 1;
+}
+
+/* Fallback for Quarto layouts that do not mark the left nav with me-auto:
+   both the course-title link and the Home tool point to index.html. */
+#quarto-header .navbar .nav-link[href$="index.html"] {
+  color: #285d4c !important;
+}
+
+/* Chapter-page titles: 15% smaller than the current final rules in
+   chapter-assets/academic-monograph.css. Section headings and cover unchanged. */
+#title-block-header .title {
+  font-size: clamp(1.59rem, 2.34vw, 2.14rem) !important;
+}
+
+@media (max-width: 700px) {
+  #title-block-header .title {
+    font-size: 1.50rem !important;
+  }
+}
