@@ -16,7 +16,39 @@
       solution.hidden = true;
       reveal.setAttribute('aria-expanded', 'false');
 
+      function stepComplete(step) {
+        const stepMode = step.dataset.mode;
+        if (stepMode === 'text') {
+          const entry = step.querySelector('textarea');
+          return Boolean(entry && entry.value.trim().length >= 5);
+        }
+        if (stepMode === 'single' || stepMode === 'multi') {
+          return Boolean(step.querySelector('input:checked'));
+        }
+        if (stepMode === 'matching') {
+          const selects = [...step.querySelectorAll('select')];
+          return selects.length > 0 && selects.every(select => select.value !== '');
+        }
+        if (stepMode === 'fill') {
+          const inputs = [...step.querySelectorAll('input[type="text"]')];
+          return inputs.length > 0 && inputs.every(input => input.value.trim() !== '');
+        }
+        return false;
+      }
+      function updateSequence() {
+        if (mode !== 'sequence') return;
+        const steps = [...area.querySelectorAll('.practice-step')];
+        let priorReady = true;
+        for (const step of steps) {
+          step.hidden = !priorReady;
+          if (priorReady) priorReady = stepComplete(step);
+        }
+      }
       function hasAttempt() {
+        if (mode === 'sequence') {
+          const steps = [...area.querySelectorAll('.practice-step')];
+          return steps.length > 0 && steps.every(step => !step.hidden && stepComplete(step));
+        }
         if (mode === 'text') {
           const entry = area.querySelector('textarea');
           return Boolean(entry && entry.value.trim().length >= 5);
@@ -36,6 +68,7 @@
       }
 
       function compare() {
+        if (mode === 'sequence') return null; // Written steps need human interpretation.
         if (mode === 'fill') {
           return [...area.querySelectorAll('input[type="text"]')].every(input => input.value.trim().toLowerCase() === input.dataset.answer.toLowerCase());
         }
@@ -61,11 +94,13 @@
         status.textContent = '';
       }
       function respondToChange() {
+        updateSequence();
         closeExplanation();
         reveal.disabled = !hasAttempt();
       }
       area.addEventListener('input', respondToChange);
       area.addEventListener('change', respondToChange);
+      updateSequence();
       reveal.disabled = !hasAttempt();
 
       reveal.addEventListener('click', () => {

@@ -108,3 +108,12 @@
 #quarto-content main.content .practice-fill-row {display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:.9rem;align-items:center;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;font-size:.88rem;}
 #quarto-content main.content .practice-fill-row input {width:100%;font:inherit;min-width:0;background:#fff;border:1px solid #acbdc7;border-radius:3px;padding:.52rem .65rem;}
 @media(max-width:600px){#quarto-content main.content .practice-fill-row{grid-template-columns:1fr;gap:.25rem;}}
+
+/* The connected design challenge shares one study context across four independent decisions. */
+#quarto-content main.content .practice-connected { border:1px solid #bdcbd2; border-radius:4px; padding:1rem 1.2rem; margin:1.2rem 0 2rem; background:#fbfcfc; }
+#quarto-content main.content .practice-connected .practice-exercise { margin:1.1rem 0; }
+#quarto-content main.content .practice-step { padding:.55rem 0; }
+#quarto-content main.content .practice-step + .practice-step { border-top:1px dashed #bdcbd2; margin-top:.55rem; padding-top:1rem; }
+#quarto-content main.content .practice-step[hidden] { display:none !important; }
+#quarto-content main.content .practice-step .practice-label { margin-bottom:.55rem; }
+@media(max-width:720px) { #quarto-content main.content .practice-connected {padding:.7rem;} }
